@@ -18,15 +18,28 @@ class Game
      * @column(type="integer")
      * @Id
      * @GeneratedValue(strategy="SEQUENCE")
-     * @SequenceGenerator(name="game_seq")
+     * @SequenceGenerator(sequenceName="game_seq", initialValue=1)
      * @var integer
      */
     private $game_id;
 
-    /** @var Team */
+    /** 
+     * The home team for the game
+     *
+     * @OneToOne(targetEntity="Team")
+     * @JoinColumn(name="homeTeam",referencedColumnName="abbr")
+     * @var Team 
+     */
     private $homeTeam;
 
-    /** @var Team */
+
+    /** 
+     * The away team for the game
+     *
+     * @OneToOne(targetEntity="Team")
+     * @JoinColumn(name="awayTeam",referencedColumnName="abbr")
+     * @var Team 
+     */
     private $awayTeam;
 
     /** @var DateTime */

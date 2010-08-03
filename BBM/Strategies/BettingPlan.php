@@ -28,3 +28,4 @@ class BettingPlan
     {
         $this->strategies[] = $strategy;
     }
+}

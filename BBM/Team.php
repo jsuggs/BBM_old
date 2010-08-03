@@ -7,14 +7,26 @@ use BBM\StartingLineup;
 
 /**
  * A Model for a baseball team
+ *
+ * @Entity
+ * @Table(name="teams")
  */
 class Team
 {
-    /** @var string */
-    private $teamName;
-
-    /** @var string */
+    /** 
+     * The team abbreviation
+     *
+     * @Id
+     * @column(type="string",length="3")
+     * @var string 
+     */
     private $abbr;
+
+    /** 
+     * @column(type="string")
+     * @var string 
+     */
+    private $teamName;
 
     /** @var string */
     private $division;
@@ -49,7 +61,7 @@ class Team
 
     public function setAbbr($abbr)
     {
-        if (!is_string($abbr) || strlen($abbr) > 4)
+        if (!is_string($abbr) || strlen($abbr) > 3)
         {
             throw new \Exception('Invalid Abbreviation');
         }

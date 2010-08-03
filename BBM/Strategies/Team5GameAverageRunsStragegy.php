@@ -1,10 +1,14 @@
 <?php
 
+namespace BBM\Strategies;
+
+use BBM\Strategies\OverUnderStrategyAbstract;
+
 /**
  * Simple Stragegy that returns whether the market cap is increasing
  *
  */
-class Team5GameAverageRunsStrategy implements OverUnderStrategyAbstract
+class Team5GameAverageRunsStrategy extends OverUnderStrategyAbstract
 {
     public function StrategyName()
     {

@@ -2,25 +2,23 @@
 
 require_once __DIR__ . '/../lib/doctrine2/lib/vendor/doctrine-common/lib/Doctrine/Common/ClassLoader.php';
 
-/*$classLoader = new \Doctrine\Common\ClassLoader('Entities', __DIR__ . '../BBM');
+$classLoader = new \Doctrine\Common\ClassLoader('BBM');
 $classLoader->register();
 
-$classLoader = new \Doctrine\Common\ClassLoader('Proxies', __DIR__ . '../BBM');
-$classLoader->register();*/
-
 $config = new \Doctrine\ORM\Configuration();
-return;
 $config->setMetadataCacheImpl(new \Doctrine\Common\Cache\ArrayCache);
-$driverImpl = $config->newDefaultAnnotationDriver(array(__DIR__."/Entities"));
+$driverImpl = $config->newDefaultAnnotationDriver('/home/jsuggs/bbm/BBM');
 $config->setMetadataDriverImpl($driverImpl);
-die('here');
 
 $config->setProxyDir(__DIR__ . '/Proxies');
 $config->setProxyNamespace('Proxies');
 
 $connectionOptions = array(
-    'driver' => 'pdo_sqlite',
-    'path' => 'database.sqlite'
+    'driver' => 'pdo_pgsql',
+    'user' => 'bbm',
+    'password' => 'bbm',
+    'host' => 'db.murmp.com',
+    'dbname' => 'bbm'
 );
 
 $em = \Doctrine\ORM\EntityManager::create($connectionOptions, $config);

@@ -3,24 +3,34 @@
 $vendorDir = __DIR__ . '../lib/doctrine2/lib/vendor/';
 require __DIR__ . '/../lib/doctrine2/lib/vendor/doctrine-common/lib/Doctrine/Common/ClassLoader.php';
 
-$classLoader = new \Doctrine\Common\ClassLoader('Doctrine', __DIR__ . '/../lib/doctrine2/lib');
+define('DOCTRINE_PATH', realpath(dirname(__FILE__) . '/../lib/doctrine2/lib'));
+
+set_include_path(implode(PATH_SEPARATOR,array(
+  realpath(DOCTRINE_PATH),
+  realpath(DOCTRINE_PATH . '/vendor/doctrine-common/lib'),
+  realpath(DOCTRINE_PATH . '/vendor/doctrine-dbal/lib'),
+  realpath(DOCTRINE_PATH . '/vendor'),
+  realpath(dirname(__FILE__) . '/..'),
+  get_include_path()
+)));
+
+$classLoader = new \Doctrine\Common\ClassLoader('Doctrine');//, __DIR__ . '/../lib/doctrine2/lib');
 $classLoader->register();
 
-//$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\ORM', __DIR__ . '../lib/doctrine2/lib/Doctrine/ORM');
-//$classLoader->register();
-
-$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\Common', $vendorDir . 'doctrine-common/lib');
+$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\ORM'); //, __DIR__ . '../lib/doctrine2/lib/Doctrine/ORM');
 $classLoader->register();
 
-$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\DBAL', $vendorDir . 'doctrine-dbal/lib');
+$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\Common'); //, $vendorDir . 'doctrine-common/lib');
 $classLoader->register();
 
-$classLoader = new \Doctrine\Common\ClassLoader('Symfony',$vendorDir . 'Symfony');
+$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\DBAL'); //, $vendorDir . 'doctrine-dbal/lib');
+$classLoader->register();
+
+$classLoader = new \Doctrine\Common\ClassLoader('Symfony');
 $classLoader->register();
 
 // Variable $helperSet is defined inside cli-config.php
 require __DIR__ . '/cli-config.php';
-die('done');
 
 $cli = new \Symfony\Components\Console\Application('Doctrine Command Line Interface', Doctrine\Common\Version::VERSION);
 $cli->setCatchExceptions(true);

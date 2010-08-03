@@ -1,10 +1,14 @@
 <?php
 
+namespace BBM\Strategies;
+
+use BBM\Strategies\OverUnderStrategyAbstract;
+
 /**
  * Simple Stragegy that returns whether the market cap is increasing
  *
  */
-class PrevoiusMatchupsStrategy implements OverUnderStrategyAbstract
+class PrevoiusMatchupsStrategy extends OverUnderStrategyAbstract
 {
     public function StrategyName()
     {

@@ -1,0 +1,6 @@
+[submodule "lib/doctrine2"]
+	path = lib/doctrine2
+	url = git@github.com:jsuggs/doctrine2.git
+[submodule "lib/zf2"]
+	path = lib/zf2
+	url = git@github.com:jsuggs/zf2.git

@@ -1,11 +1,11 @@
 <?php
 
-require __DIR__ . '/../lib/doctrine2/lib/Doctrine/Common/ClassLoader.php';
+require __DIR__ . '/../lib/doctrine2/lib/vendor/doctrine-common/lib/Doctrine/Common/ClassLoader.php';
 
-$classLoader = new \Doctrine\Common\ClassLoader('Doctrine', __DIR__ . '/../../lib');
+$classLoader = new \Doctrine\Common\ClassLoader('Doctrine', __DIR__ . '/../lib/doctrine2/lib');
 $classLoader->register();
 
-$classLoader = new \Doctrine\Common\ClassLoader('Symfony', __DIR__ . '/../../lib/vendor');
+$classLoader = new \Doctrine\Common\ClassLoader('Symfony', __DIR__ . '/../lib/doctrine2/lib/vendor');
 $classLoader->register();
 
 // Variable $helperSet is defined inside cli-config.php

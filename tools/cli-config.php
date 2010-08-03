@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../../lib/Doctrine/Common/ClassLoader.php';
+require_once __DIR__ . '/../lib/doctrine2/lib/vendor/doctrine-common/lib/Doctrine/Common/ClassLoader.php';
 
 $classLoader = new \Doctrine\Common\ClassLoader('Entities', __DIR__);
 $classLoader->register();
@@ -12,6 +12,7 @@ $config = new \Doctrine\ORM\Configuration();
 $config->setMetadataCacheImpl(new \Doctrine\Common\Cache\ArrayCache);
 $driverImpl = $config->newDefaultAnnotationDriver(array(__DIR__."/Entities"));
 $config->setMetadataDriverImpl($driverImpl);
+die('here');
 
 $config->setProxyDir(__DIR__ . '/Proxies');
 $config->setProxyNamespace('Proxies');

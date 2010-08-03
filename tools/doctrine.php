@@ -6,20 +6,21 @@ require __DIR__ . '/../lib/doctrine2/lib/vendor/doctrine-common/lib/Doctrine/Com
 $classLoader = new \Doctrine\Common\ClassLoader('Doctrine', __DIR__ . '/../lib/doctrine2/lib');
 $classLoader->register();
 
+//$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\ORM', __DIR__ . '../lib/doctrine2/lib/Doctrine/ORM');
+//$classLoader->register();
+
 $classLoader = new \Doctrine\Common\ClassLoader('Doctrine\Common', $vendorDir . 'doctrine-common/lib');
 $classLoader->register();
 
 $classLoader = new \Doctrine\Common\ClassLoader('Doctrine\DBAL', $vendorDir . 'doctrine-dbal/lib');
 $classLoader->register();
 
-$classLoader = new \Doctrine\Common\ClassLoader('Doctrine\ORM', $vendorDir . 'doctrine-dbal/lib');
-$classLoader->register();
-
-$classLoader = new \Doctrine\Common\ClassLoader('Symfony', __DIR__ . $vendorDir . 'Symfony');
+$classLoader = new \Doctrine\Common\ClassLoader('Symfony',$vendorDir . 'Symfony');
 $classLoader->register();
 
 // Variable $helperSet is defined inside cli-config.php
 require __DIR__ . '/cli-config.php';
+die('done');
 
 $cli = new \Symfony\Components\Console\Application('Doctrine Command Line Interface', Doctrine\Common\Version::VERSION);
 $cli->setCatchExceptions(true);

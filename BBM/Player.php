@@ -2,9 +2,17 @@
 
 namespace BBM;
 
+/**
+ * 
+ */
 class Player
 {
-    /** @var string */
+    /** 
+     * @Id 
+     * @Column(type="integer") 
+     * @GeneratedValue
+     * @var string 
+     */
     private $firstName;
 
     /** @var string */

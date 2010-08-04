@@ -28,8 +28,35 @@ class Team
      */
     private $teamName;
 
-    /** @var string */
+    /**
+     * @column(type="string",length="2")
+     * @var string
+     */
+    private $league;
+
+    /** 
+     * @column(type="string",length="1")
+     * @var string 
+     */
     private $division;
+
+    /**
+     * @column(type="string")
+     * @var string
+     */
+    private $city;
+
+    /**
+     * @column(type="string", length="2")
+     * @var string
+     */
+    private $state;
+
+    /**
+     * @column(type="string", length="5")
+     * @var string
+     */
+    private $zip;
 
     /** @var Game */
     private $games;
@@ -37,10 +64,11 @@ class Team
     /** @var StartingLineup */
     private $startingLineup;
 
-    public function __construct($abbr,$teamName,$division)
+    public function __construct($abbr,$teamName,$league,$division)
     {
         $this->setAbbr($abbr);
         $this->setTeamName($teamName);
+        $this->setLeague($league);
         $this->setDivision($division);
     }
 
@@ -49,14 +77,38 @@ class Team
         return $this->division;
     }
 
+    /**
+     * Set the division
+     * Must by E|W|C
+     *
+     * @param string $division
+     * @return void
+     */
     public function setDivision($division)
     {
-        if (!($division === 'NL' || $division === 'AL'))
+        if (!($division === 'E' || $division === 'W' || $division === 'C'))
         {
             throw new \Exception('Invalid Division');
         }
 
         $this->division = $division;
+    }
+
+    /**
+     * Set the league
+     * Must be AL or NL
+     *
+     * @param string $league
+     * @return void
+     */
+    public function setLeague($league)
+    {
+        if (!($league === 'AL' || $league === 'NL'))
+        {
+            throw new \Exception('Invalid League');
+        }
+
+        $this->league = $league;
     }
 
     public function setAbbr($abbr)
@@ -69,9 +121,21 @@ class Team
         $this->abbr = $abbr;
     }
 
+    public function setAddress($city,$state,$zip)
+    {
+        $this->city = $city;
+        $this->state = $state;
+        $this->zip = $zip;
+    }
+
     public function setTeamName($teamName)
     {
         $this->teamName = $teamName;
+    }
+
+    public function __toString()
+    {
+        return $this->abbr . ' - ' . $this->teamName . ' (' . $this->league . '-' . $this->division . ') ' . $this->city . ',' . $this->state . ' ' . $this->zip;
     }
 
     public function getGames()

@@ -1,0 +1,3478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+  <title>2010 New York Yankees Schedule, Box Scores and Splits - Baseball-Reference.com</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Description" content="66-40, 2nd AL East, Yankee Stadium III, 571 R, 128 HR, 3.94 ERA, 53 E, Mgr:Girardi, 3B:Rodriguez, SP:Sabathia 13, CL:Rivera 22, HR:Teixeira 23, SB:Gardner 30">
+  <link type="text/css" rel="stylesheet" href="http://d2ft4b0ve1aur1.cloudfront.net/css-010/sr.css">
+  <link type="text/css" rel="stylesheet" href="http://d2ft4b0ve1aur1.cloudfront.net/css-010/br.css">
+  <link type="text/css" rel="stylesheet" href="http://d2ft4b0ve1aur1.cloudfront.net/css-010/print.css" media="print"> 
+  <link rel="icon"          type="image/vnd.microsoft.icon" href="http://d2ft4b0ve1aur1.cloudfront.net/base-003/favicon.ico">
+  <link rel="SHORTCUT ICON" type="image/vnd.microsoft.icon" href="http://d2ft4b0ve1aur1.cloudfront.net/base-003/favicon.ico">
+  <script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-008/site.js"> </script>
+  <script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-008/prototype.js"> </script>
+  <script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-008/shareit.js.obf"> </script>
+
+  <meta property="fb:admins"     content="34208645" />
+  <meta property="fb:page_id"    content="10515271761" />
+  <meta property="og:site_name"  content="Baseball-Reference.com"> 
+  <meta property="og:image"      content="http://d2ft4b0ve1aur1.cloudfront.net/images-001/Baseball-Ref.png"> 
+  <meta property="og:description" content="Statistics, Schedule, Roster, Splits and much more">
+  <meta property="og:title"       content="2010 New York Yankees">
+  <meta property="og:url"         content="http://www.baseball-reference.com/teams/NYY/2010.shtml">
+  <meta property="og:type"        content="sports_team">
+
+
+<!-- ---- OAS SETUP begin ---- -->
+<SCRIPT type="text/javascript">
+<!--
+var a = Math.floor(Math.random()*9999999999+1)
+var random_number = a;
+//  -->
+</SCRIPT>
+<!-- ---- OAS  SETUP end ---- -->
+</head>
+<body onload="">
+ <script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-008/wz_tooltip.js"></script>
+ <script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-008/sorttable.js"> </script> 
+
+<div id="page_container">
+ <div id="top_nav">
+
+<div id="site_header">
+<div id="sr_header">
+<span class="">
+<a href="/blog/archives/5042">10 for 10</a>:
+<a href="/blog/archives/7628">#10 Player Contracts, Team Payrolls, Agents &amp; Salaries</a> 
+<!--<span class="highlight_text"><a href="/blog/archives/7261">Database Update, Monday AM</a></span>-->
+</span>
+<br>
+
+<a href="http://www.sports-reference.com">S-R</a>:
+<strong>MLB</strong> |
+<a href="http://www.basketball-reference.com">NBA</a> |
+<a href="http://www.pro-football-reference.com">NFL</a> |
+<a href="http://www.sports-reference.com/cbb/">NCAA BB</a> |
+<a href="http://www.hockey-reference.com">NHL</a> |
+<a href="http://www.sports-reference.com/olympics/">Oly</a> 
+
+<br>
+<form method="get" id="f" name="f" action="/pl/player_search.cgi" class="">
+<input type="text" id="search" name="search" class="search"> 
+<input type="submit" value="Search" class="submit">
+
+<a href="/about/findstuff.shtml">Tips</a>
+<a title="Follow us on Twitter" href="http://twitter.com/baseball_ref"><img align=top src="http://d2ft4b0ve1aur1.cloudfront.net/images-001/sn32_twitter.png" width=32 height=32 alt="Follow us on Twitter"></a> 
+<a title="Become a Fan on FaceBook" href="http://www.facebook.com/Baseball.Reference"><img align=top src="http://d2ft4b0ve1aur1.cloudfront.net/images-001/sn32_facebook.png" width=32 height=32 alt="Become a Fan on Facebook"></a> 
+</form>
+
+</div>
+<a href="/"><img src="http://d2ft4b0ve1aur1.cloudfront.net/images-001/Baseball-Ref.png" width=394 height=73 border="0" alt="Baseball-Reference.com"></a>
+</div>
+
+
+
+<div id="quick_index">
+<ul style="white-space:nowrap">
+       <li><a href="/play-index/">play index</a></li>
+     <li><a href="/players/">players</a></li>
+     <li class="active"><a href="/teams/">teams</a></li>
+     <li><a href="/leagues/">leagues</a></li>
+     <li><a href="/managers/">managers</a></li>
+     <li><a href="/leaders/">leaders</a></li>
+     <li><a href="/awards/">awards</a></li>
+     <li><a href="/postseason/">postseason</a></li>
+     <li><a href="/boxes/">boxes</a></li>
+     <li><a href="/bullpen/">bullpen</a></li>
+     <li><a href="/minors/">minors</a></li>
+<li><form  class="sr_standard inline">  <select name="quick_index_more"
+       onchange="goto_page('quick_index_more','', this.form);"
+          size="1">
+
+<option disabled selected value="" SELECTED>more [+]
+<option value="/about/">about
+<option value="/allstar/">all-star
+<option value="/bio/">bio
+<option value="/blog/">blog
+<option value="/draft/">draft
+<option value="/feedback/">feedback
+<option value="/friv/">frivolities
+<option value="/home-runs/">home runs
+<option value="/oracle/">oracle
+<option value="/previews/">previews
+<option value="/friv/random.cgi">random
+<option value="/schools/">schools
+<option value="/my/">sponsors
+<option value="/store/">SR store
+<option value="/videos/">videos
+<option value="/travel/">travel
+</select>
+</form>
+</li>
+
+</ul>
+</div>
+
+<div id="you_are_here">
+<p><strong>You Are Here</strong> &gt;
+<a href="http://www.baseball-reference.com/">Baseball-Reference.com</a> &gt;
+<a href="/teams/">Teams</a> &gt;
+<a href="/teams/NYY/">Franchise Encyclopedia</a> &gt;
+<strong>2010 Schedule, Box Scores and Splits</strong>
+</div>
+</div>
+
+<!-- no ad -->
+<div id=info_box>
+<div class="rhs_ad_area">
+<script>
+<!--
+document.write('<scr' + 'ipt src=http://ad.doubleclick.net/adj/baseballreference.fsv/ros;kw=boa_yankees;sect=ros;fantasy=no;game=no;tile=3;sz=300x250;ord=' + random_number + '?></scr' + 'ipt>');
+// -->
+</script>
+<noscript>
+<A HREF="http://ad.doubleclick.net/jump/baseballreference.fsv/ros;kw=boa_yankees;sect=ros;fantasy=no;game=no;tile=3;sz=300x250;ord='+random_number+'?" ><img src="http://ad.doubleclick.net/ad/baseballreference.fsv/ros;kw=boa_yankees;sect=ros;fantasy=no;game=no;tile=3;sz=300x250;ord='+random_number+'?" border="0" height="250" width="300"></a>
+</noscript>
+
+</div><!-- rhs_ad_area -->
+<h1>2010 New York Yankees <span class="xx_small_text">Schedule, Box Scores and Splits</span></h1>
+<p><A HREF="/teams/NYY/">Franchise Encyclopedia</A>: <a href="/teams/NYY/2009-schedule-scores.shtml">2009</a>
+<p><strong>66-40</strong>, 2nd place in AL East (<a href="/teams/NYY/2010-schedule-scores.shtml">Schedule and Results</a>) 
+<br><strong><a href="/leagues/AL/2010.shtml">View League Standings and Leaders</a></strong><br>
+<br><strong>Manager:</strong> <a href="/managers/girarjo01.shtml">Joe Girardi</a>&nbsp;(66-40)<br>Scored 571 runs, Allowed 441 runs. <A HREF="/about/faq.shtml#pyth">Pythagorean W-L</A>:  65-41
+<p><strong>Ballpark:</strong> Yankee Stadium III &#183; <strong>Attendance:</strong> 2,396,909 (1st of 14)<br><strong><A HREF="/about/parkadjust.shtml">Park Factors</A>&nbsp;&nbsp;<small>Over 100 favors batters, under 100 favors pitchers.</small> <br>&nbsp;&nbsp;multi-year: </strong> Batting - 97, Pitching - 96 &#183; <strong>one-year: </strong>Batting&nbsp;-&nbsp;97,&nbsp;Pitching&nbsp;-&nbsp;96
+<p><a href="http://www.baseballamerica.com/execdb/?show=team&amp;fid=nyy&amp;year=2010">BaseballAmerica.com: Franchise Executives</a><br><strong>News &amp; Views</strong>:&nbsp;<A HREF="http://www.baseballthinkfactory.org/files/newsstand/beat/NY%20Yankees/" TITLE="BaseballThinkFactory.org">ThinkFactory</A>,&nbsp;<A HREF="http://ballhype.com/mlb/new_york_yankees/ " TITLE="BallHype.com Blog Search">BallHype</A>
+<br><span class=bullpen_link><a href="/bullpen/2010 Yankees">BR Bullpen: Find or enter more info for this team</a> (<small><a href="/bullpen/What%27s_the_BR_Bullpen%3F">what's this?</a></small>)
+</span><p><div class="fblike_container" style="width:300px; height:45px;">
+ <div id="fb-root"></div>
+ <fb:like show_faces="false" width="300" height="35"></fb:like>
+</div>
+</div><!-- info_box -->
+<DIV ID="sponsor">
+  <DIV ID="message">
+    <P><SPAN CLASS="bold_text large_text">2010 New York Yankees Media and Information Guide</SPAN> sponsor(s) this page.</P>
+    <P class="indent">Published by the Yankees Media Relations Department and given to reporters, broadcasters and front office staff, the 2010 Yankees Media Guide is the book the insiders use on a daily basis. Order yours now at yankees.com/mediaguide or call (800) 469-2657.</P>
+  </DIV>
+  <DIV id="alert">
+   <A class="small_text" href="/about/sponsorship.shtml">You&nbsp;can&nbsp;sponsor&nbsp;a&nbsp;page</A>.<BR>
+   <span class="small_text">Page&nbsp;Expires:&nbsp;2011-04-01&nbsp;<A HREF="/my/alertme.cgi?ID=blr_NYY_2010">Alert&nbsp;Me!</A></span>
+  </DIV>
+</DIV>
+
+<div id="team_sub_index">
+<ul class="sub_index">
+<li><a href="/teams/NYY/">Franchise Encyclopedia</a></li><li><span class="like_a bold_text">2010</span></li>  <li class=""><a href="/teams/NYY/2010.shtml">Stats</a></li>
+ <li class=""><a href="/teams/NYY/2010-roster.shtml">Payroll, Roster &amp; Uniforms</a></li>
+ <li class="" onmouseover="show_drop(this);" onmouseout="hide_drop(this);"><a href="/teams/NYY/2010-batting.shtml">Batting&nbsp;[+]</a>
+<ul>
+  <li class=""><a href="/teams/NYY/2010-batting.shtml">Detailed Stats</a></li>
+  <li class=""><a href="/teams/tgl.cgi?team=NYY&amp;t=b&amp;year=2010">Game Logs</a></li>
+  <li class=""><a href="/teams/split.cgi?t=b&amp;team=NYY&amp;year=2010">Splits</a></li>
+  <li class=""><a href="/minors/affiliate.cgi?id=NYY&amp;year=2010">Minor Lg Affiliates</a></li>
+  <li class=""><a href="/teams/NYY/2010-organization-batting.shtml">Org. Depth Chart</a></li>
+</ul>
+</li>
+ <li class="" onmouseover="show_drop(this);" onmouseout="hide_drop(this);"><a href="/teams/NYY/2010-pitching.shtml">Pitching&nbsp;[+]</a>
+<ul>
+  <li class=""><a href="/teams/NYY/2010-pitching.shtml">Detailed Stats</a></li>
+  <li class=""><a href="/teams/tgl.cgi?team=NYY&amp;t=p&amp;year=2010">Game Logs</a></li>
+  <li class=""><a href="/teams/split.cgi?t=p&amp;team=NYY&amp;year=2010">Splits</a></li>
+  <li class=""><a href="/minors/affiliate.cgi?id=NYY&amp;year=2010">Minor Lg Affiliates</a></li>
+  <li class=""><a href="/teams/NYY/2010-organization-pitching.shtml">Org. Depth Chart</a></li>
+</ul>
+</li>
+ <li class=""><a href="/teams/NYY/2010-fielding.shtml">Fielding</a></li>
+ <li class=" active"><a href="/teams/NYY/2010-schedule-scores.shtml">Schedule &amp; Results</a></li>
+ <li class=""><a href="/play-index/inning_summary.cgi?year_game=2010&amp;team_id=NYY">Scoring</a></li>
+ <li class="" onmouseover="show_drop(this);" onmouseout="hide_drop(this);"><span class="like_a">Other&nbsp;[+]</span>
+<ul>
+  <li class=""><a href="/teams/NYY/2010-transactions.shtml">Transactions</a></li>
+  <li class=""><a href="/teams/NYY/2010-lineups.shtml">Def. Lineups</a></li>
+  <li class=""><a href="/teams/NYY/2010-batting-orders.shtml">Batting Orders</a></li>
+  <li class=""><a href="/draft/?team_ID=NYY&amp;year_ID=2010&amp;draft_type=junreg&amp;query_type=franch_year">Amateur Draft</a></li>
+  <li class=""><a href="/minors/affiliate.cgi?id=NYY&amp;year=2010">Minor Lg Affiliates</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+<div id="page_content" style="clear:both;">
+<br><span class="small_text"><a href="/teams/NYY/2009-schedule-scores.shtml">2009</a>&nbsp;Schedule, Box Scores and Splits</span>
+<div class="table_heading"><h2>Game Results</h2></div>
+<div class="table_container"><table class="small_text" cellspacing=5><tr><td><strong>Season Summary</strong></td><td colspan=2>  66-40, Final Rank:2, GB:  1.0
+</td></tr>
+<tr><td>Days in First</td><td align=right>48</td><td>last on <A TITLE="View in schedule list" HREF="#105">Monday, Aug 2</A>, counts only the days a team played and was in first at the end of the day</td></tr>
+<tr><td>&nbsp;</td><td align=right>57</td><td>last on Aug 2, counts all days of the season including off days</td></tr>
+<tr><td>Biggest Lead</td><td align=right>4</td><td>last on <A TITLE="View in schedule list" HREF="#95">Friday, Jul 23</A>, for days on which they played</td></tr>
+<tr><td>Farthest Behind</td><td align=right>6</td><td>last on <A TITLE="View in schedule list" HREF="#44">Sunday, May 23</A>, for days on which they played</td></tr>
+<tr><td>Most Games over .500</td><td align=right>29</td><td>last on <A TITLE="View in schedule list" HREF="#103">Saturday, Jul 31</A></td></tr>
+<tr><td>Most Games under .500</td><td align=right>1</td><td>last on <A TITLE="View in schedule list" HREF="#1">Sunday, Apr 4</A></td></tr>
+<tr><td>Longest Winning Streak</td><td align=right>7</td><td><a title="View in schedule list" href="#80">Saturday, Jul 3</a> to Friday, Jul 9</td></tr>
+<tr><td>Longest Losing Streak</td><td align=right>3</td><td><a title="View in schedule list" href="#30">Sunday, May 9</a> to Wednesday, May 12, <a title="View in schedule list" href="#39">Tuesday, May 18</a> to Thursday, May 20, <a title="View in schedule list" href="#65">Wednesday, Jun 16</a> to Friday, Jun 18 and <a title="View in schedule list" href="#104">Sunday, Aug 1</a> to Tuesday, Aug 3</td></tr>
+<tr><td>Most Runs Allowed</td><td align=right>13</td><td><A TITLE="View in schedule list" HREF="#49">Saturday, May 29</A></td></tr>
+<tr><td>Most Runs Scored</td><td align=right>14</td><td><A TITLE="View in schedule list" HREF="#29">Saturday, May 8</A></td></tr>
+<tr><td>Longest Game (innings)</td><td align=right>14</td><td><A TITLE="View in schedule list" HREF="#56">Saturday, Jun 5</A></td></tr>
+<tr><td>Times Shutout by Opponent</td><td align=right>5</td><td>&nbsp;</td></tr>
+<tr><td>Times Opponent Shutout</td><td align=right>6</td><td>&nbsp;</td></tr>
+</table></div>
+
+<div class="table_heading"><h2>Team Win/Loss Splits</h2></div>
+<table cellspacing=10><tr><td valign=top width=380><table cellspacing=5 class="small_text">
+<tr><td colspan=6 align=center><strong>Overall</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>Overall</td><td align=right> 66</td><td align=right> 40</td><td align=right>  571</td><td align=right>  441</td><td align=right> .623</td></tr>
+
+<tr><td colspan=6 align=center><strong>Home/Road</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>Home</td><td align=right> 34</td><td align=right> 18</td><td align=right>  316</td><td align=right>  243</td><td align=right> .654</td></tr>
+<td>Road</td><td align=right> 32</td><td align=right> 22</td><td align=right>  255</td><td align=right>  198</td><td align=right> .593</td></tr>
+
+<tr><td colspan=6 align=center><strong>Month by Month</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>April</td><td align=right> 15</td><td align=right>  7</td><td align=right>  118</td><td align=right>   79</td><td align=right> .682</td></tr>
+<td>May</td><td align=right> 16</td><td align=right> 13</td><td align=right>  171</td><td align=right>  132</td><td align=right> .552</td></tr>
+<td>June</td><td align=right> 16</td><td align=right> 10</td><td align=right>  124</td><td align=right>  112</td><td align=right> .615</td></tr>
+<td>July</td><td align=right> 19</td><td align=right>  7</td><td align=right>  150</td><td align=right>   99</td><td align=right> .731</td></tr>
+<td>August</td><td align=right>  0</td><td align=right>  3</td><td align=right>    8</td><td align=right>   19</td><td align=right> .000</td></tr>
+</table></td><td width=380 valign=top><table cellspacing=5 class="small_text">
+<tr><td colspan=6 align=center><strong>By Season Half</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>First Half</td><td align=right> 56</td><td align=right> 32</td><td align=right>  469</td><td align=right>  352</td><td align=right> .636</td></tr>
+<td>Second Half</td><td align=right> 10</td><td align=right>  8</td><td align=right>  102</td><td align=right>   89</td><td align=right> .556</td></tr>
+
+<tr><td colspan=6 align=center><strong>Extra-Innings</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>9-Inning Games</td><td align=right> 61</td><td align=right> 38</td><td align=right>  539</td><td align=right>  413</td><td align=right> .616</td></tr>
+<td>ExtraInning</td><td align=right>  4</td><td align=right>  2</td><td align=right>   27</td><td align=right>   27</td><td align=right> .667</td></tr>
+<td>Shortened</td><td align=right>  1</td><td align=right>  0</td><td align=right>    5</td><td align=right>    1</td><td align=right>1.000</td></tr>
+
+<tr><td colspan=6 align=center><strong>One-Run Games</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>One Run</td><td align=right> 11</td><td align=right>  7</td><td align=right>   69</td><td align=right>   65</td><td align=right> .611</td></tr>
+
+<tr><td colspan=6 align=center><strong>Blowouts (5+ Runs)</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>Blowout</td><td align=right> 24</td><td align=right> 13</td><td align=right>  249</td><td align=right>  162</td><td align=right> .649</td></tr>
+
+<tr><td colspan=6 align=center><strong>Inter-League Play</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>Inter-Lg</td><td align=right> 11</td><td align=right>  7</td><td align=right>   85</td><td align=right>   80</td><td align=right> .611</td></tr>
+</table></td><td width=380 valign=top><table cellspacing=5 class="small_text">
+<tr><td colspan=6 align=center><strong>Opponent</strong></td></tr>
+<tr><th align=left>Split</th><th>W</th><th>L</th><th>RS</th><th>RA</th><th>WP</th></tr>
+<td>ARI</td><td align=right>  2</td><td align=right>  1</td><td align=right>   19</td><td align=right>   18</td><td align=right> .667</td></tr>
+<td>BAL</td><td align=right> 10</td><td align=right>  2</td><td align=right>   68</td><td align=right>   33</td><td align=right> .833</td></tr>
+<td>BOS</td><td align=right>  5</td><td align=right>  3</td><td align=right>   60</td><td align=right>   45</td><td align=right> .625</td></tr>
+<td>CHW</td><td align=right>  2</td><td align=right>  1</td><td align=right>   24</td><td align=right>   14</td><td align=right> .667</td></tr>
+<td>CLE</td><td align=right>  6</td><td align=right>  2</td><td align=right>   60</td><td align=right>   30</td><td align=right> .750</td></tr>
+<td>DET</td><td align=right>  1</td><td align=right>  3</td><td align=right>   12</td><td align=right>   13</td><td align=right> .250</td></tr>
+<td>HOU</td><td align=right>  3</td><td align=right>  0</td><td align=right>   22</td><td align=right>   11</td><td align=right>1.000</td></tr>
+<td>KCR</td><td align=right>  3</td><td align=right>  1</td><td align=right>   33</td><td align=right>   18</td><td align=right> .750</td></tr>
+<td>LAA</td><td align=right>  4</td><td align=right>  4</td><td align=right>   43</td><td align=right>   43</td><td align=right> .500</td></tr>
+<td>LAD</td><td align=right>  2</td><td align=right>  1</td><td align=right>   14</td><td align=right>   16</td><td align=right> .667</td></tr>
+<td>MIN</td><td align=right>  4</td><td align=right>  2</td><td align=right>   24</td><td align=right>   21</td><td align=right> .667</td></tr>
+<td>NYM</td><td align=right>  3</td><td align=right>  3</td><td align=right>   18</td><td align=right>   19</td><td align=right> .500</td></tr>
+<td>OAK</td><td align=right>  5</td><td align=right>  1</td><td align=right>   27</td><td align=right>   12</td><td align=right> .833</td></tr>
+<td>PHI</td><td align=right>  1</td><td align=right>  2</td><td align=right>   12</td><td align=right>   16</td><td align=right> .333</td></tr>
+<td>SEA</td><td align=right>  4</td><td align=right>  3</td><td align=right>   26</td><td align=right>   24</td><td align=right> .571</td></tr>
+<td>TBR</td><td align=right>  5</td><td align=right>  6</td><td align=right>   58</td><td align=right>   59</td><td align=right> .455</td></tr>
+<td>TEX</td><td align=right>  3</td><td align=right>  0</td><td align=right>   17</td><td align=right>    6</td><td align=right>1.000</td></tr>
+<td>TOR</td><td align=right>  3</td><td align=right>  5</td><td align=right>   34</td><td align=right>   43</td><td align=right> .375</td></tr>
+</table></td></tr></table>
+<div class="table_heading">
+<a name="bat"><h2>Team Game-by-Game Schedule and Results</h2></a><div class="table_heading_text"><span class="tooltip" onclick="popupTextNoURL(this, 'Hold mouse over <span class=tooltip>column header</span> without clicking<br>to view a description of the statistic in that column.', 0)">Glossary</span>&nbsp;&#183; Click <span class="tooltip">headers</span> to sort&nbsp;&#183; <span class="tooltip" id="share_on_team_schedule" onclick="open_sharing('team_schedule');">SHARE</span><span class="tooltip" id="share_off_team_schedule" style="display:none" onclick="close_sharing('team_schedule');">SHARE [X]</span>
+&nbsp;&#183; <span class=tooltip onclick="table2csv('team_schedule');">CSV</span>&nbsp;&#183; <span class=tooltip onclick="table2pre('team_schedule');">PRE</span>&nbsp;&#183; <a name="team_schedule" onclick="popupTextNoURL(this, this.href,1);" id="link_team_schedule" href="#team_schedule" title="direct link to this table">LINK</a></div></div>
+<div class="table_container" id="div_team_schedule">
+<table class="sortable stats_table" id="team_schedule">
+<thead>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+  <th align="center"  class="tooltip ranker sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Rank</strong><br>This is a count of the rows from top to bottom.<br>It is recalculated following the sorting of a column.')">Rk</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Game Number</strong><br>Which game out of all played by this team.')">Gm#</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('A number in parentheses indicates which game of a doubleheader.<br>Click dates for box scores of games or standings on this day.')">Date</th>
+  <th align="center"  class="tooltip sort_default_asc" ></th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Home or Away Game</strong><br>@ means it is an away game, blank means home.')">&nbsp;</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Opp</th>
+  <th align="CENTER"  class="tooltip" ></th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('Runs Scored/Allowed')">R</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('Runs Allowed')">RA</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Innings</strong><br>Only shown if something other than 9 innings were played.')">Inn</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Win Loss Record</strong><br>Team&#146;s overall record after this game.')">W-L</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Rank</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Games Back of Division/League Leader</strong><br>Computed as games over .500 of leader (W-L) minus games over .500 of team divided by two.')">GB</th>
+  <th align="center"  class="tooltip sort_default_asc" >Win</th>
+  <th align="center"  class="tooltip sort_default_asc" >Loss</th>
+  <th align="center"  class="tooltip sort_default_asc" >Save</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('<strong>Time of Game</strong>')">Time</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('<strong>Attendance</strong><br>Typically, tickets sold in home games.')">Attendance</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Win Loss Streak</strong><br>+ means a winning streak, - means a losing streak.')">Streak</th>
+</tr>
+
+</thead>
+<tbody>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="1">1</td>
+   <td align="right" >1</td>
+   <td align="left"  csk="2010-04-04"><a href="/games/standings.cgi?date=2010-04-04" title="Click for standings on this date" name="1">Sunday, Apr 4</A></td>
+   <td align="left" ><a href="/boxes/BOS/BOS201004040.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >L</td>
+   <td align="right" >7</td>
+   <td align="right" >9</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="-1.0">0-1</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/o/okajihi01.shtml" title="Hideki&nbsp;Okajima">Okajima</A></td>
+   <td align="left" ><a href="/p/parkch01.shtml" title="Chan&nbsp;Ho&nbsp;Park">Park</A></td>
+   <td align="left" ><a href="/p/papeljo01.shtml" title="Jonathan&nbsp;Papelbon">Papelbon</A></td>
+   <td align="right" >3:46</td>
+   <td align="right" >37,440</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="2">2</td>
+   <td align="right" >2</td>
+   <td align="left"  csk="2010-04-06"><a href="/games/standings.cgi?date=2010-04-06" title="Click for standings on this date" name="2">Tuesday, Apr 6</A></td>
+   <td align="left" ><a href="/boxes/BOS/BOS201004060.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="0.0">1-1</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/a/aceveal01.shtml" title="Alfredo&nbsp;Aceves">Aceves</A></td>
+   <td align="left" ><a href="/o/okajihi01.shtml" title="Hideki&nbsp;Okajima">Okajima</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:48</td>
+   <td align="right" >38,000</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="3">3</td>
+   <td align="right" >3</td>
+   <td align="left"  csk="2010-04-07"><a href="/games/standings.cgi?date=2010-04-07" title="Click for standings on this date" name="3">Wednesday, Apr 7</A></td>
+   <td align="left" ><a href="/boxes/BOS/BOS201004070.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >W</td>
+   <td align="right" >3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="10.00">10</td>
+   <td align="right"  csk="1.0">2-1</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/p/parkch01.shtml" title="Chan&nbsp;Ho&nbsp;Park">Park</A></td>
+   <td align="left" ><a href="/p/papeljo01.shtml" title="Jonathan&nbsp;Papelbon">Papelbon</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:21</td>
+   <td align="right" >38,238</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="4">4</td>
+   <td align="right" >4</td>
+   <td align="left"  csk="2010-04-09"><a href="/games/standings.cgi?date=2010-04-09" title="Click for standings on this date" name="4">Friday, Apr 9</A></td>
+   <td align="left" ><a href="/boxes/TBA/TBA201004090.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >L</td>
+   <td align="right" >3</td>
+   <td align="right" >9</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="0.0">2-2</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/p/priceda01.shtml" title="David&nbsp;Price">Price</A></td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:51</td>
+   <td align="right" >33,221</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="5">5</td>
+   <td align="right" >5</td>
+   <td align="left"  csk="2010-04-10"><a href="/games/standings.cgi?date=2010-04-10" title="Click for standings on this date" name="5">Saturday, Apr 10</A></td>
+   <td align="left" ><a href="/boxes/TBA/TBA201004100.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >W</td>
+   <td align="right" >10</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="1.0">3-2</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/d/daviswa01.shtml" title="Wade&nbsp;Davis">Davis</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:20</td>
+   <td align="right" >29,892</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="6">6</td>
+   <td align="right" >6</td>
+   <td align="left"  csk="2010-04-11"><a href="/games/standings.cgi?date=2010-04-11" title="Click for standings on this date" name="6">Sunday, Apr 11</A></td>
+   <td align="left" ><a href="/boxes/TBA/TBA201004110.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="2.0">4-2</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/c/choatra01.shtml" title="Randy&nbsp;Choate">Choate</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:13</td>
+   <td align="right" >31,253</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="7">7</td>
+   <td align="right" >7</td>
+   <td align="left"  csk="2010-04-13"><a href="/games/standings.cgi?date=2010-04-13" title="Click for standings on this date" name="7">Tuesday, Apr 13</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201004130.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="3.0">5-2</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/s/santaer01.shtml" title="Ervin&nbsp;Santana">Santana</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:16</td>
+   <td align="right" >49,293</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="8">8</td>
+   <td align="right" >8</td>
+   <td align="left"  csk="2010-04-14"><a href="/games/standings.cgi?date=2010-04-14" title="Click for standings on this date" name="8">Wednesday, Apr 14</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201004140.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >L</td>
+   <td align="right" >3</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="2.0">5-3</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/p/pineijo01.shtml" title="Joel&nbsp;Pineiro">Pineiro</A></td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/r/rodnefe01.shtml" title="Fernando&nbsp;Rodney">Rodney</A></td>
+   <td align="right" >3:12</td>
+   <td align="right" >42,372</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="9">9</td>
+   <td align="right" >9</td>
+   <td align="left"  csk="2010-04-15"><a href="/games/standings.cgi?date=2010-04-15" title="Click for standings on this date" name="9">Thursday, Apr 15</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201004150.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="3.0">6-3</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/k/kazmisc01.shtml" title="Scott&nbsp;Kazmir">Kazmir</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:33</td>
+   <td align="right" >44,722</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="10">10</td>
+   <td align="right" >10</td>
+   <td align="left"  csk="2010-04-16"><a href="/games/standings.cgi?date=2010-04-16" title="Click for standings on this date" name="10">Friday, Apr 16</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201004160.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TEX/2010.shtml">TEX</A></td>
+   <td align="" >W</td>
+   <td align="right" >5</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="6.00">6</td>
+   <td align="right"  csk="4.0">7-3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/w/wilsocj01.shtml" title="C.J.&nbsp;Wilson">Wilson</A></td>
+   <td align="left" ></td>
+   <td align="right" >1:58</td>
+   <td align="right" >42,145</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="11">11</td>
+   <td align="right" >11</td>
+   <td align="left"  csk="2010-04-17"><a href="/games/standings.cgi?date=2010-04-17" title="Click for standings on this date" name="11">Saturday, Apr 17</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201004170.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TEX/2010.shtml">TEX</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="5.0">8-3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/f/feldmsc01.shtml" title="Scott&nbsp;Feldman">Feldman</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:05</td>
+   <td align="right" >44,963</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="12">12</td>
+   <td align="right" >12</td>
+   <td align="left"  csk="2010-04-18"><a href="/games/standings.cgi?date=2010-04-18" title="Click for standings on this date" name="12">Sunday, Apr 18</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201004180.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TEX/2010.shtml">TEX</A></td>
+   <td align="" >W</td>
+   <td align="right" >5</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="6.0">9-3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/h/harderi01.shtml" title="Rich&nbsp;Harden">Harden</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:52</td>
+   <td align="right" >44,121</td>
+   <td align="left"  csk="4"><tt>++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="13">13</td>
+   <td align="right" >13</td>
+   <td align="left"  csk="2010-04-20"><a href="/games/standings.cgi?date=2010-04-20" title="Click for standings on this date" name="13">Tuesday, Apr 20</A></td>
+   <td align="left" ><a href="/boxes/OAK/OAK201004200.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/OAK/2010.shtml">OAK</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="7.0">10-3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-1.0">up 0.5</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/g/gonzagi01.shtml" title="Gio&nbsp;Gonzalez">Gonzalez</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:21</td>
+   <td align="right" >19,849</td>
+   <td align="left"  csk="5"><tt>+++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="14">14</td>
+   <td align="right" >14</td>
+   <td align="left"  csk="2010-04-21"><a href="/games/standings.cgi?date=2010-04-21" title="Click for standings on this date" name="14">Wednesday, Apr 21</A></td>
+   <td align="left" ><a href="/boxes/OAK/OAK201004210.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/OAK/2010.shtml">OAK</A></td>
+   <td align="" >W</td>
+   <td align="right" >3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="8.0">11-3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-1.0">up 0.5</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/s/sheetbe01.shtml" title="Ben&nbsp;Sheets">Sheets</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:47</td>
+   <td align="right" >30,211</td>
+   <td align="left"  csk="6"><tt>++++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="15">15</td>
+   <td align="right" >15</td>
+   <td align="left"  csk="2010-04-22"><a href="/games/standings.cgi?date=2010-04-22" title="Click for standings on this date" name="15">Thursday, Apr 22</A></td>
+   <td align="left" ><a href="/boxes/OAK/OAK201004220.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/OAK/2010.shtml">OAK</A></td>
+   <td align="" >L</td>
+   <td align="right" >2</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="7.0">11-4</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/b/bradeda01.shtml" title="Dallas&nbsp;Braden">Braden</A></td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/b/bailean01.shtml" title="Andrew&nbsp;Bailey">Bailey</A></td>
+   <td align="right" >2:07</td>
+   <td align="right" >21,986</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="16">16</td>
+   <td align="right" >16</td>
+   <td align="left"  csk="2010-04-23"><a href="/games/standings.cgi?date=2010-04-23" title="Click for standings on this date" name="16">Friday, Apr 23</A></td>
+   <td align="left" ><a href="/boxes/ANA/ANA201004230.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="6.0">11-5</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/r/rodnefe01.shtml" title="Fernando&nbsp;Rodney">Rodney</A></td>
+   <td align="left" ><a href="/c/chambjo03.shtml" title="Joba&nbsp;Chamberlain">Chamberlain</A></td>
+   <td align="left" ><a href="/f/fuentbr01.shtml" title="Brian&nbsp;Fuentes">Fuentes</A></td>
+   <td align="right" >3:13</td>
+   <td align="right" >44,002</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="17">17</td>
+   <td align="right" >17</td>
+   <td align="left"  csk="2010-04-24"><a href="/games/standings.cgi?date=2010-04-24" title="Click for standings on this date" name="17">Saturday, Apr 24</A></td>
+   <td align="left" ><a href="/boxes/ANA/ANA201004240.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="7.0">12-5</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/p/pineijo01.shtml" title="Joel&nbsp;Pineiro">Pineiro</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:47</td>
+   <td align="right" >43,390</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="18">18</td>
+   <td align="right" >18</td>
+   <td align="left"  csk="2010-04-25"><a href="/games/standings.cgi?date=2010-04-25" title="Click for standings on this date" name="18">Sunday, Apr 25</A></td>
+   <td align="left" ><a href="/boxes/ANA/ANA201004250.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >8</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="6.0">12-6</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="3">   1.5</td>
+   <td align="left" ><a href="/k/kazmisc01.shtml" title="Scott&nbsp;Kazmir">Kazmir</A></td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:01</td>
+   <td align="right" >42,284</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="19">19</td>
+   <td align="right" >19</td>
+   <td align="left"  csk="2010-04-27"><a href="/games/standings.cgi?date=2010-04-27" title="Click for standings on this date" name="19">Tuesday, Apr 27</A></td>
+   <td align="left" ><a href="/boxes/BAL/BAL201004270.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="5.0">12-7</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="5">   2.5</td>
+   <td align="left" ><a href="/c/castial02.shtml" title="Alberto&nbsp;Castillo">Castillo</A></td>
+   <td align="left" ><a href="/r/roberda08.shtml" title="David&nbsp;Robertson">Robertson</A></td>
+   <td align="left" ><a href="/s/simonal01.shtml" title="Alfredo&nbsp;Simon">Simon</A></td>
+   <td align="right" >3:24</td>
+   <td align="right" >20,536</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="20">20</td>
+   <td align="right" >20</td>
+   <td align="left"  csk="2010-04-28"><a href="/games/standings.cgi?date=2010-04-28" title="Click for standings on this date" name="20">Wednesday, Apr 28</A></td>
+   <td align="left" ><a href="/boxes/BAL/BAL201004280.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="6.0">13-7</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="5">   2.5</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/g/guthrje01.shtml" title="Jeremy&nbsp;Guthrie">Guthrie</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:55</td>
+   <td align="right" >17,248</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="21">21</td>
+   <td align="right" >21</td>
+   <td align="left"  csk="2010-04-29"><a href="/games/standings.cgi?date=2010-04-29" title="Click for standings on this date" name="21">Thursday, Apr 29</A></td>
+   <td align="left" ><a href="/boxes/BAL/BAL201004290.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="7.0">14-7</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="5">   2.5</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/m/matusbr01.shtml" title="Brian&nbsp;Matusz">Matusz</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:51</td>
+   <td align="right" >26,439</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="22">22</td>
+   <td align="right" >22</td>
+   <td align="left"  csk="2010-04-30"><a href="/games/standings.cgi?date=2010-04-30" title="Click for standings on this date" name="22">Friday, Apr 30</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201004300.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/CHW/2010.shtml">CHW</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="8.0">15-7</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="3">   1.5</td>
+   <td align="left" ><a href="/a/aceveal01.shtml" title="Alfredo&nbsp;Aceves">Aceves</A></td>
+   <td align="left" ><a href="/t/thornma01.shtml" title="Matt&nbsp;Thornton">Thornton</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:58</td>
+   <td align="right" >44,783</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="23">23</td>
+   <td align="right" >23</td>
+   <td align="left"  csk="2010-05-01"><a href="/games/standings.cgi?date=2010-05-01" title="Click for standings on this date" name="23">Saturday, May 1</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005010.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/CHW/2010.shtml">CHW</A></td>
+   <td align="" >L</td>
+   <td align="right" >6</td>
+   <td align="right" >7</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="7.0">15-8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="3">   1.5</td>
+   <td align="left" ><a href="/l/linebsc01.shtml" title="Scott&nbsp;Linebrink">Linebrink</A></td>
+   <td align="left" ><a href="/r/roberda08.shtml" title="David&nbsp;Robertson">Robertson</A></td>
+   <td align="left" ><a href="/j/jenksbo01.shtml" title="Bobby&nbsp;Jenks">Jenks</A></td>
+   <td align="right" >3:49</td>
+   <td align="right" >45,265</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="24">24</td>
+   <td align="right" >24</td>
+   <td align="left"  csk="2010-05-02"><a href="/games/standings.cgi?date=2010-05-02" title="Click for standings on this date" name="24">Sunday, May 2</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005020.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/CHW/2010.shtml">CHW</A></td>
+   <td align="" >W</td>
+   <td align="right" >12</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="8.0">16-8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="3">   1.5</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/b/buehrma01.shtml" title="Mark&nbsp;Buehrle">Buehrle</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:06</td>
+   <td align="right" >45,303</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="25">25</td>
+   <td align="right" >25</td>
+   <td align="left"  csk="2010-05-03"><a href="/games/standings.cgi?date=2010-05-03" title="Click for standings on this date" name="25">Monday, May 3</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005030.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="9.0">17-8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/g/guthrje01.shtml" title="Jeremy&nbsp;Guthrie">Guthrie</A></td>
+   <td align="left" ><a href="/c/chambjo03.shtml" title="Joba&nbsp;Chamberlain">Chamberlain</A></td>
+   <td align="right" >2:29</td>
+   <td align="right" >41,571</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="26">26</td>
+   <td align="right" >26</td>
+   <td align="left"  csk="2010-05-04"><a href="/games/standings.cgi?date=2010-05-04" title="Click for standings on this date" name="26">Tuesday, May 4</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005040.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="10.0">18-8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/m/matusbr01.shtml" title="Brian&nbsp;Matusz">Matusz</A></td>
+   <td align="left" ><a href="/c/chambjo03.shtml" title="Joba&nbsp;Chamberlain">Chamberlain</A></td>
+   <td align="right" >3:02</td>
+   <td align="right" >43,260</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="27">27</td>
+   <td align="right" >27</td>
+   <td align="left"  csk="2010-05-05"><a href="/games/standings.cgi?date=2010-05-05" title="Click for standings on this date" name="27">Wednesday, May 5</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005050.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="11.0">19-8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/h/hernada01.shtml" title="David&nbsp;Hernandez">Hernandez</A></td>
+   <td align="left" ><a href="/a/aceveal01.shtml" title="Alfredo&nbsp;Aceves">Aceves</A></td>
+   <td align="right" >3:03</td>
+   <td align="right" >43,425</td>
+   <td align="left"  csk="4"><tt>++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="28">28</td>
+   <td align="right" >28</td>
+   <td align="left"  csk="2010-05-07"><a href="/games/standings.cgi?date=2010-05-07" title="Click for standings on this date" name="28">Friday, May 7</A></td>
+   <td align="left" ><a href="/boxes/BOS/BOS201005070.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >W</td>
+   <td align="right" >10</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="12.0">20-8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="3">   1.5</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/b/beckejo02.shtml" title="Josh&nbsp;Beckett">Beckett</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:01</td>
+   <td align="right" >37,898</td>
+   <td align="left"  csk="5"><tt>+++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="29">29</td>
+   <td align="right" >29</td>
+   <td align="left"  csk="2010-05-08"><a href="/games/standings.cgi?date=2010-05-08" title="Click for standings on this date" name="29">Saturday, May 8</A></td>
+   <td align="left" ><a href="/boxes/BOS/BOS201005080.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >W</td>
+   <td align="right" >14</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="13.0">21-8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/a/aceveal01.shtml" title="Alfredo&nbsp;Aceves">Aceves</A></td>
+   <td align="left" ><a href="/b/buchhcl01.shtml" title="Clay&nbsp;Buchholz">Buchholz</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:56</td>
+   <td align="right" >37,138</td>
+   <td align="left"  csk="6"><tt>++++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="30">30</td>
+   <td align="right" >30</td>
+   <td align="left"  csk="2010-05-09"><a href="/games/standings.cgi?date=2010-05-09" title="Click for standings on this date" name="30">Sunday, May 9</A></td>
+   <td align="left" ><a href="/boxes/BOS/BOS201005090.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >L</td>
+   <td align="right" >3</td>
+   <td align="right" >9</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="12.0">21-9</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/l/lestejo01.shtml" title="Jon&nbsp;Lester">Lester</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:05</td>
+   <td align="right" >37,618</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="31">31</td>
+   <td align="right" >31</td>
+   <td align="left"  csk="2010-05-10"><a href="/games/standings.cgi?date=2010-05-10" title="Click for standings on this date" name="31">Monday, May 10</A></td>
+   <td align="left" ><a href="/boxes/DET/DET201005100.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/DET/2010.shtml">DET</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="11.0">21-10</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="1">   0.5</td>
+   <td align="left" ><a href="/b/bonined01.shtml" title="Eddie&nbsp;Bonine">Bonine</A></td>
+   <td align="left" ><a href="/m/mitrese01.shtml" title="Sergio&nbsp;Mitre">Mitre</A></td>
+   <td align="left" ><a href="/v/valvejo01.shtml" title="Jose&nbsp;Valverde">Valverde</A></td>
+   <td align="right" >3:16</td>
+   <td align="right" >34,365</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="32">32</td>
+   <td align="right" >32</td>
+   <td align="left"  csk="2010-05-12"><a href="/games/standings.cgi?date=2010-05-12" title="Click for standings on this date" name="32">Wednesday, May 12</A></td>
+   <td align="left" ><a href="/boxes/DET/DET201005121.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/DET/2010.shtml">DET</A></td>
+   <td align="" >L</td>
+   <td align="right" >0</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="10.0">21-11</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="3">   1.5</td>
+   <td align="left" ><a href="/p/porceri01.shtml" title="Rick&nbsp;Porcello">Porcello</A></td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/v/valvejo01.shtml" title="Jose&nbsp;Valverde">Valverde</A></td>
+   <td align="right" >2:15</td>
+   <td align="right" >27,376</td>
+   <td align="left"  csk="-3"><tt>---</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="33">33</td>
+   <td align="right" >33</td>
+   <td align="left"  csk="2010-05-12"><a href="/games/standings.cgi?date=2010-05-12" title="Click for standings on this date" name="33">Wednesday, May 12</A></td>
+   <td align="left" ><a href="/boxes/DET/DET201005122.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/DET/2010.shtml">DET</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="11.0">22-11</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="3">   1.5</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/b/bondeje01.shtml" title="Jeremy&nbsp;Bonderman">Bonderman</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:06</td>
+   <td align="right" >28,514</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="34">34</td>
+   <td align="right" >34</td>
+   <td align="left"  csk="2010-05-13"><a href="/games/standings.cgi?date=2010-05-13" title="Click for standings on this date" name="34">Thursday, May 13</A></td>
+   <td align="left" ><a href="/boxes/DET/DET201005130.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/DET/2010.shtml">DET</A></td>
+   <td align="" >L</td>
+   <td align="right" >0</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="10.0">22-12</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/v/verlaju01.shtml" title="Justin&nbsp;Verlander">Verlander</A></td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:38</td>
+   <td align="right" >31,130</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="35">35</td>
+   <td align="right" >35</td>
+   <td align="left"  csk="2010-05-14"><a href="/games/standings.cgi?date=2010-05-14" title="Click for standings on this date" name="35">Friday, May 14</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005140.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/MIN/2010.shtml">MIN</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="11.0">23-12</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/c/chambjo03.shtml" title="Joba&nbsp;Chamberlain">Chamberlain</A></td>
+   <td align="left" ><a href="/b/bakersc02.shtml" title="Scott&nbsp;Baker">Baker</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:11</td>
+   <td align="right" >45,195</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="36">36</td>
+   <td align="right" >36</td>
+   <td align="left"  csk="2010-05-15"><a href="/games/standings.cgi?date=2010-05-15" title="Click for standings on this date" name="36">Saturday, May 15</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005150.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/MIN/2010.shtml">MIN</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="12.0">24-12</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/l/liriafr01.shtml" title="Francisco&nbsp;Liriano">Liriano</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:01</td>
+   <td align="right" >46,347</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="37">37</td>
+   <td align="right" >37</td>
+   <td align="left"  csk="2010-05-16"><a href="/games/standings.cgi?date=2010-05-16" title="Click for standings on this date" name="37">Sunday, May 16</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005160.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/MIN/2010.shtml">MIN</A></td>
+   <td align="" >L</td>
+   <td align="right" >3</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="11.0">24-13</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/b/blackni01.shtml" title="Nick&nbsp;Blackburn">Blackburn</A></td>
+   <td align="left" ><a href="/c/chambjo03.shtml" title="Joba&nbsp;Chamberlain">Chamberlain</A></td>
+   <td align="left" ><a href="/r/rauchjo01.shtml" title="Jon&nbsp;Rauch">Rauch</A></td>
+   <td align="right" >3:21</td>
+   <td align="right" >46,628</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="38">38</td>
+   <td align="right" >38</td>
+   <td align="left"  csk="2010-05-17"><a href="/games/standings.cgi?date=2010-05-17" title="Click for standings on this date" name="38">Monday, May 17</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005170.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >W</td>
+   <td align="right" >11</td>
+   <td align="right" >9</td>
+   <td align="right"  csk="8.83"></td>
+   <td align="right"  csk="12.0">25-13</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/p/papeljo01.shtml" title="Jonathan&nbsp;Papelbon">Papelbon</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:47</td>
+   <td align="right" >48,271</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="39">39</td>
+   <td align="right" >39</td>
+   <td align="left"  csk="2010-05-18"><a href="/games/standings.cgi?date=2010-05-18" title="Click for standings on this date" name="39">Tuesday, May 18</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005180.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BOS/2010.shtml">BOS</A></td>
+   <td align="" >L</td>
+   <td align="right" >6</td>
+   <td align="right" >7</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="11.0">25-14</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="6">   3.0</td>
+   <td align="left" ><a href="/b/bardda01.shtml" title="Daniel&nbsp;Bard">Bard</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="left" ><a href="/p/papeljo01.shtml" title="Jonathan&nbsp;Papelbon">Papelbon</A></td>
+   <td align="right" >4:09</td>
+   <td align="right" >47,734</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="40">40</td>
+   <td align="right" >40</td>
+   <td align="left"  csk="2010-05-19"><a href="/games/standings.cgi?date=2010-05-19" title="Click for standings on this date" name="40">Wednesday, May 19</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005190.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >L</td>
+   <td align="right" >6</td>
+   <td align="right" >10</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="10.0">25-15</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8">   4.0</td>
+   <td align="left" ><a href="/d/daviswa01.shtml" title="Wade&nbsp;Davis">Davis</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/b/benoijo01.shtml" title="Joaquin&nbsp;Benoit">Benoit</A></td>
+   <td align="right" >3:45</td>
+   <td align="right" >43,283</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="41">41</td>
+   <td align="right" >41</td>
+   <td align="left"  csk="2010-05-20"><a href="/games/standings.cgi?date=2010-05-20" title="Click for standings on this date" name="41">Thursday, May 20</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005200.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >L</td>
+   <td align="right" >6</td>
+   <td align="right" >8</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="9.0">25-16</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="10">   5.0</td>
+   <td align="left" ><a href="/s/shielja02.shtml" title="James&nbsp;Shields">Shields</A></td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/s/soriara01.shtml" title="Rafael&nbsp;Soriano">Soriano</A></td>
+   <td align="right" >3:07</td>
+   <td align="right" >45,483</td>
+   <td align="left"  csk="-3"><tt>---</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="42">42</td>
+   <td align="right" >42</td>
+   <td align="left"  csk="2010-05-21"><a href="/games/standings.cgi?date=2010-05-21" title="Click for standings on this date" name="42">Friday, May 21</A></td>
+   <td align="left" ><a href="/boxes/NYN/NYN201005210.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/NYM/2010.shtml">NYM</A></td>
+   <td align="" >W</td>
+   <td align="right" >2</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="10.0">26-16</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8">   4.0</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/d/desseel01.shtml" title="Elmer&nbsp;Dessens">Dessens</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:19</td>
+   <td align="right" >41,382</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="43">43</td>
+   <td align="right" >43</td>
+   <td align="left"  csk="2010-05-22"><a href="/games/standings.cgi?date=2010-05-22" title="Click for standings on this date" name="43">Saturday, May 22</A></td>
+   <td align="left" ><a href="/boxes/NYN/NYN201005220.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/NYM/2010.shtml">NYM</A></td>
+   <td align="" >L</td>
+   <td align="right" >3</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="9.0">26-17</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="10">   5.0</td>
+   <td align="left" ><a href="/p/pelfrmi01.shtml" title="Mike&nbsp;Pelfrey">Pelfrey</A></td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/r/rodrifr03.shtml" title="Francisco&nbsp;Rodriguez">Rodriguez</A></td>
+   <td align="right" >3:33</td>
+   <td align="right" >41,343</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="44">44</td>
+   <td align="right" >44</td>
+   <td align="left"  csk="2010-05-23"><a href="/games/standings.cgi?date=2010-05-23" title="Click for standings on this date" name="44">Sunday, May 23</A></td>
+   <td align="left" ><a href="/boxes/NYN/NYN201005230.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/NYM/2010.shtml">NYM</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="8.0">26-18</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="12">   6.0</td>
+   <td align="left" ><a href="/s/santajo02.shtml" title="Johan&nbsp;Santana">Santana</A></td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/r/rodrifr03.shtml" title="Francisco&nbsp;Rodriguez">Rodriguez</A></td>
+   <td align="right" >3:12</td>
+   <td align="right" >41,422</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="45">45</td>
+   <td align="right" >45</td>
+   <td align="left"  csk="2010-05-25"><a href="/games/standings.cgi?date=2010-05-25" title="Click for standings on this date" name="45">Tuesday, May 25</A></td>
+   <td align="left" ><a href="/boxes/MIN/MIN201005250.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/MIN/2010.shtml">MIN</A></td>
+   <td align="" >W</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="9.0">27-18</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9">   4.5</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/d/duensbr01.shtml" title="Brian&nbsp;Duensing">Duensing</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:39</td>
+   <td align="right" >38,962</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="46">46</td>
+   <td align="right" >46</td>
+   <td align="left"  csk="2010-05-26"><a href="/games/standings.cgi?date=2010-05-26" title="Click for standings on this date" name="46">Wednesday, May 26</A></td>
+   <td align="left" ><a href="/boxes/MIN/MIN201005260.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/MIN/2010.shtml">MIN</A></td>
+   <td align="" >W</td>
+   <td align="right" >3</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="10.0">28-18</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="7">   3.5</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/r/rauchjo01.shtml" title="Jon&nbsp;Rauch">Rauch</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:41</td>
+   <td align="right" >39,353</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="47">47</td>
+   <td align="right" >47</td>
+   <td align="left"  csk="2010-05-27"><a href="/games/standings.cgi?date=2010-05-27" title="Click for standings on this date" name="47">Thursday, May 27</A></td>
+   <td align="left" ><a href="/boxes/MIN/MIN201005270.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/MIN/2010.shtml">MIN</A></td>
+   <td align="" >L</td>
+   <td align="right" >2</td>
+   <td align="right" >8</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="9.0">28-19</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9">   4.5</td>
+   <td align="left" ><a href="/b/blackni01.shtml" title="Nick&nbsp;Blackburn">Blackburn</A></td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:00</td>
+   <td align="right" >39,087</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="48">48</td>
+   <td align="right" >48</td>
+   <td align="left"  csk="2010-05-28"><a href="/games/standings.cgi?date=2010-05-28" title="Click for standings on this date" name="48">Friday, May 28</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005280.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="10.0">29-19</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="7">   3.5</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/c/carmofa01.shtml" title="Fausto&nbsp;Carmona">Carmona</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:06</td>
+   <td align="right" >44,634</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="49">49</td>
+   <td align="right" >49</td>
+   <td align="left"  csk="2010-05-29"><a href="/games/standings.cgi?date=2010-05-29" title="Click for standings on this date" name="49">Saturday, May 29</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005290.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >L</td>
+   <td align="right" >11</td>
+   <td align="right" >13</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="9.0">29-20</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9">   4.5</td>
+   <td align="left" ><a href="/p/perezra01.shtml" title="Rafael&nbsp;Perez">Perez</A></td>
+   <td align="left" ><a href="/c/chambjo03.shtml" title="Joba&nbsp;Chamberlain">Chamberlain</A></td>
+   <td align="left" ><a href="/w/woodke02.shtml" title="Kerry&nbsp;Wood">Wood</A></td>
+   <td align="right" >4:22</td>
+   <td align="right" >46,599</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="50">50</td>
+   <td align="right" >50</td>
+   <td align="left"  csk="2010-05-30"><a href="/games/standings.cgi?date=2010-05-30" title="Click for standings on this date" name="50">Sunday, May 30</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005300.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="10.0">30-20</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="7">   3.5</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/s/sippto01.shtml" title="Tony&nbsp;Sipp">Sipp</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:48</td>
+   <td align="right" >45,706</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class=" thead">
+  <th align="center"  class="tooltip ranker sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Rank</strong><br>This is a count of the rows from top to bottom.<br>It is recalculated following the sorting of a column.')">Rk</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Game Number</strong><br>Which game out of all played by this team.')">Gm#</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('A number in parentheses indicates which game of a doubleheader.<br>Click dates for box scores of games or standings on this day.')">Date</th>
+  <th align="center"  class="tooltip sort_default_asc" ></th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Home or Away Game</strong><br>@ means it is an away game, blank means home.')">&nbsp;</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Opp</th>
+  <th align="CENTER"  class="tooltip" ></th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('Runs Scored/Allowed')">R</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('Runs Allowed')">RA</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Innings</strong><br>Only shown if something other than 9 innings were played.')">Inn</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Win Loss Record</strong><br>Team&#146;s overall record after this game.')">W-L</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Rank</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Games Back of Division/League Leader</strong><br>Computed as games over .500 of leader (W-L) minus games over .500 of team divided by two.')">GB</th>
+  <th align="center"  class="tooltip sort_default_asc" >Win</th>
+  <th align="center"  class="tooltip sort_default_asc" >Loss</th>
+  <th align="center"  class="tooltip sort_default_asc" >Save</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('<strong>Time of Game</strong>')">Time</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('<strong>Attendance</strong><br>Typically, tickets sold in home games.')">Attendance</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Win Loss Streak</strong><br>+ means a winning streak, - means a losing streak.')">Streak</th>
+</tr>
+
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="51">51</td>
+   <td align="right" >51</td>
+   <td align="left"  csk="2010-05-31"><a href="/games/standings.cgi?date=2010-05-31" title="Click for standings on this date" name="51">Monday, May 31</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201005310.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >W</td>
+   <td align="right" >11</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="11.0">31-20</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="5">   2.5</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/t/talbomi01.shtml" title="Mitch&nbsp;Talbot">Talbot</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:07</td>
+   <td align="right" >44,976</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="52">52</td>
+   <td align="right" >52</td>
+   <td align="left"  csk="2010-06-01"><a href="/games/standings.cgi?date=2010-06-01" title="Click for standings on this date" name="52">Tuesday, Jun 1</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006010.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="12.0">32-20</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="5">   2.5</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/m/matusbr01.shtml" title="Brian&nbsp;Matusz">Matusz</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:39</td>
+   <td align="right" >43,059</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="53">53</td>
+   <td align="right" >53</td>
+   <td align="left"  csk="2010-06-02"><a href="/games/standings.cgi?date=2010-06-02" title="Click for standings on this date" name="53">Wednesday, Jun 2</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006020.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >9</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="13.0">33-20</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="5">   2.5</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/b/bergebr02.shtml" title="Brad&nbsp;Bergesen">Bergesen</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:49</td>
+   <td align="right" >44,465</td>
+   <td align="left"  csk="4"><tt>++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="54">54</td>
+   <td align="right" >54</td>
+   <td align="left"  csk="2010-06-03"><a href="/games/standings.cgi?date=2010-06-03" title="Click for standings on this date" name="54">Thursday, Jun 3</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006030.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="14.0">34-20</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/m/millwke01.shtml" title="Kevin&nbsp;Millwood">Millwood</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:01</td>
+   <td align="right" >44,927</td>
+   <td align="left"  csk="5"><tt>+++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="55">55</td>
+   <td align="right" >55</td>
+   <td align="left"  csk="2010-06-04"><a href="/games/standings.cgi?date=2010-06-04" title="Click for standings on this date" name="55">Friday, Jun 4</A></td>
+   <td align="left" ><a href="/boxes/TOR/TOR201006040.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >L</td>
+   <td align="right" >1</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="13.0">34-21</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/c/cecilbr01.shtml" title="Brett&nbsp;Cecil">Cecil</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:47</td>
+   <td align="right" >30,089</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="56">56</td>
+   <td align="right" >56</td>
+   <td align="left"  csk="2010-06-05"><a href="/games/standings.cgi?date=2010-06-05" title="Click for standings on this date" name="56">Saturday, Jun 5</A></td>
+   <td align="left" ><a href="/boxes/TOR/TOR201006050.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >L</td>
+   <td align="right" >2</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="13.67">14</td>
+   <td align="right"  csk="12.0">34-22</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/j/janssca01.shtml" title="Casey&nbsp;Janssen">Janssen</A></td>
+   <td align="left" ><a href="/g/gaudich01.shtml" title="Chad&nbsp;Gaudin">Gaudin</A></td>
+   <td align="left" ></td>
+   <td align="right" >4:09</td>
+   <td align="right" >37,165</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="57">57</td>
+   <td align="right" >57</td>
+   <td align="left"  csk="2010-06-06"><a href="/games/standings.cgi?date=2010-06-06" title="Click for standings on this date" name="57">Sunday, Jun 6</A></td>
+   <td align="left" ><a href="/boxes/TOR/TOR201006060.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="13.0">35-22</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/d/downssc01.shtml" title="Scott&nbsp;Downs">Downs</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:01</td>
+   <td align="right" >33,622</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="58">58</td>
+   <td align="right" >58</td>
+   <td align="left"  csk="2010-06-08"><a href="/games/standings.cgi?date=2010-06-08" title="Click for standings on this date" name="58">Tuesday, Jun 8</A></td>
+   <td align="left" ><a href="/boxes/BAL/BAL201006080.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >12</td>
+   <td align="right" >7</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="14.0">36-22</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/m/millwke01.shtml" title="Kevin&nbsp;Millwood">Millwood</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:34</td>
+   <td align="right" >23,171</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="59">59</td>
+   <td align="right" >59</td>
+   <td align="left"  csk="2010-06-09"><a href="/games/standings.cgi?date=2010-06-09" title="Click for standings on this date" name="59">Wednesday, Jun 9</A></td>
+   <td align="left" ><a href="/boxes/BAL/BAL201006090.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="15.0">37-22</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/t/tillmch01.shtml" title="Chris&nbsp;Tillman">Tillman</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:18</td>
+   <td align="right" >16,451</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="60">60</td>
+   <td align="right" >60</td>
+   <td align="left"  csk="2010-06-10"><a href="/games/standings.cgi?date=2010-06-10" title="Click for standings on this date" name="60">Thursday, Jun 10</A></td>
+   <td align="left" ><a href="/boxes/BAL/BAL201006100.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/BAL/2010.shtml">BAL</A></td>
+   <td align="" >L</td>
+   <td align="right" >3</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="14.0">37-23</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="4">   2.0</td>
+   <td align="left" ><a href="/a/arrieja01.shtml" title="Jake&nbsp;Arrieta">Arrieta</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/h/hernada01.shtml" title="David&nbsp;Hernandez">Hernandez</A></td>
+   <td align="right" >2:47</td>
+   <td align="right" >27,064</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="61">61</td>
+   <td align="right" >61</td>
+   <td align="left"  csk="2010-06-11"><a href="/games/standings.cgi?date=2010-06-11" title="Click for standings on this date" name="61">Friday, Jun 11</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006110.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/HOU/2010.shtml">HOU</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="15.0">38-23</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/m/myersbr01.shtml" title="Brett&nbsp;Myers">Myers</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:19</td>
+   <td align="right" >46,883</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="62">62</td>
+   <td align="right" >62</td>
+   <td align="left"  csk="2010-06-12"><a href="/games/standings.cgi?date=2010-06-12" title="Click for standings on this date" name="62">Saturday, Jun 12</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006120.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/HOU/2010.shtml">HOU</A></td>
+   <td align="" >W</td>
+   <td align="right" >9</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="16.0">39-23</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/r/rodriwa01.shtml" title="Wandy&nbsp;Rodriguez">Rodriguez</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:33</td>
+   <td align="right" >46,159</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="63">63</td>
+   <td align="right" >63</td>
+   <td align="left"  csk="2010-06-13"><a href="/games/standings.cgi?date=2010-06-13" title="Click for standings on this date" name="63">Sunday, Jun 13</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006130.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/HOU/2010.shtml">HOU</A></td>
+   <td align="" >W</td>
+   <td align="right" >9</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="17.0">40-23</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/m/moehlbr01.shtml" title="Brian&nbsp;Moehler">Moehler</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:38</td>
+   <td align="right" >46,832</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="64">64</td>
+   <td align="right" >64</td>
+   <td align="left"  csk="2010-06-15"><a href="/games/standings.cgi?date=2010-06-15" title="Click for standings on this date" name="64">Tuesday, Jun 15</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006150.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/PHI/2010.shtml">PHI</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="18.0">41-23</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/h/hallaro01.shtml" title="Roy&nbsp;Halladay">Halladay</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:45</td>
+   <td align="right" >47,135</td>
+   <td align="left"  csk="4"><tt>++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="65">65</td>
+   <td align="right" >65</td>
+   <td align="left"  csk="2010-06-16"><a href="/games/standings.cgi?date=2010-06-16" title="Click for standings on this date" name="65">Wednesday, Jun 16</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006160.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/PHI/2010.shtml">PHI</A></td>
+   <td align="" >L</td>
+   <td align="right" >3</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="17.0">41-24</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/m/moyerja01.shtml" title="Jamie&nbsp;Moyer">Moyer</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:51</td>
+   <td align="right" >47,414</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="66">66</td>
+   <td align="right" >66</td>
+   <td align="left"  csk="2010-06-17"><a href="/games/standings.cgi?date=2010-06-17" title="Click for standings on this date" name="66">Thursday, Jun 17</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006170.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/PHI/2010.shtml">PHI</A></td>
+   <td align="" >L</td>
+   <td align="right" >1</td>
+   <td align="right" >7</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="16.0">41-25</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/k/kendrky01.shtml" title="Kyle&nbsp;Kendrick">Kendrick</A></td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:15</td>
+   <td align="right" >47,204</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="67">67</td>
+   <td align="right" >67</td>
+   <td align="left"  csk="2010-06-18"><a href="/games/standings.cgi?date=2010-06-18" title="Click for standings on this date" name="67">Friday, Jun 18</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006180.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/NYM/2010.shtml">NYM</A></td>
+   <td align="" >L</td>
+   <td align="right" >0</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="15.0">41-26</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/t/takahhi01.shtml" title="Hisanori&nbsp;Takahashi">Takahashi</A></td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/r/rodrifr03.shtml" title="Francisco&nbsp;Rodriguez">Rodriguez</A></td>
+   <td align="right" >3:41</td>
+   <td align="right" >49,220</td>
+   <td align="left"  csk="-3"><tt>---</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="68">68</td>
+   <td align="right" >68</td>
+   <td align="left"  csk="2010-06-19"><a href="/games/standings.cgi?date=2010-06-19" title="Click for standings on this date" name="68">Saturday, Jun 19</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006190.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/NYM/2010.shtml">NYM</A></td>
+   <td align="" >W</td>
+   <td align="right" >5</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="16.0">42-26</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/p/pelfrmi01.shtml" title="Mike&nbsp;Pelfrey">Pelfrey</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:39</td>
+   <td align="right" >49,073</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="69">69</td>
+   <td align="right" >69</td>
+   <td align="left"  csk="2010-06-20"><a href="/games/standings.cgi?date=2010-06-20" title="Click for standings on this date" name="69">Sunday, Jun 20</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006200.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/NYM/2010.shtml">NYM</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="17.0">43-26</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-2.0">up 1.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/s/santajo02.shtml" title="Johan&nbsp;Santana">Santana</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:41</td>
+   <td align="right" >49,240</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="70">70</td>
+   <td align="right" >70</td>
+   <td align="left"  csk="2010-06-21"><a href="/games/standings.cgi?date=2010-06-21" title="Click for standings on this date" name="70">Monday, Jun 21</A></td>
+   <td align="left" ><a href="/boxes/ARI/ARI201006210.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/ARI/2010.shtml">ARI</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >10</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="16.0">43-27</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-1.0">up 0.5</td>
+   <td align="left" ><a href="/l/lopezro02.shtml" title="Rodrigo&nbsp;Lopez">Lopez</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:59</td>
+   <td align="right" >47,229</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="71">71</td>
+   <td align="right" >71</td>
+   <td align="left"  csk="2010-06-22"><a href="/games/standings.cgi?date=2010-06-22" title="Click for standings on this date" name="71">Tuesday, Jun 22</A></td>
+   <td align="left" ><a href="/boxes/ARI/ARI201006220.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/ARI/2010.shtml">ARI</A></td>
+   <td align="" >W</td>
+   <td align="right" >9</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="17.0">44-27</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-3.0">up 1.5</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/h/harenda01.shtml" title="Dan&nbsp;Haren">Haren</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:06</td>
+   <td align="right" >45,776</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="72">72</td>
+   <td align="right" >72</td>
+   <td align="left"  csk="2010-06-23"><a href="/games/standings.cgi?date=2010-06-23" title="Click for standings on this date" name="72">Wednesday, Jun 23</A></td>
+   <td align="left" ><a href="/boxes/ARI/ARI201006230.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/ARI/2010.shtml">ARI</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="10.00">10</td>
+   <td align="right"  csk="18.0">45-27</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-5.0">up 2.5</td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="left" ><a href="/r/rosaca01.shtml" title="Carlos&nbsp;Rosa">Rosa</A></td>
+   <td align="left" ></td>
+   <td align="right" >4:07</td>
+   <td align="right" >46,325</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="73">73</td>
+   <td align="right" >73</td>
+   <td align="left"  csk="2010-06-25"><a href="/games/standings.cgi?date=2010-06-25" title="Click for standings on this date" name="73">Friday, Jun 25</A></td>
+   <td align="left" ><a href="/boxes/LAN/LAN201006250.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/LAD/2010.shtml">LAD</A></td>
+   <td align="" >W</td>
+   <td align="right" >2</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="19.0">46-27</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/p/padilvi01.shtml" title="Vicente&nbsp;Padilla">Padilla</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >3:03</td>
+   <td align="right" >56,000</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="74">74</td>
+   <td align="right" >74</td>
+   <td align="left"  csk="2010-06-26"><a href="/games/standings.cgi?date=2010-06-26" title="Click for standings on this date" name="74">Saturday, Jun 26</A></td>
+   <td align="left" ><a href="/boxes/LAN/LAN201006260.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/LAD/2010.shtml">LAD</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >9</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="18.0">46-28</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/k/kurodhi01.shtml" title="Hiroki&nbsp;Kuroda">Kuroda</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:49</td>
+   <td align="right" >56,000</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="75">75</td>
+   <td align="right" >75</td>
+   <td align="left"  csk="2010-06-27"><a href="/games/standings.cgi?date=2010-06-27" title="Click for standings on this date" name="75">Sunday, Jun 27</A></td>
+   <td align="left" ><a href="/boxes/LAN/LAN201006270.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/LAD/2010.shtml">LAD</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="10.00">10</td>
+   <td align="right"  csk="19.0">47-28</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="left" ><a href="/t/troncra01.shtml" title="Ramon&nbsp;Troncoso">Troncoso</A></td>
+   <td align="left" ></td>
+   <td align="right" >4:02</td>
+   <td align="right" >56,000</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="76">76</td>
+   <td align="right" >76</td>
+   <td align="left"  csk="2010-06-29"><a href="/games/standings.cgi?date=2010-06-29" title="Click for standings on this date" name="76">Tuesday, Jun 29</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006290.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/SEA/2010.shtml">SEA</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >7</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="18.0">47-29</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-2.0">up 1.0</td>
+   <td align="left" ><a href="/l/leecl02.shtml" title="Cliff&nbsp;Lee">Lee</A></td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:30</td>
+   <td align="right" >45,780</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="77">77</td>
+   <td align="right" >77</td>
+   <td align="left"  csk="2010-06-30"><a href="/games/standings.cgi?date=2010-06-30" title="Click for standings on this date" name="77">Wednesday, Jun 30</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201006300.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/SEA/2010.shtml">SEA</A></td>
+   <td align="" >L</td>
+   <td align="right" >0</td>
+   <td align="right" >7</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="17.0">47-30</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-2.0">up 1.0</td>
+   <td align="left" ><a href="/h/hernafe02.shtml" title="Felix&nbsp;Hernandez">Hernandez</A></td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:46</td>
+   <td align="right" >46,309</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="78">78</td>
+   <td align="right" >78</td>
+   <td align="left"  csk="2010-07-01"><a href="/games/standings.cgi?date=2010-07-01" title="Click for standings on this date" name="78">Thursday, Jul 1</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007010.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/SEA/2010.shtml">SEA</A></td>
+   <td align="" >W</td>
+   <td align="right" >4</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="18.0">48-30</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-3.0">up 1.5</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/a/aardsda01.shtml" title="David&nbsp;Aardsma">Aardsma</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:33</td>
+   <td align="right" >45,591</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="79">79</td>
+   <td align="right" >79</td>
+   <td align="left"  csk="2010-07-02"><a href="/games/standings.cgi?date=2010-07-02" title="Click for standings on this date" name="79">Friday, Jul 2</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007020.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >L</td>
+   <td align="right" >1</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="11.00">11</td>
+   <td align="right"  csk="17.0">48-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-1.0">up 0.5</td>
+   <td align="left" ><a href="/f/frasoja01.shtml" title="Jason&nbsp;Frasor">Frasor</A></td>
+   <td align="left" ><a href="/r/roberda08.shtml" title="David&nbsp;Robertson">Robertson</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:49</td>
+   <td align="right" >45,792</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="80">80</td>
+   <td align="right" >80</td>
+   <td align="left"  csk="2010-07-03"><a href="/games/standings.cgi?date=2010-07-03" title="Click for standings on this date" name="80">Saturday, Jul 3</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007030.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >W</td>
+   <td align="right" >11</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="18.0">49-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-1.0">up 0.5</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/r/romerri01.shtml" title="Ricky&nbsp;Romero">Romero</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:45</td>
+   <td align="right" >46,364</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="81">81</td>
+   <td align="right" >81</td>
+   <td align="left"  csk="2010-07-04"><a href="/games/standings.cgi?date=2010-07-04" title="Click for standings on this date" name="81">Sunday, Jul 4</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007040.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="9.83">10</td>
+   <td align="right"  csk="19.0">50-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-3.0">up 1.5</td>
+   <td align="left" ><a href="/r/roberda08.shtml" title="David&nbsp;Robertson">Robertson</A></td>
+   <td align="left" ><a href="/p/purceda01.shtml" title="David&nbsp;Purcey">Purcey</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:51</td>
+   <td align="right" >46,810</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="82">82</td>
+   <td align="right" >82</td>
+   <td align="left"  csk="2010-07-05"><a href="/games/standings.cgi?date=2010-07-05" title="Click for standings on this date" name="82">Monday, Jul 5</A></td>
+   <td align="left" ><a href="/boxes/OAK/OAK201007050.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/OAK/2010.shtml">OAK</A></td>
+   <td align="" >W</td>
+   <td align="right" >3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="20.0">51-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/s/sheetbe01.shtml" title="Ben&nbsp;Sheets">Sheets</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:35</td>
+   <td align="right" >27,405</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="83">83</td>
+   <td align="right" >83</td>
+   <td align="left"  csk="2010-07-06"><a href="/games/standings.cgi?date=2010-07-06" title="Click for standings on this date" name="83">Tuesday, Jul 6</A></td>
+   <td align="left" ><a href="/boxes/OAK/OAK201007060.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/OAK/2010.shtml">OAK</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="21.0">52-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/c/cahiltr01.shtml" title="Trevor&nbsp;Cahill">Cahill</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:44</td>
+   <td align="right" >20,473</td>
+   <td align="left"  csk="4"><tt>++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="84">84</td>
+   <td align="right" >84</td>
+   <td align="left"  csk="2010-07-07"><a href="/games/standings.cgi?date=2010-07-07" title="Click for standings on this date" name="84">Wednesday, Jul 7</A></td>
+   <td align="left" ><a href="/boxes/OAK/OAK201007070.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/OAK/2010.shtml">OAK</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="22.0">53-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/g/gonzagi01.shtml" title="Gio&nbsp;Gonzalez">Gonzalez</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:58</td>
+   <td align="right" >31,518</td>
+   <td align="left"  csk="5"><tt>+++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="85">85</td>
+   <td align="right" >85</td>
+   <td align="left"  csk="2010-07-08"><a href="/games/standings.cgi?date=2010-07-08" title="Click for standings on this date" name="85">Thursday, Jul 8</A></td>
+   <td align="left" ><a href="/boxes/SEA/SEA201007080.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/SEA/2010.shtml">SEA</A></td>
+   <td align="" >W</td>
+   <td align="right" >3</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="23.0">54-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/p/pettian01.shtml" title="Andy&nbsp;Pettitte">Pettitte</A></td>
+   <td align="left" ><a href="/a/aardsda01.shtml" title="David&nbsp;Aardsma">Aardsma</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:48</td>
+   <td align="right" >37,432</td>
+   <td align="left"  csk="6"><tt>++++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="86">86</td>
+   <td align="right" >86</td>
+   <td align="left"  csk="2010-07-09"><a href="/games/standings.cgi?date=2010-07-09" title="Click for standings on this date" name="86">Friday, Jul 9</A></td>
+   <td align="left" ><a href="/boxes/SEA/SEA201007090.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/SEA/2010.shtml">SEA</A></td>
+   <td align="" >W</td>
+   <td align="right" >6</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="24.0">55-31</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/p/pauleda01.shtml" title="David&nbsp;Pauley">Pauley</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:55</td>
+   <td align="right" >39,645</td>
+   <td align="left"  csk="7"><tt>+++++++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="87">87</td>
+   <td align="right" >87</td>
+   <td align="left"  csk="2010-07-10"><a href="/games/standings.cgi?date=2010-07-10" title="Click for standings on this date" name="87">Saturday, Jul 10</A></td>
+   <td align="left" ><a href="/boxes/SEA/SEA201007100.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/SEA/2010.shtml">SEA</A></td>
+   <td align="" >L</td>
+   <td align="right" >1</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="23.0">55-32</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/h/hernafe02.shtml" title="Felix&nbsp;Hernandez">Hernandez</A></td>
+   <td align="left" ><a href="/c/chambjo03.shtml" title="Joba&nbsp;Chamberlain">Chamberlain</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:45</td>
+   <td align="right" >42,558</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="88">88</td>
+   <td align="right" >88</td>
+   <td align="left"  csk="2010-07-11"><a href="/games/standings.cgi?date=2010-07-11" title="Click for standings on this date" name="88">Sunday, Jul 11</A></td>
+   <td align="left" ><a href="/boxes/SEA/SEA201007110.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/SEA/2010.shtml">SEA</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="24.0">56-32</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/r/rowlary01.shtml" title="Ryan&nbsp;Rowland-Smith">Rowland-Smith</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:38</td>
+   <td align="right" >42,069</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="89">89</td>
+   <td align="right" >89</td>
+   <td align="left"  csk="2010-07-16"><a href="/games/standings.cgi?date=2010-07-16" title="Click for standings on this date" name="89">Friday, Jul 16</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007160.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >W</td>
+   <td align="right" >5</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.83"></td>
+   <td align="right"  csk="25.0">57-32</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="left" ><a href="/c/choatra01.shtml" title="Randy&nbsp;Choate">Choate</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:28</td>
+   <td align="right" >47,524</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="90">90</td>
+   <td align="right" >90</td>
+   <td align="left"  csk="2010-07-17"><a href="/games/standings.cgi?date=2010-07-17" title="Click for standings on this date" name="90">Saturday, Jul 17</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007170.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >L</td>
+   <td align="right" >5</td>
+   <td align="right" >10</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="24.0">57-33</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/n/niemaje01.shtml" title="Jeff&nbsp;Niemann">Niemann</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:35</td>
+   <td align="right" >48,957</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="91">91</td>
+   <td align="right" >91</td>
+   <td align="left"  csk="2010-07-18"><a href="/games/standings.cgi?date=2010-07-18" title="Click for standings on this date" name="91">Sunday, Jul 18</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007180.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >W</td>
+   <td align="right" >9</td>
+   <td align="right" >5</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="25.0">58-33</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/p/parkch01.shtml" title="Chan&nbsp;Ho&nbsp;Park">Park</A></td>
+   <td align="left" ><a href="/p/priceda01.shtml" title="David&nbsp;Price">Price</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:47</td>
+   <td align="right" >46,969</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="92">92</td>
+   <td align="right" >92</td>
+   <td align="left"  csk="2010-07-20"><a href="/games/standings.cgi?date=2010-07-20" title="Click for standings on this date" name="92">Tuesday, Jul 20</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007200.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >L</td>
+   <td align="right" >2</td>
+   <td align="right" >10</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="24.0">58-34</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-5.0">up 2.5</td>
+   <td align="left" ><a href="/o/osullse01.shtml" title="Sean&nbsp;O'Sullivan">O'Sullivan</A></td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:24</td>
+   <td align="right" >47,775</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="93">93</td>
+   <td align="right" >93</td>
+   <td align="left"  csk="2010-07-21"><a href="/games/standings.cgi?date=2010-07-21" title="Click for standings on this date" name="93">Wednesday, Jul 21</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007210.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/LAA/2010.shtml">LAA</A></td>
+   <td align="" >W</td>
+   <td align="right" >10</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="25.0">59-34</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-5.0">up 2.5</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/p/pineijo01.shtml" title="Joel&nbsp;Pineiro">Pineiro</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:07</td>
+   <td align="right" >47,521</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="94">94</td>
+   <td align="right" >94</td>
+   <td align="left"  csk="2010-07-22"><a href="/games/standings.cgi?date=2010-07-22" title="Click for standings on this date" name="94">Thursday, Jul 22</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007220.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/KCR/2010.shtml">KCR</A></td>
+   <td align="" >W</td>
+   <td align="right" >10</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="26.0">60-34</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/c/chenbr01.shtml" title="Bruce&nbsp;Chen">Chen</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:22</td>
+   <td align="right" >47,484</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="95">95</td>
+   <td align="right" >95</td>
+   <td align="left"  csk="2010-07-23"><a href="/games/standings.cgi?date=2010-07-23" title="Click for standings on this date" name="95">Friday, Jul 23</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007230.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/KCR/2010.shtml">KCR</A></td>
+   <td align="" >W</td>
+   <td align="right" >7</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="27.0">61-34</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-8.0">up 4.0</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/b/bannibr01.shtml" title="Brian&nbsp;Bannister">Bannister</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:33</td>
+   <td align="right" >46,801</td>
+   <td align="left"  csk="3"><tt>+++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="96">96</td>
+   <td align="right" >96</td>
+   <td align="left"  csk="2010-07-24"><a href="/games/standings.cgi?date=2010-07-24" title="Click for standings on this date" name="96">Saturday, Jul 24</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007240.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/KCR/2010.shtml">KCR</A></td>
+   <td align="" >L</td>
+   <td align="right" >4</td>
+   <td align="right" >7</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="26.0">61-35</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/d/davieky01.shtml" title="Kyle&nbsp;Davies">Davies</A></td>
+   <td align="left" ><a href="/m/mitrese01.shtml" title="Sergio&nbsp;Mitre">Mitre</A></td>
+   <td align="left" ><a href="/s/soriajo01.shtml" title="Joakim&nbsp;Soria">Soria</A></td>
+   <td align="right" >2:53</td>
+   <td align="right" >48,138</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="97">97</td>
+   <td align="right" >97</td>
+   <td align="left"  csk="2010-07-25"><a href="/games/standings.cgi?date=2010-07-25" title="Click for standings on this date" name="97">Sunday, Jul 25</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201007250.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/KCR/2010.shtml">KCR</A></td>
+   <td align="" >W</td>
+   <td align="right" >12</td>
+   <td align="right" >6</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="27.0">62-35</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/o/osullse01.shtml" title="Sean&nbsp;O'Sullivan">O'Sullivan</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:13</td>
+   <td align="right" >47,890</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="98">98</td>
+   <td align="right" >98</td>
+   <td align="left"  csk="2010-07-26"><a href="/games/standings.cgi?date=2010-07-26" title="Click for standings on this date" name="98">Monday, Jul 26</A></td>
+   <td align="left" ><a href="/boxes/CLE/CLE201007260.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >W</td>
+   <td align="right" >3</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="28.0">63-35</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-6.0">up 3.0</td>
+   <td align="left" ><a href="/v/vazquja01.shtml" title="Javier&nbsp;Vazquez">Vazquez</A></td>
+   <td align="left" ><a href="/w/westbja01.shtml" title="Jake&nbsp;Westbrook">Westbrook</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:43</td>
+   <td align="right" >27,224</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="99">99</td>
+   <td align="right" >99</td>
+   <td align="left"  csk="2010-07-27"><a href="/games/standings.cgi?date=2010-07-27" title="Click for standings on this date" name="99">Tuesday, Jul 27</A></td>
+   <td align="left" ><a href="/boxes/CLE/CLE201007270.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >L</td>
+   <td align="right" >1</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="27.0">63-36</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/t/tomlijo01.shtml" title="Josh&nbsp;Tomlin">Tomlin</A></td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/p/perezch01.shtml" title="Chris&nbsp;Perez">Perez</A></td>
+   <td align="right" >2:42</td>
+   <td align="right" >27,416</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="100">100</td>
+   <td align="right" >100</td>
+   <td align="left"  csk="2010-07-28"><a href="/games/standings.cgi?date=2010-07-28" title="Click for standings on this date" name="100">Wednesday, Jul 28</A></td>
+   <td align="left" ><a href="/boxes/CLE/CLE201007280.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >W</td>
+   <td align="right" >8</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="28.0">64-36</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/c/carmofa01.shtml" title="Fausto&nbsp;Carmona">Carmona</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:20</td>
+   <td align="right" >22,965</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class=" thead">
+  <th align="center"  class="tooltip ranker sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Rank</strong><br>This is a count of the rows from top to bottom.<br>It is recalculated following the sorting of a column.')">Rk</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Game Number</strong><br>Which game out of all played by this team.')">Gm#</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('A number in parentheses indicates which game of a doubleheader.<br>Click dates for box scores of games or standings on this day.')">Date</th>
+  <th align="center"  class="tooltip sort_default_asc" ></th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Home or Away Game</strong><br>@ means it is an away game, blank means home.')">&nbsp;</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Opp</th>
+  <th align="CENTER"  class="tooltip" ></th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('Runs Scored/Allowed')">R</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('Runs Allowed')">RA</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Innings</strong><br>Only shown if something other than 9 innings were played.')">Inn</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Win Loss Record</strong><br>Team&#146;s overall record after this game.')">W-L</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Rank</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Games Back of Division/League Leader</strong><br>Computed as games over .500 of leader (W-L) minus games over .500 of team divided by two.')">GB</th>
+  <th align="center"  class="tooltip sort_default_asc" >Win</th>
+  <th align="center"  class="tooltip sort_default_asc" >Loss</th>
+  <th align="center"  class="tooltip sort_default_asc" >Save</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('<strong>Time of Game</strong>')">Time</th>
+  <th align="center"  class="tooltip"  onmouseover="Tip('<strong>Attendance</strong><br>Typically, tickets sold in home games.')">Attendance</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Win Loss Streak</strong><br>+ means a winning streak, - means a losing streak.')">Streak</th>
+</tr>
+
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="101">101</td>
+   <td align="right" >101</td>
+   <td align="left"  csk="2010-07-29"><a href="/games/standings.cgi?date=2010-07-29" title="Click for standings on this date" name="101">Thursday, Jul 29</A></td>
+   <td align="left" ><a href="/boxes/CLE/CLE201007290.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/CLE/2010.shtml">CLE</A></td>
+   <td align="" >W</td>
+   <td align="right" >11</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="29.0">65-36</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/m/moseldu01.shtml" title="Dustin&nbsp;Moseley">Moseley</A></td>
+   <td align="left" ><a href="/h/herrmfr01.shtml" title="Frank&nbsp;Herrmann">Herrmann</A></td>
+   <td align="left" ></td>
+   <td align="right" >3:58</td>
+   <td align="right" >34,455</td>
+   <td align="left"  csk="2"><tt>++</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="102">102</td>
+   <td align="right" >102</td>
+   <td align="left"  csk="2010-07-30"><a href="/games/standings.cgi?date=2010-07-30" title="Click for standings on this date" name="102">Friday, Jul 30</A></td>
+   <td align="left" ><a href="/boxes/TBA/TBA201007300.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >L</td>
+   <td align="right" >2</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="28.0">65-37</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-2.0">up 1.0</td>
+   <td align="left" ><a href="/d/daviswa01.shtml" title="Wade&nbsp;Davis">Davis</A></td>
+   <td align="left" ><a href="/h/hugheph01.shtml" title="Phil&nbsp;Hughes">Hughes</A></td>
+   <td align="left" ><a href="/s/soriara01.shtml" title="Rafael&nbsp;Soriano">Soriano</A></td>
+   <td align="right" >2:38</td>
+   <td align="right" >36,973</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="103">103</td>
+   <td align="right" >103</td>
+   <td align="left"  csk="2010-07-31"><a href="/games/standings.cgi?date=2010-07-31" title="Click for standings on this date" name="103">Saturday, Jul 31</A></td>
+   <td align="left" ><a href="/boxes/TBA/TBA201007310.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >W</td>
+   <td align="right" >5</td>
+   <td align="right" >4</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="29.0">66-37</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-4.0">up 2.0</td>
+   <td align="left" ><a href="/r/roberda08.shtml" title="David&nbsp;Robertson">Robertson</A></td>
+   <td align="left" ><a href="/s/soriara01.shtml" title="Rafael&nbsp;Soriano">Soriano</A></td>
+   <td align="left" ><a href="/r/riverma01.shtml" title="Mariano&nbsp;Rivera">Rivera</A></td>
+   <td align="right" >2:58</td>
+   <td align="right" >36,973</td>
+   <td align="left"  csk="1"><tt>+</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="104">104</td>
+   <td align="right" >104</td>
+   <td align="left"  csk="2010-08-01"><a href="/games/standings.cgi?date=2010-08-01" title="Click for standings on this date" name="104">Sunday, Aug 1</A></td>
+   <td align="left" ><a href="/boxes/TBA/TBA201008010.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" ><a href="/teams/TBR/2010.shtml">TBR</A></td>
+   <td align="" >L</td>
+   <td align="right" >0</td>
+   <td align="right" >3</td>
+   <td align="right"  csk="8.50"></td>
+   <td align="right"  csk="28.0">66-38</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="-2.0">up 1.0</td>
+   <td align="left" ><a href="/s/shielja02.shtml" title="James&nbsp;Shields">Shields</A></td>
+   <td align="left" ><a href="/s/sabatc.01.shtml" title="CC&nbsp;Sabathia">Sabathia</A></td>
+   <td align="left" ><a href="/s/soriara01.shtml" title="Rafael&nbsp;Soriano">Soriano</A></td>
+   <td align="right" >3:06</td>
+   <td align="right" >36,973</td>
+   <td align="left"  csk="-1"><tt>-</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="105">105</td>
+   <td align="right" >105</td>
+   <td align="left"  csk="2010-08-02"><a href="/games/standings.cgi?date=2010-08-02" title="Click for standings on this date" name="105">Monday, Aug 2</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201008020.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >L</td>
+   <td align="right" >6</td>
+   <td align="right" >8</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="27.0">66-39</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.0">  Tied</td>
+   <td align="left" ><a href="/m/morrobr01.shtml" title="Brandon&nbsp;Morrow">Morrow</A></td>
+   <td align="left" ><a href="/b/burnea.01.shtml" title="A.J.&nbsp;Burnett">Burnett</A></td>
+   <td align="left" ><a href="/g/greggke01.shtml" title="Kevin&nbsp;Gregg">Gregg</A></td>
+   <td align="right" >3:31</td>
+   <td align="right" >47,034</td>
+   <td align="left"  csk="-2"><tt>--</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="106">106</td>
+   <td align="right" >106</td>
+   <td align="left"  csk="2010-08-03"><a href="/games/standings.cgi?date=2010-08-03" title="Click for standings on this date" name="106">Tuesday, Aug 3</A></td>
+   <td align="left" ><a href="/boxes/NYA/NYA201008030.shtml">boxscore</A></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/teams/TOR/2010.shtml">TOR</A></td>
+   <td align="" >L</td>
+   <td align="right" >2</td>
+   <td align="right" >8</td>
+   <td align="right"  csk="9.00"></td>
+   <td align="right"  csk="26.0">66-40</td>
+   <td align="right" >2</td>
+   <td align="right"  csk="2">   1.0</td>
+   <td align="left" ><a href="/r/romerri01.shtml" title="Ricky&nbsp;Romero">Romero</A></td>
+   <td align="left" ><a href="/m/moseldu01.shtml" title="Dustin&nbsp;Moseley">Moseley</A></td>
+   <td align="left" ></td>
+   <td align="right" >2:21</td>
+   <td align="right" >46,480</td>
+   <td align="left"  csk="-3"><tt>---</tt></td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="107">107</td>
+   <td align="right" >107</td>
+   <td align="left"  csk="2010-08-04">Wednesday, Aug 4</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-blue-jays-8-4-2010-898514/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$6-$1,400</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="108">108</td>
+   <td align="right" >108</td>
+   <td align="left"  csk="2010-08-06">Friday, Aug 6</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-red-sox-8-6-2010-898508/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$50-$9,185</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="109">109</td>
+   <td align="right" >109</td>
+   <td align="left"  csk="2010-08-07">Saturday, Aug 7</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >4:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-red-sox-8-7-2010-898509/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$42-$14,446</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="110">110</td>
+   <td align="right" >110</td>
+   <td align="left"  csk="2010-08-08">Sunday, Aug 8</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >8:00 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-red-sox-8-8-2010-898510/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$24-$13,890</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="111">111</td>
+   <td align="right" >111</td>
+   <td align="left"  csk="2010-08-09">Monday, Aug 9</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >2:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-red-sox-8-9-2010-898434/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$18-$2,499</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="112">112</td>
+   <td align="right" >112</td>
+   <td align="left"  csk="2010-08-10">Tuesday, Aug 10</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TEX</td>
+   <td align=""  colspan=5 >8:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/texas-rangers-tickets/rangers-vs-yankees-8-10-2010-894802/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$10-$1,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="113">113</td>
+   <td align="right" >113</td>
+   <td align="left"  csk="2010-08-11">Wednesday, Aug 11</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TEX</td>
+   <td align=""  colspan=5 >8:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/texas-rangers-tickets/rangers-vs-yankees-8-11-2010-894803/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$15-$1,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="114">114</td>
+   <td align="right" >114</td>
+   <td align="left"  csk="2010-08-12">Thursday, Aug 12</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >KCR</td>
+   <td align=""  colspan=5 >8:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/kansas-city-royals-tickets/royals-vs-yankees-8-12-2010-895641/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$5-$367</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="115">115</td>
+   <td align="right" >115</td>
+   <td align="left"  csk="2010-08-13">Friday, Aug 13</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >KCR</td>
+   <td align=""  colspan=5 >8:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/kansas-city-royals-tickets/royals-vs-yankees-8-13-2010-895642/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$10-$999</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="116">116</td>
+   <td align="right" >116</td>
+   <td align="left"  csk="2010-08-14">Saturday, Aug 14</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >KCR</td>
+   <td align=""  colspan=5 >7:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/kansas-city-royals-tickets/royals-vs-yankees-8-14-2010-895643/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$10-$595</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="117">117</td>
+   <td align="right" >117</td>
+   <td align="left"  csk="2010-08-15">Sunday, Aug 15</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >KCR</td>
+   <td align=""  colspan=5 >2:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/kansas-city-royals-tickets/royals-vs-yankees-8-15-2010-895644/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$7-$300</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="118">118</td>
+   <td align="right" >118</td>
+   <td align="left"  csk="2010-08-16">Monday, Aug 16</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >DET</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-tigers-8-16-2010-898516/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$11-$2,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="119">119</td>
+   <td align="right" >119</td>
+   <td align="left"  csk="2010-08-17">Tuesday, Aug 17</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >DET</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-tigers-8-17-2010-898517/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$9-$9,168</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="120">120</td>
+   <td align="right" >120</td>
+   <td align="left"  csk="2010-08-18">Wednesday, Aug 18</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >DET</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-tigers-8-18-2010-898518/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$10-$9,168</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="121">121</td>
+   <td align="right" >121</td>
+   <td align="left"  csk="2010-08-19">Thursday, Aug 19</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >DET</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-tigers-8-19-2010-898519/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$13-$9,168</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="122">122</td>
+   <td align="right" >122</td>
+   <td align="left"  csk="2010-08-20">Friday, Aug 20</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >SEA</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-mariners-8-20-2010-898445/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$15-$1,069</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="123">123</td>
+   <td align="right" >123</td>
+   <td align="left"  csk="2010-08-21">Saturday, Aug 21</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >SEA</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-mariners-8-21-2010-898520/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$15-$10,001</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="124">124</td>
+   <td align="right" >124</td>
+   <td align="left"  csk="2010-08-22">Sunday, Aug 22</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >SEA</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-mariners-8-22-2010-898444/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$17-$10,001</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="125">125</td>
+   <td align="right" >125</td>
+   <td align="left"  csk="2010-08-23">Monday, Aug 23</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >7:07 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/toronto-blue-jays-tickets/blue-jays-vs-yankees-8-23-2010-894745/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$14-$230</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="126">126</td>
+   <td align="right" >126</td>
+   <td align="left"  csk="2010-08-24">Tuesday, Aug 24</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >7:07 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/toronto-blue-jays-tickets/blue-jays-vs-yankees-8-24-2010-894584/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$12-$591</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="127">127</td>
+   <td align="right" >127</td>
+   <td align="left"  csk="2010-08-25">Wednesday, Aug 25</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >7:07 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/toronto-blue-jays-tickets/blue-jays-vs-yankees-8-25-2010-894746/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$13-$591</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="128">128</td>
+   <td align="right" >128</td>
+   <td align="left"  csk="2010-08-27">Friday, Aug 27</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >CHW</td>
+   <td align=""  colspan=5 >8:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/chicago-white-sox-tickets/white-sox-vs-yankees-8-27-2010-894195/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$41-$3,471</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="129">129</td>
+   <td align="right" >129</td>
+   <td align="left"  csk="2010-08-28">Saturday, Aug 28</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >CHW</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/chicago-white-sox-tickets/white-sox-vs-yankees-8-28-2010-894196/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$29-$3,471</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="130">130</td>
+   <td align="right" >130</td>
+   <td align="left"  csk="2010-08-29">Sunday, Aug 29</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >CHW</td>
+   <td align=""  colspan=5 >2:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/chicago-white-sox-tickets/white-sox-vs-yankees-8-29-2010-894197/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$34-$1,180</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="131">131</td>
+   <td align="right" >131</td>
+   <td align="left"  csk="2010-08-30">Monday, Aug 30</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >OAK</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-athletics-8-30-2010-898521/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$8-$8,668</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="132">132</td>
+   <td align="right" >132</td>
+   <td align="left"  csk="2010-08-31">Tuesday, Aug 31</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >OAK</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-athletics-8-31-2010-898522/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$7-$9,999</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="133">133</td>
+   <td align="right" >133</td>
+   <td align="left"  csk="2010-09-01">Wednesday, Sep 1</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >OAK</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-athletics-9-1-2010-898446/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$6-$8,890</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="134">134</td>
+   <td align="right" >134</td>
+   <td align="left"  csk="2010-09-02">Thursday, Sep 2</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >OAK</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-athletics-9-2-2010-898523/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$5-$9,999</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="135">135</td>
+   <td align="right" >135</td>
+   <td align="left"  csk="2010-09-03">Friday, Sep 3</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-blue-jays-9-3-2010-898447/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$7-$9,112</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="136">136</td>
+   <td align="right" >136</td>
+   <td align="left"  csk="2010-09-04">Saturday, Sep 4</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-blue-jays-9-4-2010-898448/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$12-$9,999</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="137">137</td>
+   <td align="right" >137</td>
+   <td align="left"  csk="2010-09-05">Sunday, Sep 5</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >3:33 am</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-blue-jays-9-5-2010-898524/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$9-$9,390</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="138">138</td>
+   <td align="right" >138</td>
+   <td align="left"  csk="2010-09-06">Monday, Sep 6</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BAL</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-orioles-9-6-2010-898525/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$7-$9,999</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="139">139</td>
+   <td align="right" >139</td>
+   <td align="left"  csk="2010-09-07">Tuesday, Sep 7</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BAL</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-orioles-9-7-2010-898449/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$6-$1,399</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="140">140</td>
+   <td align="right" >140</td>
+   <td align="left"  csk="2010-09-08">Wednesday, Sep 8</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BAL</td>
+   <td align=""  colspan=5 >1:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-orioles-9-8-2010-898526/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$5-$10,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="141">141</td>
+   <td align="right" >141</td>
+   <td align="left"  csk="2010-09-10">Friday, Sep 10</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TEX</td>
+   <td align=""  colspan=5 >8:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/texas-rangers-tickets/rangers-vs-yankees-9-10-2010-894651/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$11-$1,200</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="142">142</td>
+   <td align="right" >142</td>
+   <td align="left"  csk="2010-09-11">Saturday, Sep 11</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TEX</td>
+   <td align=""  colspan=5 >8:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/texas-rangers-tickets/rangers-vs-yankees-9-11-2010-894652/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$8-$1,200</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="143">143</td>
+   <td align="right" >143</td>
+   <td align="left"  csk="2010-09-12">Sunday, Sep 12</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TEX</td>
+   <td align=""  colspan=5 >3:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/texas-rangers-tickets/rangers-vs-yankees-9-12-2010-894653/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$7-$1,200</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="144">144</td>
+   <td align="right" >144</td>
+   <td align="left"  csk="2010-09-13">Monday, Sep 13</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TBR</td>
+   <td align=""  colspan=5 >7:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/tampa-bay-rays-tickets/rays-vs-yankees-9-13-2010-894027/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$9-$12,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="145">145</td>
+   <td align="right" >145</td>
+   <td align="left"  csk="2010-09-14">Tuesday, Sep 14</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TBR</td>
+   <td align=""  colspan=5 >7:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/tampa-bay-rays-tickets/rays-vs-yankees-9-14-2010-894028/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$10-$12,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="146">146</td>
+   <td align="right" >146</td>
+   <td align="left"  csk="2010-09-15">Wednesday, Sep 15</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TBR</td>
+   <td align=""  colspan=5 >7:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/tampa-bay-rays-tickets/rays-vs-yankees-9-15-2010-894029/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$15-$12,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="147">147</td>
+   <td align="right" >147</td>
+   <td align="left"  csk="2010-09-17">Friday, Sep 17</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >BAL</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/baltimore-orioles-tickets/orioles-vs-yankees-9-17-2010-893467/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$20-$700</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="148">148</td>
+   <td align="right" >148</td>
+   <td align="left"  csk="2010-09-18">Saturday, Sep 18</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >BAL</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/baltimore-orioles-tickets/orioles-vs-yankees-9-18-2010-893469/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$16-$700</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="149">149</td>
+   <td align="right" >149</td>
+   <td align="left"  csk="2010-09-19">Sunday, Sep 19</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >BAL</td>
+   <td align=""  colspan=5 >1:35 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/baltimore-orioles-tickets/orioles-vs-yankees-9-19-2010-893470/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$19-$700</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class=" thead">
+  <th align="center"  class="tooltip ranker sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Rank</strong><br>This is a count of the rows from top to bottom.<br>It is recalculated following the sorting of a column.')">Rk</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Game Number</strong><br>Which game out of all played by this team.')">Gm#</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('A number in parentheses indicates which game of a doubleheader.<br>Click dates for box scores of games or standings on this day.')">Date</th>
+  <th align="center"  class="tooltip sort_default_asc" ></th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Home or Away Game</strong><br>@ means it is an away game, blank means home.')">&nbsp;</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Opp</th>
+  <th align="CENTER"  colspan=5  class="tooltip" ></th>
+  <th align="CENTER"  colspan=8  class="tooltip" ></th>
+</tr>
+
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="150">150</td>
+   <td align="right" >150</td>
+   <td align="left"  csk="2010-09-20">Monday, Sep 20</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TBR</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-rays-9-20-2010-898429/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$7-$2,499</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="151">151</td>
+   <td align="right" >151</td>
+   <td align="left"  csk="2010-09-21">Tuesday, Sep 21</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TBR</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-rays-9-21-2010-898430/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$9-$9,999</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="152">152</td>
+   <td align="right" >152</td>
+   <td align="left"  csk="2010-09-22">Wednesday, Sep 22</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TBR</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-rays-9-22-2010-898431/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$7-$1,438</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="153">153</td>
+   <td align="right" >153</td>
+   <td align="left"  csk="2010-09-23">Thursday, Sep 23</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >TBR</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-rays-9-23-2010-898432/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$8-$9,999</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="154">154</td>
+   <td align="right" >154</td>
+   <td align="left"  csk="2010-09-24">Friday, Sep 24</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >7:05 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-red-sox-9-24-2010-898505/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$24-$15,279</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="155">155</td>
+   <td align="right" >155</td>
+   <td align="left"  csk="2010-09-25">Saturday, Sep 25</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >3:33 am</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-red-sox-9-25-2010-898506/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$24-$15,557</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="156">156</td>
+   <td align="right" >156</td>
+   <td align="left"  csk="2010-09-26">Sunday, Sep 26</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" ></td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >3:33 am</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/new-york-yankees-tickets/yankees-vs-red-sox-9-26-2010-898433/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$24-$15,502</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="157">157</td>
+   <td align="right" >157</td>
+   <td align="left"  csk="2010-09-27">Monday, Sep 27</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >7:07 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/toronto-blue-jays-tickets/blue-jays-vs-yankees-9-27-2010-894748/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$22-$399</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="158">158</td>
+   <td align="right" >158</td>
+   <td align="left"  csk="2010-09-28">Tuesday, Sep 28</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >7:07 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/toronto-blue-jays-tickets/blue-jays-vs-yankees-9-28-2010-894585/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$8-$248</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="159">159</td>
+   <td align="right" >159</td>
+   <td align="left"  csk="2010-09-29">Wednesday, Sep 29</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >TOR</td>
+   <td align=""  colspan=5 >7:07 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/toronto-blue-jays-tickets/blue-jays-vs-yankees-9-29-2010-894747/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$12-$425</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="160">160</td>
+   <td align="right" >160</td>
+   <td align="left"  csk="2010-10-01">Friday, Oct 1</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >7:10 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/boston-red-sox-tickets/red-sox-vs-yankees-10-1-2010-898742/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$53-$1,941</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="161">161</td>
+   <td align="right" >161</td>
+   <td align="left"  csk="2010-10-02">Saturday, Oct 2</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >3:33 am</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/boston-red-sox-tickets/red-sox-vs-yankees-10-2-2010-898743/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$65-$3,000</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class="">
+   <td align="right"  csk="162">162</td>
+   <td align="right" >162</td>
+   <td align="left"  csk="2010-10-03">Sunday, Oct 3</td>
+   <td align="left" ></td>
+   <td align="left" >NYY</td>
+   <td align="left" >@</td>
+   <td align="left" >BOS</td>
+   <td align=""  colspan=5 >1:35 pm</td>
+   <td align=""  colspan=8 >&nbsp;<a href="http://affsrv.stubhub.com/cc/boston-red-sox-tickets/red-sox-vs-yankees-10-3-2010-898580/0/3720799/10651932">Buy Tickets at Stubhub</a>&nbsp;&nbsp;$69-$1,838</td>
+</tr>
+<tr onmouseover="hl(this);" onmouseout="uhl(this);" class=" thead">
+  <th align="center"  class="tooltip ranker sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Rank</strong><br>This is a count of the rows from top to bottom.<br>It is recalculated following the sorting of a column.')">Rk</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('<strong>Game Number</strong><br>Which game out of all played by this team.')">Gm#</th>
+  <th align="center"  class="tooltip sort_default_asc"  onmouseover="Tip('A number in parentheses indicates which game of a doubleheader.<br>Click dates for box scores of games or standings on this day.')">Date</th>
+  <th align="center"  class="tooltip sort_default_asc" ></th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  onmouseover="Tip('<strong>Home or Away Game</strong><br>@ means it is an away game, blank means home.')">&nbsp;</th>
+  <th align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Opp</th>
+  <th align="CENTER"  colspan=5  class="tooltip" ></th>
+  <th align="CENTER"  colspan=8  class="tooltip" ></th>
+</tr>
+
+</tbody>
+</table>
+</div>
+<div class="get_csv"><span class=tooltip onclick="table2csv('team_schedule');">CSV</span></div><P><i>Rank and Games Behind are at the end of all games played on that date.</I>
+<br><p><a href="/teams/NYY/2009-schedule-scores.shtml">2009</a>&nbsp;Schedule, Box Scores and Splits</p>
+<div class="small_text">
+<p><a href="/compare.cgi?top=/teams/NYY/2010.shtml">Compare</a> &nbsp; &nbsp;
+<A HREF="http://www.google.com/custom?q=2010+New+York+Yankees&sa=Search&client=pub-5319453360923253&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&hl=en&cof=">Other&nbsp;Links@google.com</A>
+&nbsp;&nbsp;<a href="/feedback/index.cgi?url=Error+with+2010+NYY">Report an error</A>
+</div>
+</div>
+
+<p>
+<div id="site_footer">
+<div id="sr_footer" class="bold_text">
+  Copyright &copy; 2000-2010
+<a href="http://www.sports-reference.com">Sports Reference LLC</a>.
+All rights reserved.
+
+<form class="inline" method="get" name="f_footer" action="/pl/player_search.cgi" style="margin-left:5em;">
+<input type="text" id="search" name="search" class="search"> 
+<input type="submit" value="Search" class="submit">
+<a href="/about/findstuff.shtml">Tips</a>
+</form>
+<p><a href="/linker/">Automatic Player Linking</a> / <a href="/about/sharing.shtml">Statistical Sharing Tool</a> / <a href="/friv/link_players.cgi">Basic Player Linking</a> / <a href="/about/coverage.shtml">Data Coverage</a>
+</div>
+
+<!-- LAST UPDATE --><p><a href="/">See Front Page</a> for time of last update</p>
+  
+<div class="blockquote italic_text" style="clear:both;">
+
+Much of the play-by-play, game results, and transaction information
+both shown and used to create certain data sets was obtained free of
+charge from and is copyrighted by <a
+href="http://www.retrosheet.org/">RetroSheet</a>.  </div>
+
+<p><div class="blockquote italic_text" style="clear:both;">
+ Win
+Expectancy, Run Expectancy, and Leverage Index calculations provided by Tom Tango of <a
+href="http://www.insidethebook.com/">InsideTheBook.com</a>, and
+co-author of <a class="italic_text"
+href="http://www.amazon.com/exec/obidos/tg/detail/-/1597971294/">The
+Book: Playing the Percentages in Baseball</a>.</div>
+
+<p><div class="blockquote italic_text" style="clear:both;"> <a href="/blog/archives/5756">Total Zone Rating</a> and <a href="/blog/archives/6063">Wins above Replacement</a> calculations provided by Sean Smith of <a
+href="http://www.baseballprojection.com/">BaseballProjection.com</a>.</div>
+
+<p><div class="blockquote italic_text" style="clear:both;">Some defensive statistics Copyright BIS, 2010 <a
+href="http://www.baseballinfosolutions.com/"><img alt="Baseball Info Solutions" src="http://d2ft4b0ve1aur1.cloudfront.net/images-001/bis_logo.gif" width=100 height=38></a>.</div>
+
+<p><div class="blockquote italic_text" style="clear:both;">Player head shots courtesy of David Davis.  Many thanks to him.  We have only selected seasons (players who debuted before 1960) for which we believe the image has reverted into the public domain.  We will quickly remove any images for which that can be shown to not be the case.<a href="/feedback/">Please let us know if you are aware of any such images</a> on this site.</div></p>
+
+
+  <p>
+<a href="http://www.sports-reference.com/">A Sports Reference Site</a>:
+<a href="/about/">About Baseball Reference</a>&nbsp;|
+<a href="/feedback/">Found a bug or have a suggestion?</a><br>
+<a href="http://www.sports-reference.com/privacy.shtml">Privacy Statement</a>&nbsp;|
+<a href="http://www.sports-reference.com/termsofuse.shtml">Conditions &amp; Terms of Service</a> | 
+<a href="http://www.sports-reference.com/data_use.shtml">Use of Data</a>
+</p>
+
+<p>
+Partner With: <a href="http://www.fantasyplayers.com">FantasyPlayers.com</a>.
+Contact <a href="http://www.fantasysportsventures.com">Fantasy Sports
+Ventures</a> for advertising information.
+</p>
+
+
+
+
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+   var pageTracker = _gat._createTracker("UA-1890630-1");
+   pageTracker._trackPageview();
+
+   var sr_tracker = _gat._createTracker("UA-1890630-9");
+   sr_tracker._setDomainName('none'); 
+   sr_tracker._setAllowLinker(true); 
+   sr_tracker._setAllowHash(false);
+   sr_tracker._setCustomVar(1,"site","br",3);
+   sr_tracker._trackPageview();
+} catch(err) {}</script>
+ 
+
+
+
+<script type="text/javascript">
+<!--
+  function addPrintFooter() {
+	 var p = document.createElement('p');
+	 p.className = 'print_only clearboth';
+         // p.setAttribute('style','display:none');
+         p.innerHTML = '<strong>URL:</strong> '+window.location.href;
+	 document.body.appendChild(p);
+}
+if(Event && Event.observe) {Event.observe(window, 'load', addPrintFooter );}
+// -->
+</script>
+</div>
+
+<div align="left" style="text-align: left; position:absolute;" id="tooltip"></div><img src="http://d2ft4b0ve1aur1.cloudfront.net/images-001/loadingAnimation.gif" width=1 height=1>
+
+                             
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+  COMSCORE.beacon({
+    c1:2,
+    c2:"6035210",
+    c3:"",
+    c4:"www.baseball-reference.com",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=6035210&c3=&c4=www.baseball-reference.com&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script type="text/javascript">
+if (document.getElementById('fb-root')) {
+  window.fbAsyncInit = function() {
+    FB.init({appId: '134091689945665', status: true, cookie: true, xfbml: true});
+  };
+  (function() {
+           var e = document.createElement('script'); e.async = true;
+           e.src = document.location.protocol +
+           '//connect.facebook.net/en_US/all.js';
+           document.getElementById('fb-root').appendChild(e);
+  }());
+}
+</script>
+
+
+
+ </div><!-- Page container -->
+</body>
+</html>

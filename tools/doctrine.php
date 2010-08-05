@@ -34,6 +34,9 @@ $cli->addCommands(array(
     new \BBM\Tools\Console\Command\LoadTeams(),
     new \BBM\Tools\Console\Command\LoadBallParks(),
     new \BBM\Tools\Console\Command\LoadGames(),
+    new \BBM\Tools\Console\Command\LoadPeople(),
+    new \BBM\Tools\Console\Command\RunAll(),
+    new \BBM\Tools\Console\Command\ReloadAll(),
 
 ));
 $cli->run();

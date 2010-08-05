@@ -6,55 +6,55 @@ use BBM\Game,
     BBM\Pitcher;
 
 /**
- * @Entity
- * @Table(name="pitcher_stats")
+ * @xEntity
+ * @xTable(name="pitcher_stats")
  */
 class PitcherStats
 {
     /**
-     * @Id 
-     * @Column(type="integer") 
-     * @GeneratedValue(strategy="SEQUENCE")
-     * @SequenceGenerator(sequenceName="pitcher_stat_seq", initialValue=1)
+     * @xId 
+     * @xColumn(type="integer") 
+     * @xGeneratedValue(strategy="SEQUENCE")
+     * @xSequenceGenerator(sequenceName="pitcher_stat_seq", initialValue=1)
      */
     private $statistic_id;
 
     /**
-     * @ManyToOne(targetEntity="BBM\Game", inversedBy="pitcherStats")
-     * @JoinColumn(name="game_id", referencedColumnName="game_id")
+     * @xManyToOne(targetEntity="BBM\Game", inversedBy="pitcherStats")
+     * @xJoinColumn(name="game_id", referencedColumnName="game_id")
      * @var BBM\Game
      */
     private $game;
 
     /**
-     * @ManyToOne(targetEntity="BBM\Pitcher", inversedBy="pitcherStats")
-     * @JoinColumn(name="pitcher_id", referencedColumnName="pitcher_id")
+     * @xManyToOne(targetEntity="BBM\Pitcher", inversedBy="pitcherStats")
+     * @xJoinColumn(name="pitcher_id", referencedColumnName="pitcher_id")
      * @var BBM\Pitcher
      */
     private $pitcher;
 
     /**
-     * @column(type="integer")
+     * @xcolumn(type="integer")
      */
     private $earned_runs;
 
     /**
-     * @column(type="integer")
+     * @xcolumn(type="integer")
      */
     private $walks;
 
     /**
-     * @column(type="integer")
+     * @xcolumn(type="integer")
      */
     private $hits;
 
     /**
-     * @column(type="decimal")
+     * @xcolumn(type="decimal")
      */
     private $innings_pitched;
 
     /**
-     * @column(type="integer")
+     * @xcolumn(type="integer")
      */
     private $pitches;
 }

@@ -6,19 +6,18 @@ use BBM\Player,
     BBM\Statistics\PitcherStats;
 
 /**
- * @Entity
- * @Table(name="pitchers")
+ * @xTable(name="pitchers")
  */
 class Pitcher extends Player
 {
     /**
-     * @Id
-     * @Column(type="integer")
+     * @xId
+     * @xColumn(type="integer")
      */
     private $pitcher_id;
 
     /**
-     * @OneToMany(targetEntity="BBM\Statistics\PitcherStats", mappedBy="pitcher")
+     * @xOneToMany(targetEntity="BBM\Statistics\PitcherStats", mappedBy="pitcher")
      */
     private $pitcherStats;
 

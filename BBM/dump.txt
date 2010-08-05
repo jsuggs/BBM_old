@@ -1,0 +1,2775 @@
+object(BBM\Tools\Console\Command\RunAll)#127 (11) {
+  ["name":protected]=>
+  string(8) "load-all"
+  ["namespace":protected]=>
+  string(3) "bbm"
+  ["aliases":protected]=>
+  array(0) {
+  }
+  ["definition":protected]=>
+  object(Symfony\Components\Console\Input\InputDefinition)#128 (6) {
+    ["arguments":protected]=>
+    array(1) {
+      ["command"]=>
+      object(Symfony\Components\Console\Input\InputArgument)#39 (4) {
+        ["name":protected]=>
+        string(7) "command"
+        ["mode":protected]=>
+        int(1)
+        ["default":protected]=>
+        NULL
+        ["description":protected]=>
+        string(22) "The command to execute"
+      }
+    }
+    ["requiredCount":protected]=>
+    int(1)
+    ["hasAnArrayArgument":protected]=>
+    bool(false)
+    ["hasOptional":protected]=>
+    bool(false)
+    ["options":protected]=>
+    array(6) {
+      ["help"]=>
+      object(Symfony\Components\Console\Input\InputOption)#40 (5) {
+        ["name":protected]=>
+        string(4) "help"
+        ["shortcut":protected]=>
+        string(1) "h"
+        ["mode":protected]=>
+        int(1)
+        ["default":protected]=>
+        bool(false)
+        ["description":protected]=>
+        string(26) "Display this help message."
+      }
+      ["quiet"]=>
+      object(Symfony\Components\Console\Input\InputOption)#41 (5) {
+        ["name":protected]=>
+        string(5) "quiet"
+        ["shortcut":protected]=>
+        string(1) "q"
+        ["mode":protected]=>
+        int(1)
+        ["default":protected]=>
+        bool(false)
+        ["description":protected]=>
+        string(26) "Do not output any message."
+      }
+      ["verbose"]=>
+      object(Symfony\Components\Console\Input\InputOption)#42 (5) {
+        ["name":protected]=>
+        string(7) "verbose"
+        ["shortcut":protected]=>
+        string(1) "v"
+        ["mode":protected]=>
+        int(1)
+        ["default":protected]=>
+        bool(false)
+        ["description":protected]=>
+        string(31) "Increase verbosity of messages."
+      }
+      ["version"]=>
+      object(Symfony\Components\Console\Input\InputOption)#43 (5) {
+        ["name":protected]=>
+        string(7) "version"
+        ["shortcut":protected]=>
+        string(1) "V"
+        ["mode":protected]=>
+        int(1)
+        ["default":protected]=>
+        bool(false)
+        ["description":protected]=>
+        string(29) "Display this program version."
+      }
+      ["color"]=>
+      object(Symfony\Components\Console\Input\InputOption)#44 (5) {
+        ["name":protected]=>
+        string(5) "color"
+        ["shortcut":protected]=>
+        string(1) "c"
+        ["mode":protected]=>
+        int(1)
+        ["default":protected]=>
+        bool(false)
+        ["description":protected]=>
+        string(24) "Force ANSI color output."
+      }
+      ["no-interaction"]=>
+      object(Symfony\Components\Console\Input\InputOption)#45 (5) {
+        ["name":protected]=>
+        string(14) "no-interaction"
+        ["shortcut":protected]=>
+        string(1) "n"
+        ["mode":protected]=>
+        int(1)
+        ["default":protected]=>
+        bool(false)
+        ["description":protected]=>
+        string(36) "Do not ask any interactive question."
+      }
+    }
+    ["shortcuts":protected]=>
+    array(6) {
+      ["h"]=>
+      string(4) "help"
+      ["q"]=>
+      string(5) "quiet"
+      ["v"]=>
+      string(7) "verbose"
+      ["V"]=>
+      string(7) "version"
+      ["c"]=>
+      string(5) "color"
+      ["n"]=>
+      string(14) "no-interaction"
+    }
+  }
+  ["help":protected]=>
+  string(13) "Load all data"
+  ["application":protected]=>
+  object(Symfony\Components\Console\Application)#26 (11) {
+    ["commands":protected]=>
+    array(23) {
+      ["help"]=>
+      object(Symfony\Components\Console\Command\HelpCommand)#30 (12) {
+        ["command":protected]=>
+        NULL
+        ["name":protected]=>
+        string(4) "help"
+        ["namespace":protected]=>
+        NULL
+        ["aliases":protected]=>
+        array(1) {
+          [0]=>
+          string(1) "?"
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#31 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["command_name"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#32 (4) {
+              ["name":protected]=>
+              string(12) "command_name"
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              string(4) "help"
+              ["description":protected]=>
+              string(16) "The command name"
+            }
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(true)
+          ["options":protected]=>
+          array(1) {
+            ["xml"]=>
+            object(Symfony\Components\Console\Input\InputOption)#33 (5) {
+              ["name":protected]=>
+              string(3) "xml"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(21) "To output help as XML"
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(233) "The <info>help</info> command displays help for a given command:
+
+  <info>./symfony help test:all</info>
+
+You can also output the help as XML by using the <comment>--xml</comment> option:
+
+  <info>./symfony help --xml test:all</info>"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(27) "Displays help for a command"
+        ["ignoreValidationErrors":protected]=>
+        bool(true)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["list"]=>
+      object(Symfony\Components\Console\Command\ListCommand)#34 (11) {
+        ["name":protected]=>
+        string(4) "list"
+        ["namespace":protected]=>
+        NULL
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#35 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["namespace"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#36 (4) {
+              ["name":protected]=>
+              string(9) "namespace"
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(18) "The namespace name"
+            }
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(true)
+          ["options":protected]=>
+          array(1) {
+            ["xml"]=>
+            object(Symfony\Components\Console\Input\InputOption)#37 (5) {
+              ["name":protected]=>
+              string(3) "xml"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(21) "To output help as XML"
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(304) "The <info>list</info> command lists all commands:
+
+  <info>./symfony list</info>
+
+You can also display the commands for a specific namespace:
+
+  <info>./symfony list test</info>
+
+You can also output the information as XML by using the <comment>--xml</comment> option:
+
+  <info>./symfony list --xml</info>"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(14) "Lists commands"
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["dbal:run-sql"]=>
+      object(Doctrine\DBAL\Tools\Console\Command\RunSqlCommand)#46 (11) {
+        ["name":protected]=>
+        string(7) "run-sql"
+        ["namespace":protected]=>
+        string(4) "dbal"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#47 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["sql"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#48 (4) {
+              ["name":protected]=>
+              string(3) "sql"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(29) "The SQL statement to execute."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(1)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(1) {
+            ["depth"]=>
+            object(Symfony\Components\Console\Input\InputOption)#49 (5) {
+              ["name":protected]=>
+              string(5) "depth"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              int(7)
+              ["description":protected]=>
+              string(28) "Dumping depth of result set."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(54) "Executes arbitrary SQL directly from the command line."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(54) "Executes arbitrary SQL directly from the command line."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["dbal:import"]=>
+      object(Doctrine\DBAL\Tools\Console\Command\ImportCommand)#50 (11) {
+        ["name":protected]=>
+        string(6) "import"
+        ["namespace":protected]=>
+        string(4) "dbal"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#51 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["file"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#52 (4) {
+              ["name":protected]=>
+              string(4) "file"
+              ["mode":protected]=>
+              int(5)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(35) "File path(s) of SQL to be executed."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(1)
+          ["hasAnArrayArgument":protected]=>
+          bool(true)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(40) "Import SQL file(s) directly to Database."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(40) "Import SQL file(s) directly to Database."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:clear-cache:metadata"]=>
+      object(Doctrine\ORM\Tools\Console\Command\ClearCache\MetadataCommand)#53 (11) {
+        ["name":protected]=>
+        string(8) "metadata"
+        ["namespace":protected]=>
+        string(15) "orm:clear-cache"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#54 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(54) "Clear all metadata cache of the various cache drivers."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(54) "Clear all metadata cache of the various cache drivers."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:clear-cache:result"]=>
+      object(Doctrine\ORM\Tools\Console\Command\ClearCache\ResultCommand)#55 (11) {
+        ["name":protected]=>
+        string(6) "result"
+        ["namespace":protected]=>
+        string(15) "orm:clear-cache"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#56 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(4) {
+            ["id"]=>
+            object(Symfony\Components\Console\Input\InputOption)#57 (5) {
+              ["name":protected]=>
+              string(2) "id"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(57) "ID(s) of the cache entry to delete (accepts * wildcards)."
+            }
+            ["regex"]=>
+            object(Symfony\Components\Console\Input\InputOption)#58 (5) {
+              ["name":protected]=>
+              string(5) "regex"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(64) "Delete cache entries that match the given regular expression(s)."
+            }
+            ["prefix"]=>
+            object(Symfony\Components\Console\Input\InputOption)#59 (5) {
+              ["name":protected]=>
+              string(6) "prefix"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(52) "Delete cache entries that have the given prefix(es)."
+            }
+            ["suffix"]=>
+            object(Symfony\Components\Console\Input\InputOption)#60 (5) {
+              ["name":protected]=>
+              string(6) "suffix"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(52) "Delete cache entries that have the given suffix(es)."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(119) "Clear result cache of the various cache drivers.
+If none of the options are defined, all cache entries will be removed."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(48) "Clear result cache of the various cache drivers."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:clear-cache:query"]=>
+      object(Doctrine\ORM\Tools\Console\Command\ClearCache\QueryCommand)#61 (11) {
+        ["name":protected]=>
+        string(5) "query"
+        ["namespace":protected]=>
+        string(15) "orm:clear-cache"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#62 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(51) "Clear all query cache of the various cache drivers."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(51) "Clear all query cache of the various cache drivers."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:schema-tool:create"]=>
+      object(Doctrine\ORM\Tools\Console\Command\SchemaTool\CreateCommand)#63 (11) {
+        ["name":protected]=>
+        string(6) "create"
+        ["namespace":protected]=>
+        string(15) "orm:schema-tool"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#64 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(1) {
+            ["dump-sql"]=>
+            object(Symfony\Components\Console\Input\InputOption)#65 (5) {
+              ["name":protected]=>
+              string(8) "dump-sql"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(90) "Instead of try to apply generated SQLs into EntityManager Storage Connection, output them."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(114) "Processes the schema and either create it directly on EntityManager Storage Connection or generate the SQL output."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(114) "Processes the schema and either create it directly on EntityManager Storage Connection or generate the SQL output."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:schema-tool:update"]=>
+      object(Doctrine\ORM\Tools\Console\Command\SchemaTool\UpdateCommand)#66 (11) {
+        ["name":protected]=>
+        string(6) "update"
+        ["namespace":protected]=>
+        string(15) "orm:schema-tool"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#67 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(2) {
+            ["complete"]=>
+            object(Symfony\Components\Console\Input\InputOption)#68 (5) {
+              ["name":protected]=>
+              string(8) "complete"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(102) "If defined, all assets of the database which are not relevant to the current metadata will be dropped."
+            }
+            ["dump-sql"]=>
+            object(Symfony\Components\Console\Input\InputOption)#69 (5) {
+              ["name":protected]=>
+              string(8) "dump-sql"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(90) "Instead of try to apply generated SQLs into EntityManager Storage Connection, output them."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(375) "Processes the schema and either update the database schema of EntityManager Storage Connection or generate the SQL output.
+Beware that if --complete is not defined, it will do a save update, which does not delete any tables, sequences or affected foreign keys.
+If defined, all assets of the database which are not relevant to the current metadata are dropped by this command."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(122) "Processes the schema and either update the database schema of EntityManager Storage Connection or generate the SQL output."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:schema-tool:drop"]=>
+      object(Doctrine\ORM\Tools\Console\Command\SchemaTool\DropCommand)#70 (11) {
+        ["name":protected]=>
+        string(4) "drop"
+        ["namespace":protected]=>
+        string(15) "orm:schema-tool"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#71 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(1) {
+            ["dump-sql"]=>
+            object(Symfony\Components\Console\Input\InputOption)#72 (5) {
+              ["name":protected]=>
+              string(8) "dump-sql"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(90) "Instead of try to apply generated SQLs into EntityManager Storage Connection, output them."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(240) "Processes the schema and either drop the database schema of EntityManager Storage Connection or generate the SQL output.
+Beware that the complete database is dropped by this command, even tables that are not relevant to your metadata model."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(120) "Processes the schema and either drop the database schema of EntityManager Storage Connection or generate the SQL output."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:ensure-production-settings"]=>
+      object(Doctrine\ORM\Tools\Console\Command\EnsureProductionSettingsCommand)#73 (11) {
+        ["name":protected]=>
+        string(26) "ensure-production-settings"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#74 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(1) {
+            ["complete"]=>
+            object(Symfony\Components\Console\Input\InputOption)#75 (5) {
+              ["name":protected]=>
+              string(8) "complete"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(51) "Flag to also inspect database connection existance."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(73) "Verify that Doctrine is properly configured for a production environment."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(73) "Verify that Doctrine is properly configured for a production environment."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:convert-d1-schema"]=>
+      object(Doctrine\ORM\Tools\Console\Command\ConvertDoctrine1SchemaCommand)#76 (13) {
+        ["entityGenerator":"Doctrine\ORM\Tools\Console\Command\ConvertDoctrine1SchemaCommand":private]=>
+        NULL
+        ["metadataExporter":"Doctrine\ORM\Tools\Console\Command\ConvertDoctrine1SchemaCommand":private]=>
+        NULL
+        ["name":protected]=>
+        string(17) "convert-d1-schema"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#77 (6) {
+          ["arguments":protected]=>
+          array(3) {
+            ["from-path"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#78 (4) {
+              ["name":protected]=>
+              string(9) "from-path"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(44) "The path of Doctrine 1.X schema information."
+            }
+            ["to-type"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#79 (4) {
+              ["name":protected]=>
+              string(7) "to-type"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(42) "The destination Doctrine 2.X mapping type."
+            }
+            ["dest-path"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#80 (4) {
+              ["name":protected]=>
+              string(9) "dest-path"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(59) "The path to generate your Doctrine 2.X mapping information."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(3)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(3) {
+            ["from"]=>
+            object(Symfony\Components\Console\Input\InputOption)#81 (5) {
+              ["name":protected]=>
+              string(4) "from"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(50) "Optional paths of Doctrine 1.X schema information."
+            }
+            ["extend"]=>
+            object(Symfony\Components\Console\Input\InputOption)#82 (5) {
+              ["name":protected]=>
+              string(6) "extend"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(64) "Defines a base class to be extended by generated entity classes."
+            }
+            ["num-spaces"]=>
+            object(Symfony\Components\Console\Input\InputOption)#83 (5) {
+              ["name":protected]=>
+              string(10) "num-spaces"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              int(4)
+              ["description":protected]=>
+              string(40) "Defines the number of indentation spaces"
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(56) "Converts Doctrine 1.X schema into a Doctrine 2.X schema."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(56) "Converts Doctrine 1.X schema into a Doctrine 2.X schema."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:generate-repositories"]=>
+      object(Doctrine\ORM\Tools\Console\Command\GenerateRepositoriesCommand)#84 (11) {
+        ["name":protected]=>
+        string(21) "generate-repositories"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#85 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["dest-path"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#87 (4) {
+              ["name":protected]=>
+              string(9) "dest-path"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(45) "The path to generate your repository classes."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(1)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(1) {
+            ["filter"]=>
+            object(Symfony\Components\Console\Input\InputOption)#86 (5) {
+              ["name":protected]=>
+              string(6) "filter"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(65) "A string pattern used to match entities that should be processed."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(58) "Generate repository classes from your mapping information."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(58) "Generate repository classes from your mapping information."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:generate-entities"]=>
+      object(Doctrine\ORM\Tools\Console\Command\GenerateEntitiesCommand)#88 (11) {
+        ["name":protected]=>
+        string(17) "generate-entities"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#89 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["dest-path"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#91 (4) {
+              ["name":protected]=>
+              string(9) "dest-path"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(41) "The path to generate your entity classes."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(1)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(7) {
+            ["filter"]=>
+            object(Symfony\Components\Console\Input\InputOption)#90 (5) {
+              ["name":protected]=>
+              string(6) "filter"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(65) "A string pattern used to match entities that should be processed."
+            }
+            ["generate-annotations"]=>
+            object(Symfony\Components\Console\Input\InputOption)#92 (5) {
+              ["name":protected]=>
+              string(20) "generate-annotations"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(76) "Flag to define if generator should generate annotation metadata on entities."
+            }
+            ["generate-methods"]=>
+            object(Symfony\Components\Console\Input\InputOption)#93 (5) {
+              ["name":protected]=>
+              string(16) "generate-methods"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              bool(true)
+              ["description":protected]=>
+              string(69) "Flag to define if generator should generate stub methods on entities."
+            }
+            ["regenerate-entities"]=>
+            object(Symfony\Components\Console\Input\InputOption)#94 (5) {
+              ["name":protected]=>
+              string(19) "regenerate-entities"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(66) "Flag to define if generator should regenerate entity if it exists."
+            }
+            ["update-entities"]=>
+            object(Symfony\Components\Console\Input\InputOption)#95 (5) {
+              ["name":protected]=>
+              string(15) "update-entities"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              bool(true)
+              ["description":protected]=>
+              string(67) "Flag to define if generator should only update entity if it exists."
+            }
+            ["extend"]=>
+            object(Symfony\Components\Console\Input\InputOption)#96 (5) {
+              ["name":protected]=>
+              string(6) "extend"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(64) "Defines a base class to be extended by generated entity classes."
+            }
+            ["num-spaces"]=>
+            object(Symfony\Components\Console\Input\InputOption)#97 (5) {
+              ["name":protected]=>
+              string(10) "num-spaces"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              int(4)
+              ["description":protected]=>
+              string(40) "Defines the number of indentation spaces"
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(71) "Generate entity classes and method stubs from your mapping information."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(71) "Generate entity classes and method stubs from your mapping information."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:generate-proxies"]=>
+      object(Doctrine\ORM\Tools\Console\Command\GenerateProxiesCommand)#98 (11) {
+        ["name":protected]=>
+        string(16) "generate-proxies"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#99 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["dest-path"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#101 (4) {
+              ["name":protected]=>
+              string(9) "dest-path"
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(105) "The path to generate your proxy classes. If none is provided, it will attempt to grab from configuration."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(true)
+          ["options":protected]=>
+          array(1) {
+            ["filter"]=>
+            object(Symfony\Components\Console\Input\InputOption)#100 (5) {
+              ["name":protected]=>
+              string(6) "filter"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(65) "A string pattern used to match entities that should be processed."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(43) "Generates proxy classes for entity classes."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(43) "Generates proxy classes for entity classes."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:convert-mapping"]=>
+      object(Doctrine\ORM\Tools\Console\Command\ConvertMappingCommand)#102 (11) {
+        ["name":protected]=>
+        string(15) "convert-mapping"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#103 (6) {
+          ["arguments":protected]=>
+          array(2) {
+            ["to-type"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#105 (4) {
+              ["name":protected]=>
+              string(7) "to-type"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(33) "The mapping type to be converted."
+            }
+            ["dest-path"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#106 (4) {
+              ["name":protected]=>
+              string(9) "dest-path"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(43) "The path to generate your entities classes."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(2)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(4) {
+            ["filter"]=>
+            object(Symfony\Components\Console\Input\InputOption)#104 (5) {
+              ["name":protected]=>
+              string(6) "filter"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(10)
+              ["default":protected]=>
+              array(0) {
+              }
+              ["description":protected]=>
+              string(65) "A string pattern used to match entities that should be processed."
+            }
+            ["from-database"]=>
+            object(Symfony\Components\Console\Input\InputOption)#107 (5) {
+              ["name":protected]=>
+              string(13) "from-database"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(69) "Whether or not to convert mapping information from existing database."
+            }
+            ["extend"]=>
+            object(Symfony\Components\Console\Input\InputOption)#108 (5) {
+              ["name":protected]=>
+              string(6) "extend"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(64) "Defines a base class to be extended by generated entity classes."
+            }
+            ["num-spaces"]=>
+            object(Symfony\Components\Console\Input\InputOption)#109 (5) {
+              ["name":protected]=>
+              string(10) "num-spaces"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(4)
+              ["default":protected]=>
+              int(4)
+              ["description":protected]=>
+              string(40) "Defines the number of indentation spaces"
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(54) "Convert mapping information between supported formats."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(54) "Convert mapping information between supported formats."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:run-dql"]=>
+      object(Doctrine\ORM\Tools\Console\Command\RunDqlCommand)#110 (11) {
+        ["name":protected]=>
+        string(7) "run-dql"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#111 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["dql"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#112 (4) {
+              ["name":protected]=>
+              string(3) "dql"
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(19) "The DQL to execute."
+            }
+          }
+          ["requiredCount":protected]=>
+          int(1)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(4) {
+            ["hydrate"]=>
+            object(Symfony\Components\Console\Input\InputOption)#113 (5) {
+              ["name":protected]=>
+              string(7) "hydrate"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              string(6) "object"
+              ["description":protected]=>
+              string(87) "Hydration mode of result set. Should be either: object, array, scalar or single-scalar."
+            }
+            ["first-result"]=>
+            object(Symfony\Components\Console\Input\InputOption)#114 (5) {
+              ["name":protected]=>
+              string(12) "first-result"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(35) "The first result in the result set."
+            }
+            ["max-result"]=>
+            object(Symfony\Components\Console\Input\InputOption)#115 (5) {
+              ["name":protected]=>
+              string(10) "max-result"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              NULL
+              ["description":protected]=>
+              string(48) "The maximum number of results in the result set."
+            }
+            ["depth"]=>
+            object(Symfony\Components\Console\Input\InputOption)#116 (5) {
+              ["name":protected]=>
+              string(5) "depth"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              int(7)
+              ["description":protected]=>
+              string(30) "Dumping depth of Entity graph."
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(54) "Executes arbitrary DQL directly from the command line."
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(54) "Executes arbitrary DQL directly from the command line."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["orm:validate-schema"]=>
+      object(Doctrine\ORM\Tools\Console\Command\ValidateSchemaCommand)#117 (11) {
+        ["name":protected]=>
+        string(15) "validate-schema"
+        ["namespace":protected]=>
+        string(3) "orm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#118 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(76) "'Validate that the mapping files are correct and in sync with the database.'"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(32) "Validate that the mapping files."
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["bbm:load-teams"]=>
+      object(BBM\Tools\Console\Command\LoadTeams)#119 (11) {
+        ["name":protected]=>
+        string(10) "load-teams"
+        ["namespace":protected]=>
+        string(3) "bbm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#120 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(14) "Load the teams"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(14) "Load the teams"
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["bbm:load-ballparks"]=>
+      object(BBM\Tools\Console\Command\LoadBallParks)#121 (11) {
+        ["name":protected]=>
+        string(14) "load-ballparks"
+        ["namespace":protected]=>
+        string(3) "bbm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#122 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(18) "Load the ballaprks"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(18) "Load the ballparks"
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["bbm:load-games"]=>
+      object(BBM\Tools\Console\Command\LoadGames)#123 (11) {
+        ["name":protected]=>
+        string(10) "load-games"
+        ["namespace":protected]=>
+        string(3) "bbm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#124 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(14) "Load the games"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(14) "Load the games"
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["bbm:load-people"]=>
+      object(BBM\Tools\Console\Command\LoadPeople)#125 (11) {
+        ["name":protected]=>
+        string(11) "load-people"
+        ["namespace":protected]=>
+        string(3) "bbm"
+        ["aliases":protected]=>
+        array(0) {
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#126 (6) {
+          ["arguments":protected]=>
+          array(0) {
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(false)
+          ["options":protected]=>
+          array(0) {
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(37) "Load the players, coaches and umpires"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(37) "Load the players, coaches and umpires"
+        ["ignoreValidationErrors":protected]=>
+        bool(false)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+      ["bbm:load-all"]=>
+      *RECURSION*
+    }
+    ["aliases":protected]=>
+    array(1) {
+      ["?"]=>
+      object(Symfony\Components\Console\Command\HelpCommand)#30 (12) {
+        ["command":protected]=>
+        NULL
+        ["name":protected]=>
+        string(4) "help"
+        ["namespace":protected]=>
+        NULL
+        ["aliases":protected]=>
+        array(1) {
+          [0]=>
+          string(1) "?"
+        }
+        ["definition":protected]=>
+        object(Symfony\Components\Console\Input\InputDefinition)#31 (6) {
+          ["arguments":protected]=>
+          array(1) {
+            ["command_name"]=>
+            object(Symfony\Components\Console\Input\InputArgument)#32 (4) {
+              ["name":protected]=>
+              string(12) "command_name"
+              ["mode":protected]=>
+              int(2)
+              ["default":protected]=>
+              string(4) "help"
+              ["description":protected]=>
+              string(16) "The command name"
+            }
+          }
+          ["requiredCount":protected]=>
+          int(0)
+          ["hasAnArrayArgument":protected]=>
+          bool(false)
+          ["hasOptional":protected]=>
+          bool(true)
+          ["options":protected]=>
+          array(1) {
+            ["xml"]=>
+            object(Symfony\Components\Console\Input\InputOption)#33 (5) {
+              ["name":protected]=>
+              string(3) "xml"
+              ["shortcut":protected]=>
+              NULL
+              ["mode":protected]=>
+              int(1)
+              ["default":protected]=>
+              bool(false)
+              ["description":protected]=>
+              string(21) "To output help as XML"
+            }
+          }
+          ["shortcuts":protected]=>
+          array(0) {
+          }
+        }
+        ["help":protected]=>
+        string(233) "The <info>help</info> command displays help for a given command:
+
+  <info>./symfony help test:all</info>
+
+You can also output the help as XML by using the <comment>--xml</comment> option:
+
+  <info>./symfony help --xml test:all</info>"
+        ["application":protected]=>
+        *RECURSION*
+        ["description":protected]=>
+        string(27) "Displays help for a command"
+        ["ignoreValidationErrors":protected]=>
+        bool(true)
+        ["formatter":protected]=>
+        NULL
+        ["applicationDefinitionMerged":protected]=>
+        bool(false)
+        ["code":protected]=>
+        NULL
+      }
+    }
+    ["application":protected]=>
+    NULL
+    ["wantHelps":protected]=>
+    bool(false)
+    ["runningCommand":protected]=>
+    *RECURSION*
+    ["name":protected]=>
+    string(31) "Doctrine Command Line Interface"
+    ["version":protected]=>
+    string(10) "2.0.0BETA4"
+    ["catchExceptions":protected]=>
+    bool(true)
+    ["autoExit":protected]=>
+    bool(true)
+    ["definition":protected]=>
+    object(Symfony\Components\Console\Input\InputDefinition)#38 (6) {
+      ["arguments":protected]=>
+      array(1) {
+        ["command"]=>
+        object(Symfony\Components\Console\Input\InputArgument)#39 (4) {
+          ["name":protected]=>
+          string(7) "command"
+          ["mode":protected]=>
+          int(1)
+          ["default":protected]=>
+          NULL
+          ["description":protected]=>
+          string(22) "The command to execute"
+        }
+      }
+      ["requiredCount":protected]=>
+      int(1)
+      ["hasAnArrayArgument":protected]=>
+      bool(false)
+      ["hasOptional":protected]=>
+      bool(false)
+      ["options":protected]=>
+      array(6) {
+        ["help"]=>
+        object(Symfony\Components\Console\Input\InputOption)#40 (5) {
+          ["name":protected]=>
+          string(4) "help"
+          ["shortcut":protected]=>
+          string(1) "h"
+          ["mode":protected]=>
+          int(1)
+          ["default":protected]=>
+          bool(false)
+          ["description":protected]=>
+          string(26) "Display this help message."
+        }
+        ["quiet"]=>
+        object(Symfony\Components\Console\Input\InputOption)#41 (5) {
+          ["name":protected]=>
+          string(5) "quiet"
+          ["shortcut":protected]=>
+          string(1) "q"
+          ["mode":protected]=>
+          int(1)
+          ["default":protected]=>
+          bool(false)
+          ["description":protected]=>
+          string(26) "Do not output any message."
+        }
+        ["verbose"]=>
+        object(Symfony\Components\Console\Input\InputOption)#42 (5) {
+          ["name":protected]=>
+          string(7) "verbose"
+          ["shortcut":protected]=>
+          string(1) "v"
+          ["mode":protected]=>
+          int(1)
+          ["default":protected]=>
+          bool(false)
+          ["description":protected]=>
+          string(31) "Increase verbosity of messages."
+        }
+        ["version"]=>
+        object(Symfony\Components\Console\Input\InputOption)#43 (5) {
+          ["name":protected]=>
+          string(7) "version"
+          ["shortcut":protected]=>
+          string(1) "V"
+          ["mode":protected]=>
+          int(1)
+          ["default":protected]=>
+          bool(false)
+          ["description":protected]=>
+          string(29) "Display this program version."
+        }
+        ["color"]=>
+        object(Symfony\Components\Console\Input\InputOption)#44 (5) {
+          ["name":protected]=>
+          string(5) "color"
+          ["shortcut":protected]=>
+          string(1) "c"
+          ["mode":protected]=>
+          int(1)
+          ["default":protected]=>
+          bool(false)
+          ["description":protected]=>
+          string(24) "Force ANSI color output."
+        }
+        ["no-interaction"]=>
+        object(Symfony\Components\Console\Input\InputOption)#45 (5) {
+          ["name":protected]=>
+          string(14) "no-interaction"
+          ["shortcut":protected]=>
+          string(1) "n"
+          ["mode":protected]=>
+          int(1)
+          ["default":protected]=>
+          bool(false)
+          ["description":protected]=>
+          string(36) "Do not ask any interactive question."
+        }
+      }
+      ["shortcuts":protected]=>
+      array(6) {
+        ["h"]=>
+        string(4) "help"
+        ["q"]=>
+        string(5) "quiet"
+        ["v"]=>
+        string(7) "verbose"
+        ["V"]=>
+        string(7) "version"
+        ["c"]=>
+        string(5) "color"
+        ["n"]=>
+        string(14) "no-interaction"
+      }
+    }
+    ["helperSet":protected]=>
+    object(Symfony\Components\Console\Helper\HelperSet)#27 (2) {
+      ["helpers":protected]=>
+      array(6) {
+        ["formatter"]=>
+        object(Symfony\Components\Console\Helper\FormatterHelper)#28 (1) {
+          ["helperSet":protected]=>
+          *RECURSION*
+        }
+        ["dialog"]=>
+        object(Symfony\Components\Console\Helper\DialogHelper)#29 (1) {
+          ["helperSet":protected]=>
+          *RECURSION*
+        }
+        ["connection"]=>
+        object(Doctrine\DBAL\Tools\Console\Helper\ConnectionHelper)#24 (2) {
+          ["_connection":protected]=>
+          object(Doctrine\DBAL\Connection)#18 (11) {
+            ["_conn":protected]=>
+            NULL
+            ["_config":protected]=>
+            object(Doctrine\ORM\Configuration)#9 (1) {
+              ["_attributes":protected]=>
+              array(4) {
+                ["metadataCacheImpl"]=>
+                object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                  ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                  array(0) {
+                  }
+                  ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  string(18) "doctrine_cache_ids"
+                  ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  NULL
+                }
+                ["metadataDriverImpl"]=>
+                object(Doctrine\ORM\Mapping\Driver\AnnotationDriver)#15 (4) {
+                  ["_reader":"Doctrine\ORM\Mapping\Driver\AnnotationDriver":private]=>
+                  object(Doctrine\Common\Annotations\AnnotationReader)#11 (2) {
+                    ["parser":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Annotations\Parser)#12 (7) {
+                      ["lexer":"Doctrine\Common\Annotations\Parser":private]=>
+                      object(Doctrine\Common\Annotations\Lexer)#13 (5) {
+                        ["tokens":"Doctrine\Common\Lexer":private]=>
+                        array(0) {
+                        }
+                        ["position":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["peek":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["lookahead"]=>
+                        NULL
+                        ["token"]=>
+                        NULL
+                      }
+                      ["isNestedAnnotation":protected]=>
+                      bool(false)
+                      ["defaultAnnotationNamespace":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(21) "Doctrine\ORM\Mapping\"
+                      ["namespaceAliases":"Doctrine\Common\Annotations\Parser":private]=>
+                      array(0) {
+                      }
+                      ["context":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(0) ""
+                      ["autoloadAnnotations":"Doctrine\Common\Annotations\Parser":private]=>
+                      bool(false)
+                      ["annotationCreationFunction":"Doctrine\Common\Annotations\Parser":private]=>
+                      NULL
+                    }
+                    ["cache":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Cache\ArrayCache)#14 (3) {
+                      ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                      array(0) {
+                      }
+                      ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      string(18) "doctrine_cache_ids"
+                      ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      NULL
+                    }
+                  }
+                  ["_paths":protected]=>
+                  array(1) {
+                    [0]=>
+                    string(20) "/home/jsuggs/bbm/BBM"
+                  }
+                  ["_fileExtension":protected]=>
+                  string(4) ".php"
+                  ["_classNames":protected]=>
+                  NULL
+                }
+                ["proxyDir"]=>
+                string(30) "/home/jsuggs/bbm/tools/Proxies"
+                ["proxyNamespace"]=>
+                string(7) "Proxies"
+              }
+            }
+            ["_eventManager":protected]=>
+            object(Doctrine\Common\EventManager)#16 (1) {
+              ["_listeners":"Doctrine\Common\EventManager":private]=>
+              array(0) {
+              }
+            }
+            ["_isConnected":"Doctrine\DBAL\Connection":private]=>
+            bool(false)
+            ["_transactionNestingLevel":"Doctrine\DBAL\Connection":private]=>
+            int(0)
+            ["_transactionIsolationLevel":"Doctrine\DBAL\Connection":private]=>
+            int(2)
+            ["_params":"Doctrine\DBAL\Connection":private]=>
+            array(5) {
+              ["driver"]=>
+              string(9) "pdo_pgsql"
+              ["user"]=>
+              string(3) "bbm"
+              ["password"]=>
+              string(3) "bbm"
+              ["host"]=>
+              string(12) "db.murmp.com"
+              ["dbname"]=>
+              string(3) "bbm"
+            }
+            ["_platform":protected]=>
+            object(Doctrine\DBAL\Platforms\PostgreSqlPlatform)#19 (1) {
+              ["doctrineTypeMapping":protected]=>
+              NULL
+            }
+            ["_schemaManager":protected]=>
+            NULL
+            ["_driver":protected]=>
+            object(Doctrine\DBAL\Driver\PDOPgSql\Driver)#17 (0) {
+            }
+            ["_isRollbackOnly":"Doctrine\DBAL\Connection":private]=>
+            bool(false)
+          }
+          ["helperSet":protected]=>
+          *RECURSION*
+        }
+        ["db"]=>
+        object(Doctrine\DBAL\Tools\Console\Helper\ConnectionHelper)#24 (2) {
+          ["_connection":protected]=>
+          object(Doctrine\DBAL\Connection)#18 (11) {
+            ["_conn":protected]=>
+            NULL
+            ["_config":protected]=>
+            object(Doctrine\ORM\Configuration)#9 (1) {
+              ["_attributes":protected]=>
+              array(4) {
+                ["metadataCacheImpl"]=>
+                object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                  ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                  array(0) {
+                  }
+                  ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  string(18) "doctrine_cache_ids"
+                  ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  NULL
+                }
+                ["metadataDriverImpl"]=>
+                object(Doctrine\ORM\Mapping\Driver\AnnotationDriver)#15 (4) {
+                  ["_reader":"Doctrine\ORM\Mapping\Driver\AnnotationDriver":private]=>
+                  object(Doctrine\Common\Annotations\AnnotationReader)#11 (2) {
+                    ["parser":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Annotations\Parser)#12 (7) {
+                      ["lexer":"Doctrine\Common\Annotations\Parser":private]=>
+                      object(Doctrine\Common\Annotations\Lexer)#13 (5) {
+                        ["tokens":"Doctrine\Common\Lexer":private]=>
+                        array(0) {
+                        }
+                        ["position":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["peek":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["lookahead"]=>
+                        NULL
+                        ["token"]=>
+                        NULL
+                      }
+                      ["isNestedAnnotation":protected]=>
+                      bool(false)
+                      ["defaultAnnotationNamespace":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(21) "Doctrine\ORM\Mapping\"
+                      ["namespaceAliases":"Doctrine\Common\Annotations\Parser":private]=>
+                      array(0) {
+                      }
+                      ["context":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(0) ""
+                      ["autoloadAnnotations":"Doctrine\Common\Annotations\Parser":private]=>
+                      bool(false)
+                      ["annotationCreationFunction":"Doctrine\Common\Annotations\Parser":private]=>
+                      NULL
+                    }
+                    ["cache":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Cache\ArrayCache)#14 (3) {
+                      ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                      array(0) {
+                      }
+                      ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      string(18) "doctrine_cache_ids"
+                      ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      NULL
+                    }
+                  }
+                  ["_paths":protected]=>
+                  array(1) {
+                    [0]=>
+                    string(20) "/home/jsuggs/bbm/BBM"
+                  }
+                  ["_fileExtension":protected]=>
+                  string(4) ".php"
+                  ["_classNames":protected]=>
+                  NULL
+                }
+                ["proxyDir"]=>
+                string(30) "/home/jsuggs/bbm/tools/Proxies"
+                ["proxyNamespace"]=>
+                string(7) "Proxies"
+              }
+            }
+            ["_eventManager":protected]=>
+            object(Doctrine\Common\EventManager)#16 (1) {
+              ["_listeners":"Doctrine\Common\EventManager":private]=>
+              array(0) {
+              }
+            }
+            ["_isConnected":"Doctrine\DBAL\Connection":private]=>
+            bool(false)
+            ["_transactionNestingLevel":"Doctrine\DBAL\Connection":private]=>
+            int(0)
+            ["_transactionIsolationLevel":"Doctrine\DBAL\Connection":private]=>
+            int(2)
+            ["_params":"Doctrine\DBAL\Connection":private]=>
+            array(5) {
+              ["driver"]=>
+              string(9) "pdo_pgsql"
+              ["user"]=>
+              string(3) "bbm"
+              ["password"]=>
+              string(3) "bbm"
+              ["host"]=>
+              string(12) "db.murmp.com"
+              ["dbname"]=>
+              string(3) "bbm"
+            }
+            ["_platform":protected]=>
+            object(Doctrine\DBAL\Platforms\PostgreSqlPlatform)#19 (1) {
+              ["doctrineTypeMapping":protected]=>
+              NULL
+            }
+            ["_schemaManager":protected]=>
+            NULL
+            ["_driver":protected]=>
+            object(Doctrine\DBAL\Driver\PDOPgSql\Driver)#17 (0) {
+            }
+            ["_isRollbackOnly":"Doctrine\DBAL\Connection":private]=>
+            bool(false)
+          }
+          ["helperSet":protected]=>
+          *RECURSION*
+        }
+        ["entityManager"]=>
+        object(Doctrine\ORM\Tools\Console\Helper\EntityManagerHelper)#25 (2) {
+          ["_em":protected]=>
+          object(Doctrine\ORM\EntityManager)#20 (10) {
+            ["config":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\Configuration)#9 (1) {
+              ["_attributes":protected]=>
+              array(4) {
+                ["metadataCacheImpl"]=>
+                object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                  ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                  array(0) {
+                  }
+                  ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  string(18) "doctrine_cache_ids"
+                  ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  NULL
+                }
+                ["metadataDriverImpl"]=>
+                object(Doctrine\ORM\Mapping\Driver\AnnotationDriver)#15 (4) {
+                  ["_reader":"Doctrine\ORM\Mapping\Driver\AnnotationDriver":private]=>
+                  object(Doctrine\Common\Annotations\AnnotationReader)#11 (2) {
+                    ["parser":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Annotations\Parser)#12 (7) {
+                      ["lexer":"Doctrine\Common\Annotations\Parser":private]=>
+                      object(Doctrine\Common\Annotations\Lexer)#13 (5) {
+                        ["tokens":"Doctrine\Common\Lexer":private]=>
+                        array(0) {
+                        }
+                        ["position":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["peek":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["lookahead"]=>
+                        NULL
+                        ["token"]=>
+                        NULL
+                      }
+                      ["isNestedAnnotation":protected]=>
+                      bool(false)
+                      ["defaultAnnotationNamespace":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(21) "Doctrine\ORM\Mapping\"
+                      ["namespaceAliases":"Doctrine\Common\Annotations\Parser":private]=>
+                      array(0) {
+                      }
+                      ["context":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(0) ""
+                      ["autoloadAnnotations":"Doctrine\Common\Annotations\Parser":private]=>
+                      bool(false)
+                      ["annotationCreationFunction":"Doctrine\Common\Annotations\Parser":private]=>
+                      NULL
+                    }
+                    ["cache":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Cache\ArrayCache)#14 (3) {
+                      ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                      array(0) {
+                      }
+                      ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      string(18) "doctrine_cache_ids"
+                      ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      NULL
+                    }
+                  }
+                  ["_paths":protected]=>
+                  array(1) {
+                    [0]=>
+                    string(20) "/home/jsuggs/bbm/BBM"
+                  }
+                  ["_fileExtension":protected]=>
+                  string(4) ".php"
+                  ["_classNames":protected]=>
+                  NULL
+                }
+                ["proxyDir"]=>
+                string(30) "/home/jsuggs/bbm/tools/Proxies"
+                ["proxyNamespace"]=>
+                string(7) "Proxies"
+              }
+            }
+            ["conn":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\DBAL\Connection)#18 (11) {
+              ["_conn":protected]=>
+              NULL
+              ["_config":protected]=>
+              object(Doctrine\ORM\Configuration)#9 (1) {
+                ["_attributes":protected]=>
+                array(4) {
+                  ["metadataCacheImpl"]=>
+                  object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                    ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                    array(0) {
+                    }
+                    ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                    string(18) "doctrine_cache_ids"
+                    ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                    NULL
+                  }
+                  ["metadataDriverImpl"]=>
+                  object(Doctrine\ORM\Mapping\Driver\AnnotationDriver)#15 (4) {
+                    ["_reader":"Doctrine\ORM\Mapping\Driver\AnnotationDriver":private]=>
+                    object(Doctrine\Common\Annotations\AnnotationReader)#11 (2) {
+                      ["parser":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                      object(Doctrine\Common\Annotations\Parser)#12 (7) {
+                        ["lexer":"Doctrine\Common\Annotations\Parser":private]=>
+                        object(Doctrine\Common\Annotations\Lexer)#13 (5) {
+                          ["tokens":"Doctrine\Common\Lexer":private]=>
+                          array(0) {
+                          }
+                          ["position":"Doctrine\Common\Lexer":private]=>
+                          int(0)
+                          ["peek":"Doctrine\Common\Lexer":private]=>
+                          int(0)
+                          ["lookahead"]=>
+                          NULL
+                          ["token"]=>
+                          NULL
+                        }
+                        ["isNestedAnnotation":protected]=>
+                        bool(false)
+                        ["defaultAnnotationNamespace":"Doctrine\Common\Annotations\Parser":private]=>
+                        string(21) "Doctrine\ORM\Mapping\"
+                        ["namespaceAliases":"Doctrine\Common\Annotations\Parser":private]=>
+                        array(0) {
+                        }
+                        ["context":"Doctrine\Common\Annotations\Parser":private]=>
+                        string(0) ""
+                        ["autoloadAnnotations":"Doctrine\Common\Annotations\Parser":private]=>
+                        bool(false)
+                        ["annotationCreationFunction":"Doctrine\Common\Annotations\Parser":private]=>
+                        NULL
+                      }
+                      ["cache":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                      object(Doctrine\Common\Cache\ArrayCache)#14 (3) {
+                        ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                        array(0) {
+                        }
+                        ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                        string(18) "doctrine_cache_ids"
+                        ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                        NULL
+                      }
+                    }
+                    ["_paths":protected]=>
+                    array(1) {
+                      [0]=>
+                      string(20) "/home/jsuggs/bbm/BBM"
+                    }
+                    ["_fileExtension":protected]=>
+                    string(4) ".php"
+                    ["_classNames":protected]=>
+                    NULL
+                  }
+                  ["proxyDir"]=>
+                  string(30) "/home/jsuggs/bbm/tools/Proxies"
+                  ["proxyNamespace"]=>
+                  string(7) "Proxies"
+                }
+              }
+              ["_eventManager":protected]=>
+              object(Doctrine\Common\EventManager)#16 (1) {
+                ["_listeners":"Doctrine\Common\EventManager":private]=>
+                array(0) {
+                }
+              }
+              ["_isConnected":"Doctrine\DBAL\Connection":private]=>
+              bool(false)
+              ["_transactionNestingLevel":"Doctrine\DBAL\Connection":private]=>
+              int(0)
+              ["_transactionIsolationLevel":"Doctrine\DBAL\Connection":private]=>
+              int(2)
+              ["_params":"Doctrine\DBAL\Connection":private]=>
+              array(5) {
+                ["driver"]=>
+                string(9) "pdo_pgsql"
+                ["user"]=>
+                string(3) "bbm"
+                ["password"]=>
+                string(3) "bbm"
+                ["host"]=>
+                string(12) "db.murmp.com"
+                ["dbname"]=>
+                string(3) "bbm"
+              }
+              ["_platform":protected]=>
+              object(Doctrine\DBAL\Platforms\PostgreSqlPlatform)#19 (1) {
+                ["doctrineTypeMapping":protected]=>
+                NULL
+              }
+              ["_schemaManager":protected]=>
+              NULL
+              ["_driver":protected]=>
+              object(Doctrine\DBAL\Driver\PDOPgSql\Driver)#17 (0) {
+              }
+              ["_isRollbackOnly":"Doctrine\DBAL\Connection":private]=>
+              bool(false)
+            }
+            ["metadataFactory":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\Mapping\ClassMetadataFactory)#21 (7) {
+              ["_em":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              *RECURSION*
+              ["_targetPlatform":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              NULL
+              ["_driver":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              NULL
+              ["_evm":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              NULL
+              ["_cacheDriver":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                array(0) {
+                }
+                ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                string(18) "doctrine_cache_ids"
+                ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                NULL
+              }
+              ["_loadedMetadata":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              array(0) {
+              }
+              ["_initialized":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              bool(false)
+            }
+            ["repositories":"Doctrine\ORM\EntityManager":private]=>
+            array(0) {
+            }
+            ["unitOfWork":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\UnitOfWork)#22 (20) {
+              ["identityMap":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityIdentifiers":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["originalEntityData":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityChangeSets":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityStates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["scheduledForDirtyCheck":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityInsertions":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityUpdates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["extraUpdates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityDeletions":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["collectionDeletions":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["collectionUpdates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["visitedCollections":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["em":"Doctrine\ORM\UnitOfWork":private]=>
+              *RECURSION*
+              ["commitOrderCalculator":"Doctrine\ORM\UnitOfWork":private]=>
+              NULL
+              ["persisters":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["collectionPersisters":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["useCExtension":"Doctrine\ORM\UnitOfWork":private]=>
+              bool(false)
+              ["evm":"Doctrine\ORM\UnitOfWork":private]=>
+              object(Doctrine\Common\EventManager)#16 (1) {
+                ["_listeners":"Doctrine\Common\EventManager":private]=>
+                array(0) {
+                }
+              }
+              ["orphanRemovals":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+            }
+            ["eventManager":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\Common\EventManager)#16 (1) {
+              ["_listeners":"Doctrine\Common\EventManager":private]=>
+              array(0) {
+              }
+            }
+            ["hydrators":"Doctrine\ORM\EntityManager":private]=>
+            array(0) {
+            }
+            ["proxyFactory":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\Proxy\ProxyFactory)#23 (4) {
+              ["_em":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              *RECURSION*
+              ["_autoGenerate":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              bool(true)
+              ["_proxyNamespace":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              string(7) "Proxies"
+              ["_proxyDir":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              string(30) "/home/jsuggs/bbm/tools/Proxies"
+            }
+            ["expressionBuilder":"Doctrine\ORM\EntityManager":private]=>
+            NULL
+            ["closed":"Doctrine\ORM\EntityManager":private]=>
+            bool(false)
+          }
+          ["helperSet":protected]=>
+          *RECURSION*
+        }
+        ["em"]=>
+        object(Doctrine\ORM\Tools\Console\Helper\EntityManagerHelper)#25 (2) {
+          ["_em":protected]=>
+          object(Doctrine\ORM\EntityManager)#20 (10) {
+            ["config":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\Configuration)#9 (1) {
+              ["_attributes":protected]=>
+              array(4) {
+                ["metadataCacheImpl"]=>
+                object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                  ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                  array(0) {
+                  }
+                  ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  string(18) "doctrine_cache_ids"
+                  ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                  NULL
+                }
+                ["metadataDriverImpl"]=>
+                object(Doctrine\ORM\Mapping\Driver\AnnotationDriver)#15 (4) {
+                  ["_reader":"Doctrine\ORM\Mapping\Driver\AnnotationDriver":private]=>
+                  object(Doctrine\Common\Annotations\AnnotationReader)#11 (2) {
+                    ["parser":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Annotations\Parser)#12 (7) {
+                      ["lexer":"Doctrine\Common\Annotations\Parser":private]=>
+                      object(Doctrine\Common\Annotations\Lexer)#13 (5) {
+                        ["tokens":"Doctrine\Common\Lexer":private]=>
+                        array(0) {
+                        }
+                        ["position":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["peek":"Doctrine\Common\Lexer":private]=>
+                        int(0)
+                        ["lookahead"]=>
+                        NULL
+                        ["token"]=>
+                        NULL
+                      }
+                      ["isNestedAnnotation":protected]=>
+                      bool(false)
+                      ["defaultAnnotationNamespace":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(21) "Doctrine\ORM\Mapping\"
+                      ["namespaceAliases":"Doctrine\Common\Annotations\Parser":private]=>
+                      array(0) {
+                      }
+                      ["context":"Doctrine\Common\Annotations\Parser":private]=>
+                      string(0) ""
+                      ["autoloadAnnotations":"Doctrine\Common\Annotations\Parser":private]=>
+                      bool(false)
+                      ["annotationCreationFunction":"Doctrine\Common\Annotations\Parser":private]=>
+                      NULL
+                    }
+                    ["cache":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                    object(Doctrine\Common\Cache\ArrayCache)#14 (3) {
+                      ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                      array(0) {
+                      }
+                      ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      string(18) "doctrine_cache_ids"
+                      ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                      NULL
+                    }
+                  }
+                  ["_paths":protected]=>
+                  array(1) {
+                    [0]=>
+                    string(20) "/home/jsuggs/bbm/BBM"
+                  }
+                  ["_fileExtension":protected]=>
+                  string(4) ".php"
+                  ["_classNames":protected]=>
+                  NULL
+                }
+                ["proxyDir"]=>
+                string(30) "/home/jsuggs/bbm/tools/Proxies"
+                ["proxyNamespace"]=>
+                string(7) "Proxies"
+              }
+            }
+            ["conn":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\DBAL\Connection)#18 (11) {
+              ["_conn":protected]=>
+              NULL
+              ["_config":protected]=>
+              object(Doctrine\ORM\Configuration)#9 (1) {
+                ["_attributes":protected]=>
+                array(4) {
+                  ["metadataCacheImpl"]=>
+                  object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                    ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                    array(0) {
+                    }
+                    ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                    string(18) "doctrine_cache_ids"
+                    ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                    NULL
+                  }
+                  ["metadataDriverImpl"]=>
+                  object(Doctrine\ORM\Mapping\Driver\AnnotationDriver)#15 (4) {
+                    ["_reader":"Doctrine\ORM\Mapping\Driver\AnnotationDriver":private]=>
+                    object(Doctrine\Common\Annotations\AnnotationReader)#11 (2) {
+                      ["parser":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                      object(Doctrine\Common\Annotations\Parser)#12 (7) {
+                        ["lexer":"Doctrine\Common\Annotations\Parser":private]=>
+                        object(Doctrine\Common\Annotations\Lexer)#13 (5) {
+                          ["tokens":"Doctrine\Common\Lexer":private]=>
+                          array(0) {
+                          }
+                          ["position":"Doctrine\Common\Lexer":private]=>
+                          int(0)
+                          ["peek":"Doctrine\Common\Lexer":private]=>
+                          int(0)
+                          ["lookahead"]=>
+                          NULL
+                          ["token"]=>
+                          NULL
+                        }
+                        ["isNestedAnnotation":protected]=>
+                        bool(false)
+                        ["defaultAnnotationNamespace":"Doctrine\Common\Annotations\Parser":private]=>
+                        string(21) "Doctrine\ORM\Mapping\"
+                        ["namespaceAliases":"Doctrine\Common\Annotations\Parser":private]=>
+                        array(0) {
+                        }
+                        ["context":"Doctrine\Common\Annotations\Parser":private]=>
+                        string(0) ""
+                        ["autoloadAnnotations":"Doctrine\Common\Annotations\Parser":private]=>
+                        bool(false)
+                        ["annotationCreationFunction":"Doctrine\Common\Annotations\Parser":private]=>
+                        NULL
+                      }
+                      ["cache":"Doctrine\Common\Annotations\AnnotationReader":private]=>
+                      object(Doctrine\Common\Cache\ArrayCache)#14 (3) {
+                        ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                        array(0) {
+                        }
+                        ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                        string(18) "doctrine_cache_ids"
+                        ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                        NULL
+                      }
+                    }
+                    ["_paths":protected]=>
+                    array(1) {
+                      [0]=>
+                      string(20) "/home/jsuggs/bbm/BBM"
+                    }
+                    ["_fileExtension":protected]=>
+                    string(4) ".php"
+                    ["_classNames":protected]=>
+                    NULL
+                  }
+                  ["proxyDir"]=>
+                  string(30) "/home/jsuggs/bbm/tools/Proxies"
+                  ["proxyNamespace"]=>
+                  string(7) "Proxies"
+                }
+              }
+              ["_eventManager":protected]=>
+              object(Doctrine\Common\EventManager)#16 (1) {
+                ["_listeners":"Doctrine\Common\EventManager":private]=>
+                array(0) {
+                }
+              }
+              ["_isConnected":"Doctrine\DBAL\Connection":private]=>
+              bool(false)
+              ["_transactionNestingLevel":"Doctrine\DBAL\Connection":private]=>
+              int(0)
+              ["_transactionIsolationLevel":"Doctrine\DBAL\Connection":private]=>
+              int(2)
+              ["_params":"Doctrine\DBAL\Connection":private]=>
+              array(5) {
+                ["driver"]=>
+                string(9) "pdo_pgsql"
+                ["user"]=>
+                string(3) "bbm"
+                ["password"]=>
+                string(3) "bbm"
+                ["host"]=>
+                string(12) "db.murmp.com"
+                ["dbname"]=>
+                string(3) "bbm"
+              }
+              ["_platform":protected]=>
+              object(Doctrine\DBAL\Platforms\PostgreSqlPlatform)#19 (1) {
+                ["doctrineTypeMapping":protected]=>
+                NULL
+              }
+              ["_schemaManager":protected]=>
+              NULL
+              ["_driver":protected]=>
+              object(Doctrine\DBAL\Driver\PDOPgSql\Driver)#17 (0) {
+              }
+              ["_isRollbackOnly":"Doctrine\DBAL\Connection":private]=>
+              bool(false)
+            }
+            ["metadataFactory":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\Mapping\ClassMetadataFactory)#21 (7) {
+              ["_em":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              *RECURSION*
+              ["_targetPlatform":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              NULL
+              ["_driver":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              NULL
+              ["_evm":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              NULL
+              ["_cacheDriver":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              object(Doctrine\Common\Cache\ArrayCache)#10 (3) {
+                ["data":"Doctrine\Common\Cache\ArrayCache":private]=>
+                array(0) {
+                }
+                ["_cacheIdsIndexId":"Doctrine\Common\Cache\AbstractCache":private]=>
+                string(18) "doctrine_cache_ids"
+                ["_namespace":"Doctrine\Common\Cache\AbstractCache":private]=>
+                NULL
+              }
+              ["_loadedMetadata":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              array(0) {
+              }
+              ["_initialized":"Doctrine\ORM\Mapping\ClassMetadataFactory":private]=>
+              bool(false)
+            }
+            ["repositories":"Doctrine\ORM\EntityManager":private]=>
+            array(0) {
+            }
+            ["unitOfWork":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\UnitOfWork)#22 (20) {
+              ["identityMap":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityIdentifiers":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["originalEntityData":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityChangeSets":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityStates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["scheduledForDirtyCheck":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityInsertions":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityUpdates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["extraUpdates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["entityDeletions":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["collectionDeletions":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["collectionUpdates":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["visitedCollections":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["em":"Doctrine\ORM\UnitOfWork":private]=>
+              *RECURSION*
+              ["commitOrderCalculator":"Doctrine\ORM\UnitOfWork":private]=>
+              NULL
+              ["persisters":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["collectionPersisters":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+              ["useCExtension":"Doctrine\ORM\UnitOfWork":private]=>
+              bool(false)
+              ["evm":"Doctrine\ORM\UnitOfWork":private]=>
+              object(Doctrine\Common\EventManager)#16 (1) {
+                ["_listeners":"Doctrine\Common\EventManager":private]=>
+                array(0) {
+                }
+              }
+              ["orphanRemovals":"Doctrine\ORM\UnitOfWork":private]=>
+              array(0) {
+              }
+            }
+            ["eventManager":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\Common\EventManager)#16 (1) {
+              ["_listeners":"Doctrine\Common\EventManager":private]=>
+              array(0) {
+              }
+            }
+            ["hydrators":"Doctrine\ORM\EntityManager":private]=>
+            array(0) {
+            }
+            ["proxyFactory":"Doctrine\ORM\EntityManager":private]=>
+            object(Doctrine\ORM\Proxy\ProxyFactory)#23 (4) {
+              ["_em":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              *RECURSION*
+              ["_autoGenerate":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              bool(true)
+              ["_proxyNamespace":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              string(7) "Proxies"
+              ["_proxyDir":"Doctrine\ORM\Proxy\ProxyFactory":private]=>
+              string(30) "/home/jsuggs/bbm/tools/Proxies"
+            }
+            ["expressionBuilder":"Doctrine\ORM\EntityManager":private]=>
+            NULL
+            ["closed":"Doctrine\ORM\EntityManager":private]=>
+            bool(false)
+          }
+          ["helperSet":protected]=>
+          *RECURSION*
+        }
+      }
+      ["command":protected]=>
+      NULL
+    }
+  }
+  ["description":protected]=>
+  string(13) "Load all data"
+  ["ignoreValidationErrors":protected]=>
+  bool(false)
+  ["formatter":protected]=>
+  NULL
+  ["applicationDefinitionMerged":protected]=>
+  bool(true)
+  ["code":protected]=>
+  NULL
+}

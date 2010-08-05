@@ -3,12 +3,12 @@
 namespace BBM;
 
 /**
- * A Player
+ * Umpire
  *
  * @Entity
- * @Table(name="players")
+ * @Table(name="umpires") 
  */
-class Player
+class Umpire
 {
     /** 
      * @Id 
@@ -26,23 +26,6 @@ class Player
      * @column(type="string", length="")
      */
     private $lastName;
-
-    /**
-     * @column(type="string", length="1", nullable="true")
-     */
-    private $throwingHand;
-
-    /**
-     * @column(type="string", length="1", nullable="true")
-     */
-    private $battingHand;
-
-    /** 
-     * Date of Birth
-     * @column (type="date", nullable="true")
-     * @var Date 
-     */
-    private $daateOfBirth;
 
     public function __construct($player_id)
     {

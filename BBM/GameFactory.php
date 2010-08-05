@@ -24,6 +24,7 @@ class GameFactory extends FactoryAbstract
         // Get an instance of the Team and Site Respositories
         $teamRepository = new TeamRepository($this->em);
         $ballparkRepository = new BallparkRepository($this->em);
+        $game = new Game();
 
         // Loop through each of the records and create a record
         foreach ($records as $record)
@@ -31,13 +32,11 @@ class GameFactory extends FactoryAbstract
             // Break the record into fields
             $fields = $record;
 
-            print_r($record);
-
             // Based on the record type, take appropriate action
             switch ($fields[0])
             {
                 case 'id':
-                    $game = new Game($fields[1]);
+                    $game->setId($fields[1]);
                     break;
                 case 'version':
                     if ($fields[1] != 2)

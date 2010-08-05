@@ -22,10 +22,12 @@ class LoadTeams extends Console\Command\Command
         $em = $this->getHelper('em')->getEntityManager();
 
 
-        if (($handle = fopen("../data/teams.csv","r")) !== FALSE) {
+        if (($handle = fopen(DATADIR . "/teams/TEAMABR.TXT","r")) !== FALSE) {
             while (($data = fgetcsv($handle)) !== FALSE) {
-                $team = new \BBM\Team($data[0],$data[1],$data[2],$data[3]);
-                $team->setAddress($data[4],$data[5],$data[6]);
+                $team = new \BBM\Team($data[0]);
+                $team->setLeague($data[1]);
+                $team->setCity($data[2]);
+                $team->setNickname($data[3]);
                 $output->write($team . "\n");
                 $em->persist($team);
             }

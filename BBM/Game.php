@@ -58,7 +58,7 @@ class Game
     /**
      * The pitching stats for this game
      * 
-     * @OneToMany(targetEntity="BBM\Statistics\PitcherStats", mappedBy="game")
+     * @xOneToMany(targetEntity="BBM\Statistics\PitcherStats", mappedBy="game")
      * @var BBM\Statistics\PitcherStats
      */
     private $pitcherStats;
@@ -85,7 +85,12 @@ class Game
      */
     private $attendance;
 
-    public function __construct($id)
+    public function xx__construct($id)
+    {
+        $this->game_id = $id;
+    }
+
+    public function setId($id)
     {
         $this->game_id = $id;
     }

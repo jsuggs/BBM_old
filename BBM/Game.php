@@ -17,11 +17,9 @@ class Game
     /** 
      * The identity column for a specific game
      *
-     * @column(type="integer")
      * @Id
-     * @GeneratedValue(strategy="SEQUENCE")
-     * @SequenceGenerator(sequenceName="game_seq", initialValue=1)
-     * @var integer
+     * @column(type="string", length="8")
+     * @var string
      */
     private $game_id;
 
@@ -33,7 +31,6 @@ class Game
      * @var Team 
      */
     private $homeTeam;
-
 
     /** 
      * The away team for the game
@@ -67,13 +64,40 @@ class Game
     private $pitcherStats;
 
     /**
+     * The ballpark/site of the game
+     * @todo
+     */
+    private $ballpark;
+
+    /**
+     * Was a designated hitter allowed
+     */
+    private $usedh;
+
+    /**
+     * Temperature
+     *
+     */
+    private $temperature;
+
+    /**
+     * Attendance
+     */
+    private $attendance;
+
+    public function __construct($id)
+    {
+        $this->game_id = $id;
+    }
+
+    /**
      * Create a Game object
      * @param Team $homeTeam
      * @param Team $awayTeam
      * @param DateTime $gameStart
      * @return void
      */
-    public function __construct(Team $homeTeam, Team $awayTeam, \DateTime $gameStart)
+    public function x__construct(Team $homeTeam, Team $awayTeam, \DateTime $gameStart)
     {
         $this->setHomeTeam($homeTeam);
         $this->setAwayTeam($awayTeam);
@@ -95,7 +119,7 @@ class Game
 
     public function setGameStart(\DateTime $time)
     {
-        $this->gameTime = $time;
+        $this->gameStart = $time;
     }
 
     public function isDivisionGame()
@@ -106,6 +130,26 @@ class Game
     public function setGameEnd(\DateTime $time)
     {
         $this->gameEnd = $time;
+    }
+
+    public function setBallpark($todo)
+    {
+        //TODO
+    }
+
+    public function setUseDH($value)
+    {
+        //TODO
+    }
+
+    public function setAttendance($value)
+    {
+        //TODO
+    }
+
+    public function setTemprature($value)
+    {
+        //TODO
     }
 
     /**

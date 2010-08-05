@@ -9,25 +9,36 @@ class Player
 {
     /** 
      * @Id 
-     * @Column(type="integer") 
-     * @GeneratedValue
+     * @column(type="string" length="8")
      * @var string 
+     */
+    private $player_id;
+
+    /**
+     * @column(type="string", length="")
      */
     private $firstName;
 
-    /** @var string */
+    /**
+     * @column(type="string", length="")
+     */
     private $lastName;
 
-    /** @var int */
-    private $jerseyNumber;
+    /**
+     * @column(type="string", length="1", nullable="true")
+     */
+    private $throwingHand;
 
-    /** @var string */
-    private $bats;
+    /**
+     * @column(type="string", length="1", nullable="true")
+     */
+    private $battingHand;
 
-    /** @var string */
-    private $throws;
-
-    /** @var Date */
+    /** 
+     * Date of Birth
+     * @column (date="date", nullable="true")
+     * @var Date 
+     */
     private $daateOfBirth;
 
     public function __construct($firstName,$lastName)

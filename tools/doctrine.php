@@ -33,6 +33,7 @@ $cli->addCommands(array(
     // BBM Commands
     new \BBM\Tools\Console\Command\LoadTeams(),
     new \BBM\Tools\Console\Command\LoadBallParks(),
+    new \BBM\Tools\Console\Command\LoadGames(),
 
 ));
 $cli->run();

@@ -2,8 +2,9 @@
 
 namespace BBM;
 
-use BBM\Game;
-use BBM\StartingLineup;
+use BBM\Game,
+    BBM\Roster,
+    BBM\StartingLineup;
 
 /**
  * A Model for a baseball team

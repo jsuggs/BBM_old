@@ -21,14 +21,19 @@ class LoadBallParks extends Console\Command\Command
     {
         $em = $this->getHelper('em')->getEntityManager();
 
-
         if (($handle = fopen(DATADIR . "/ballparks/parkcode.txt","r")) !== FALSE) {
             while (($data = fgetcsv($handle)) !== FALSE) {
-                //$team = new \BBM\Team($data[0],$data[1],$data[2],$data[3]);
-                //$team->setAddress($data[4],$data[5],$data[6]);
-                //$output->write($team . "\n");
-                //$em->persist($team);
-                $output->write($data[0]);
+                $ballpark = new \BBM\Ballpark($data[0]);
+                $ballpark->setName($data[1]);
+                $ballpark->setNickname($data[2]);
+                $ballpark->setCity($data[3]);
+                $ballpark->setState($data[4]);
+                $ballpark->setDateOpen($data[5]);
+                $ballpark->setDateClose($data[6]);
+                $ballpark->setLeague($data[7]);
+                $ballpark->setNotes($data[8]);
+                $em->persist($ballpark);
+                $output->write($ballpark . "\n");
             }
         }
 

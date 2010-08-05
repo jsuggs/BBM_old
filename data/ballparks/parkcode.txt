@@ -1,4 +1,3 @@
-PARKID,NAME,AKA,CITY,STATE,START,END,LEAGUE,NOTES
 ALB01,Riverside Park,,Albany,NY,09/11/1880,05/18/1882,NL,"TRN:9/11/80;6/15&9/10/1881;5/16-5/18/1882"
 ALB02,Greenbush Grounds,,Greenbush (Rensselaer),NY,05/30/1882,05/30/1882,NL,"TRN:5/30/1882(1);Game 2 at TRO02"
 ALT01,Columbia Park,,Altoona,PA,04/30/1884,05/31/1884,UA,""
@@ -31,7 +30,7 @@ BUF02,Olympic Park I,,Buffalo,NY,05/21/1884,10/07/1885,NL,""
 BUF03,Olympic Park II,,Buffalo,NY,04/19/1890,10/04/1890,PL,""
 BUF04,Federal League Park,,Buffalo,NY,05/11/1914,09/29/1915,FL,""
 CAN01,Mahaffey Park,,Canton,OH,09/18/1890,06/21/1903,,"PIT 9/18/1890; CLE 6/15/02,5/10&6/21/03"
-CHI01,Lake Front Park I,Chicago,IL,05/08/1871,09/29/1871,NA,""
+CHI01,Lake Front Park I,,Chicago,IL,05/08/1871,09/29/1871,NA,""
 CHI02,23rd Street Park,,Chicago,IL,05/29/1872,10/06/1877,,"CH2:1874-75; CHN:1876-77"
 CHI03,Lake Front Park II,,Chicago,IL,05/14/1878,09/30/1882,NL,""
 CHI04,Lake Front Park III,,Chicago,IL,05/05/1883,10/11/1884,NL,""

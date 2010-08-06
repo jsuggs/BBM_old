@@ -34,6 +34,21 @@ class Umpire
      */
     private $homeplateGames;
 
+    /**
+     * @OneToMany(targetEntity="Game", mappedBy="firstBaseUmpire")
+     */
+    private $firstBaseGames;
+
+    /**
+     * @OneToMany(targetEntity="Game", mappedBy="secondBaseUmpire")
+     */
+    private $secondBaseGames;
+
+    /**
+     * @OneToMany(targetEntity="Game", mappedBy="thirdBaseUmpire")
+     */
+    private $thirdBaseGames;
+
     public function __construct($player_id)
     {
         $this->umpire_id = $player_id;

@@ -3,6 +3,7 @@
 namespace BBM;
 
 use BBM\Game,
+    BBM\Umpire,
     BBM\FactoryAbstract,
     BBM\TeamRepository,
     BBM\BallparkRepository;
@@ -24,6 +25,8 @@ class GameFactory extends FactoryAbstract
         // Get an instance of the Team and Site Respositories
         $teamRepository = new TeamRepository($this->em);
         $ballparkRepository = new BallparkRepository($this->em);
+        $umpireRepository = new UmpireRepository($this->em);
+
         $game = new Game();
 
         // Loop through each of the records and create a record
@@ -66,10 +69,16 @@ class GameFactory extends FactoryAbstract
                             $game->setUseDH($fields[2]);
                             break;
                         case 'umphome':
+                            $game->setHomePlateUmpire($umpireRepository->findUmpireById($fields[2]));
+                            break;
                         case 'ump1b':
+                            $game->setFirstBaseUmpire($umpireRepository->findUmpireById($fields[2]));
+                            break;
                         case 'ump2b':
+                            $game->setSecondBaseUmpire($umpireRepository->findUmpireById($fields[2]));
+                            break;
                         case 'ump3b':
-                            //TODO
+                            $game->setThirdBaseUmpire($umpireRepository->findUmpireById($fields[2]));
                             break;
                         case 'howscored':
                         case 'pitches':

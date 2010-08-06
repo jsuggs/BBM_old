@@ -24,6 +24,10 @@ class LoadGames extends Console\Command\Command
     protected function execute(Console\Input\InputInterface $input, Console\Output\OutputInterface $output)
     {
         $em = $this->getHelper('em')->getEntityManager();
+        // Delete first
+        $query = $em->createQuery('delete from BBM\Game');
+        $query->execute();
+
         $gameFactory = new GameFactory($em);
         $currec = array();
 

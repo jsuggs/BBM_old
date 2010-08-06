@@ -74,9 +74,30 @@ class Game
     /**
      * The home plate umpire
      * @ManyToOne(targetEntity="Umpire", inversedBy="homeplateGames")
-     * @JoinColumn(name="umpire_id",referencedColumnName="umpire_id")
+     * @JoinColumn(name="homePlateUmpire",referencedColumnName="umpire_id")
      */
     private $homePlateUmpire;
+
+    /**
+     * The 1B umpire
+     * @ManyToOne(targetEntity="Umpire", inversedBy="firstBaseGames")
+     * @JoinColumn(name="firstBaseUmpire",referencedColumnName="umpire_id")
+     */
+    private $firstBaseUmpire;
+
+    /**
+     * The 2B umpire
+     * @ManyToOne(targetEntity="Umpire", inversedBy="secondBaseGames")
+     * @JoinColumn(name="secondBaseUmpire",referencedColumnName="umpire_id")
+     */
+    private $secondBaseUmpire;
+
+    /**
+     * The 3B umpire
+     * @ManyToOne(targetEntity="Umpire", inversedBy="thirdBaseGames")
+     * @JoinColumn(name="thirdBaseUmpire",referencedColumnName="umpire_id")
+     */
+    private $thirdBaseUmpire;
 
     /**
      * Was a designated hitter allowed
@@ -169,6 +190,21 @@ class Game
     public function setHomePlateUmpire(Umpire $umpire)
     {
         $this->homePlateUmpire = $umpire;
+    }
+
+    public function setFirstBaseUmpire(Umpire $umpire)
+    {
+        $this->firstBaseUmpire = $umpire;
+    }
+
+    public function setSecondBaseUmpire(Umpire $umpire)
+    {
+        $this->secondBaseUmpire = $umpire;
+    }
+
+    public function setThirdBaseUmpire(Umpire $umpire)
+    {
+        $this->thirdBaseUmpire = $umpire;
     }
 
     /**

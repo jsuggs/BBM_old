@@ -61,6 +61,9 @@ class Umpire
 
         // Initialize Collections
         $this->homePlateGames = new ArrayCollection();
+        $this->firstBaseGames = new ArrayCollection();
+        $this->secondBaseGames = new ArrayCollection();
+        $this->thirdBaseGames = new ArrayCollection();
     }
 
     public function __toString()

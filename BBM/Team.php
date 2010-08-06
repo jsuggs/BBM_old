@@ -142,7 +142,8 @@ class Team
 
     public function __toString()
     {
-        return $this->abbr . ' - ' . $this->nickname;
+        return $this->abbr;
+        //return $this->abbr . ' - ' . $this->nickname;
     }
 
     public function getGames()

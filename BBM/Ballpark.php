@@ -2,6 +2,8 @@
 
 namespace BBM;
 
+use \Doctrine\Common\Collections\ArrayCollection;
+
 /**
  * A ballpark
  *
@@ -57,9 +59,15 @@ class Ballpark
      */
     private $notes;
 
+    /**
+     * @OneToMany(targetEntity="Game", mappedBy="ballpark")
+     */
+    private $games;
+
     public function __construct($id)
     {
         $this->setId($id);
+        $this->games = new ArrayCollection();
     }
 
     public function __toString()

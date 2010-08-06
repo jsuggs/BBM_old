@@ -31,15 +31,13 @@ class LoadGames extends Console\Command\Command
             while (($data = fgetcsv($handle)) !== FALSE) {
                 if ($data[0] === 'id' && (sizeof($currec) !== 0)) {
                     $game = $gameFactory->createGameFromRetrosheetRecords($currec);
+                    $em->persist($game);
+                    $output->writeln($game);
                     unset($currec);
                 }
-                else {
-                    $currec[] = $data;
-                }
-                //$output->write($game . "\n");
-                //$em->persist($game);
+                $currec[] = $data;
             }
         }
-        //$em->flush();
+        $em->flush();
     }
 }

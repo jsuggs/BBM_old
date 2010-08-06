@@ -3,6 +3,7 @@
 namespace BBM;
 
 use BBM\Team,
+    BBM\Ballpark,
     BBM\Statitistics\PitcherStats,
     Doctrine\Common\Collections\ArrayCollection;
 
@@ -18,7 +19,7 @@ class Game
      * The identity column for a specific game
      *
      * @Id
-     * @column(type="string", length="8")
+     * @column(type="string", length="12")
      * @var string
      */
     private $game_id;
@@ -50,7 +51,7 @@ class Game
 
     /** 
      * The end of the gmame
-     * @column(type="datetime")
+     * @column(type="datetime", nullable="true")
      * @var DateTime 
      */
     private $gameEnd;
@@ -65,9 +66,17 @@ class Game
 
     /**
      * The ballpark/site of the game
-     * @todo
+     * @ManyToOne(targetEntity="Ballpark", inversedBy="games")
+     * @JoinColumn(name="ballpark_id",referencedColumnName="ballpark_id")
      */
     private $ballpark;
+
+    /**
+     * The home plate umpire
+     * @ManyToOne(targetEntity="Umpire", inversedBy="homeplateGames")
+     * @JoinColumn(name="umpire_id",referencedColumnName="umpire_id")
+     */
+    private $homePlateUmpire;
 
     /**
      * Was a designated hitter allowed
@@ -137,9 +146,9 @@ class Game
         $this->gameEnd = $time;
     }
 
-    public function setBallpark($todo)
+    public function setBallpark(Ballpark $ballpark)
     {
-        //TODO
+        $this->ballpark = $ballpark;
     }
 
     public function setUseDH($value)
@@ -157,6 +166,11 @@ class Game
         //TODO
     }
 
+    public function setHomePlateUmpire(Umpire $umpire)
+    {
+        $this->homePlateUmpire = $umpire;
+    }
+
     /**
      * Get the time the game took
      * @return DateInterval
@@ -169,5 +183,10 @@ class Game
         }
 
         return $this->gameStart->diff($this->gameEnd);
+    }
+
+    public function __toString()
+    {
+        return $this->game_id . ' : ' . $this->homeTeam . ' vs ' . $this->awayTeam;
     }
 }

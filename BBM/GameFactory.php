@@ -57,10 +57,10 @@ class GameFactory extends FactoryAbstract
                         case 'date':
                             $game->setGameStart(new \DateTime($fields[2]));
                             break;
-                        case 'number':
                         case 'starttime':
+                        case 'number':
                         case 'daynight':
-                            //TODO
+                            // Ignore
                             break;
                         case 'usedh':
                             $game->setUseDH($fields[2]);

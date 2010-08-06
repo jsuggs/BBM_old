@@ -6,6 +6,7 @@ use BBM\Game,
     BBM\Umpire,
     BBM\FactoryAbstract,
     BBM\TeamRepository,
+    BBM\PlayerRepository,
     BBM\BallparkRepository;
 
 /**
@@ -26,6 +27,7 @@ class GameFactory extends FactoryAbstract
         $teamRepository = new TeamRepository($this->em);
         $ballparkRepository = new BallparkRepository($this->em);
         $umpireRepository = new UmpireRepository($this->em);
+        $playerRepository = new PlayerRepository($this->em);
 
         $game = new Game();
 
@@ -105,7 +107,16 @@ class GameFactory extends FactoryAbstract
                     }
                     break;
                 case 'start':
+                    break;
                 case 'play':
+                    $play = new Play();
+                    $play->setInning($fields[1]);
+                    $play->setTeam($fields[2]);
+                    $play->setPlayer($playerRepository->findPlayerById($fields[3]));
+                    $play->setPitchCount($fields[4]);
+                    $play->setEvent($fields[5]);
+                    $game->addPlay($play);
+                    break;
                 case 'sub':
                 case 'com':
                 case 'data':

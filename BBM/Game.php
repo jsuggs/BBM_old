@@ -4,6 +4,7 @@ namespace BBM;
 
 use BBM\Team,
     BBM\Ballpark,
+    BBM\Play,
     BBM\Statitistics\PitcherStats,
     Doctrine\Common\Collections\ArrayCollection;
 
@@ -72,6 +73,12 @@ class Game
     private $ballpark;
 
     /**
+     * @OneToMany(targetEntity="Play", mappedBy="game", cascade={"persist", "remove"}, orphanRemoval=true)
+     * @var BBM\Play
+     */
+    private $plays;
+
+    /**
      * The home plate umpire
      * @ManyToOne(targetEntity="Umpire", inversedBy="homeplateGames")
      * @JoinColumn(name="homePlateUmpire",referencedColumnName="umpire_id")
@@ -115,9 +122,10 @@ class Game
      */
     private $attendance;
 
-    public function xx__construct($id)
+    public function __construct()
     {
-        $this->game_id = $id;
+        $this->plays = new ArrayCollection();
+        $this->pitcherStats = new ArrayCollection();
     }
 
     public function setId($id)
@@ -155,6 +163,12 @@ class Game
     public function setGameStart(\DateTime $time)
     {
         $this->gameStart = $time;
+    }
+
+    public function addPlay(Play $play)
+    {
+        $this->plays[] = $play;
+        $play->setGame($this);
     }
 
     public function isDivisionGame()

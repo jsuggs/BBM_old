@@ -4,7 +4,8 @@ namespace BBM;
 
 use BBM\Game,
     BBM\Roster,
-    BBM\StartingLineup;
+    BBM\StartingLineup,
+    Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * A Model for a baseball team
@@ -59,8 +60,27 @@ class Team
      */
     private $zip;
 
-    /** @var Game */
-    private $games;
+    /** 
+     * All of the home games associated with this team
+     * @OneToMany(targetEntity="Game", mappedBy="homeTeam")
+     * @var Game 
+     */
+    private $homeGames;
+
+    /** 
+     * All of the away games associated with this team
+     * @OneToMany(targetEntity="Game", mappedBy="awayTeam")
+     * @var Game 
+     */
+    private $awayGames;
+
+    /**
+     * All of the plays associated with a team
+     *
+     * @OneToMany(targetEntity="Play", mappedBy="team")
+     * @var BBM\Play
+     */
+    private $plays;
 
     /** @var StartingLineup */
     private $startingLineup;
@@ -68,6 +88,11 @@ class Team
     public function __construct($abbr)
     {
         $this->setAbbr($abbr);
+
+        // Initialize Collections
+        $this->homeGames = new ArrayCollection();
+        $this->awayGames = new ArrayCollection();
+        $this->plays = new ArrayCollection();
     }
 
     public function getDivision()

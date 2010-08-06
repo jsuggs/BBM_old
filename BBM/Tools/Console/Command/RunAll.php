@@ -23,6 +23,6 @@ class RunAll extends Console\Command\Command
         $this->application->findCommand('bbm:load-teams')->execute($input,$output);
         $this->application->findCommand('bbm:load-people')->execute($input,$output);
         $this->application->findCommand('bbm:load-ballparks')->execute($input,$output);
-        $this->application->findCommand('bbm:load-games')->execute($input,$output);
+        //$this->application->findCommand('bbm:load-games')->execute($input,$output);
     }
 }

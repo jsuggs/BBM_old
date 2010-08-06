@@ -33,10 +33,9 @@ class LoadBallParks extends Console\Command\Command
                 $ballpark->setLeague($data[7]);
                 $ballpark->setNotes($data[8]);
                 $em->persist($ballpark);
-                $output->write($ballpark . "\n");
             }
         }
-
+        fclose($handle);
         $em->flush();
     }
 }

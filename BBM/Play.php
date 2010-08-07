@@ -68,10 +68,9 @@ class Play
         //$this->setGame($game);
     }
 
-    public function setTeam($value)
+    public function setTeam(Team $team)
     {
-        // TODO - Make the relationship
-        $this->team = $value;
+        $this->team = $team;
     }
 
     public function setInning($value)

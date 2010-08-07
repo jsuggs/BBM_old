@@ -111,7 +111,7 @@ class GameFactory extends FactoryAbstract
                 case 'play':
                     $play = new Play();
                     $play->setInning($fields[1]);
-                    $play->setTeam($fields[2]);
+                    $play->setTeam(($fields[2] == 0) ? $game->getAwayTeam() : $game->getHomeTeam());
                     $play->setPlayer($playerRepository->findPlayerById($fields[3]));
                     $play->setPitchCount($fields[4]);
                     $play->setEvent($fields[5]);

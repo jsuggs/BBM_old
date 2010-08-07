@@ -4,6 +4,7 @@ namespace BBM\Tools\Console\Command;
 
 use BBM\Ballpark,
     BBM\GameFactory,
+    BBM\Play,
     Symfony\Components\Console\Input\InputArgument,
     Symfony\Components\Console\Input\InputOption,
     Symfony\Components\Console;
@@ -25,8 +26,12 @@ class LoadGames extends Console\Command\Command
     {
         $em = $this->getHelper('em')->getEntityManager();
         // Delete first
+        $query = $em->createQuery('delete from BBM\Play');
+        $query->execute();
         $query = $em->createQuery('delete from BBM\Game');
         $query->execute();
+
+        $count = 0;
 
         $gameFactory = new GameFactory($em);
         $currec = array();
@@ -36,8 +41,13 @@ class LoadGames extends Console\Command\Command
                 if ($data[0] === 'id' && (sizeof($currec) !== 0)) {
                     $game = $gameFactory->createGameFromRetrosheetRecords($currec);
                     $em->persist($game);
+                    if ($count === 5) {
+                        $em->flush();
+                        $count = 0;
+                    }
                     $output->writeln($game);
                     unset($currec);
+                    $count++;
                 }
                 $currec[] = $data;
             }

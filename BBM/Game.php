@@ -155,9 +155,20 @@ class Game
         $this->homeTeam = $team;
     }
 
+
+    public function getHomeTeam()
+    {
+        return $this->homeTeam;
+    }
+
     public function setAwayTeam(Team $team)
     {
         $this->awayTeam = $team;
+    }
+
+    public function getAwayTeam()
+    {
+        return $this->awayTeam;
     }
 
     public function setGameStart(\DateTime $time)

@@ -27,6 +27,12 @@ class BBMPitchingMatchupProxy extends \BBM\PitchingMatchup implements \Doctrine\
     }
 
     
+    public function __toString()
+    {
+        $this->_load();
+        return parent::__toString();
+    }
+
     public function setPitcher(\BBM\Player $pitcher)
     {
         $this->_load();
@@ -45,9 +51,15 @@ class BBMPitchingMatchupProxy extends \BBM\PitchingMatchup implements \Doctrine\
         return parent::setGame($game);
     }
 
+    public function setEvent(\BBM\Event $event)
+    {
+        $this->_load();
+        return parent::setEvent($event);
+    }
+
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'pitching_matchup_id', 'pitcher', 'batter', 'game');
+        return array('__isInitialized__', 'pitching_matchup_id', 'pitcher', 'batter', 'game', 'outcome', 'out', 'runsScored');
     }
 }

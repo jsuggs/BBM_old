@@ -82,7 +82,7 @@ class Game
     /**
      * All of the pitching matchups that occurred during this game
      *
-     * @OneToMany(targetEntity="PitchingMatchup", mappedBy="game")
+     * @OneToMany(targetEntity="PitchingMatchup", mappedBy="game", cascade={"persist", "remove"}, orphanRemoval=true)
      */
     private $pitchingMatchups;
 

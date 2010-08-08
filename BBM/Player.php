@@ -35,7 +35,7 @@ class Player
      * If this player has been a pitcher, then this is a set of all of the
      * pitching matchups
      *
-     * @OneToMany(targetEntity="PitchingMatchup", mappedBy="pitcher")
+     * @OneToMany(targetEntity="PitchingMatchup", mappedBy="pitcher", cascade={"persist", "remove"}, orphanRemoval=true)
      */
     private $pitchingMatchupsAsPitcher;
 
@@ -44,7 +44,7 @@ class Player
      * If this player has been a batter, then this is a set of all of the
      * pitching matchups
      *
-     * @OneToMany(targetEntity="PitchingMatchup", mappedBy="batter")
+     * @OneToMany(targetEntity="PitchingMatchup", mappedBy="batter", cascade={"persist", "remove"}, orphanRemoval=true)
      */
     private $pitchingMatchupsAsBatter;
 
@@ -84,6 +84,16 @@ class Player
     {
         $this->firstName = $firstName;
         $this->lastName = $lastName;
+    }
+
+    public function addBattingMatchup(PitchingMatchup $matchup)
+    {
+        $this->pitchingMatchupsAsBatter[] = $matchup;
+    }
+
+    public function addPitchingMatchup(PitchingMatchup $matchup)
+    {
+        $this->pitchingMatchupsAsPitcher[] = $matchup;
     }
 
     public function __toString()

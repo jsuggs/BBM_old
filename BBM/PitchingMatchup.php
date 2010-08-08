@@ -3,6 +3,7 @@
 namespace BBM;
 
 use BBM\Player,
+    BBM\Event,
     BBM\Game;
 
 /**
@@ -50,6 +51,19 @@ class PitchingMatchup
      */
     private $outcome;
 
+    /**
+     * Did the matchup result in an out?
+     * @column(type="boolean")
+     */
+    private $out;
+
+    /**
+     * The number of runs scored during the matchup
+     * @column(type="integer")
+     * @var integer
+     */
+    private $runsScored;
+
     public function __toString()
     {
         return $this->game . ' ' . $this->pitcher . ' vs ' . $this->batter . ' = ' . $this->outcome;
@@ -58,11 +72,13 @@ class PitchingMatchup
     public function setPitcher(Player $pitcher)
     {
         $this->pitcher = $pitcher;
+        $pitcher->addPitchingMatchup($this);
     }
 
     public function setBatter(Player $batter)
     {
         $this->batter = $batter;
+        $batter->addBattingMatchup($this);
     }
 
     public function setGame(Game $game)
@@ -70,8 +86,10 @@ class PitchingMatchup
         $this->game = $game;
     }
 
-    public function setOutcome($value)
+    public function setEvent(Event $event)
     {
-        $this->outcome = $value;
+        $this->outcome = $event->getOutcome();
+        $this->out = $event->isOut();
+        $this->runsScored = $event->getRunsScored();
     }
 }

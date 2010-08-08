@@ -20,9 +20,12 @@ class GameRepository extends RepositoryAbstract
         return $query->getSingleResult();
     }
 
-    public function getAllGames()
+    public function getAllGames($limit = 0)
     {
         $query = $this->em->createQuery('SELECT g from BBM\Game g');
+        if ($limit > 0) {
+            $query->setMaxResults($limit);
+        }
         return $query->getResult();
     }
 }

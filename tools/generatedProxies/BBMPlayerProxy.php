@@ -33,6 +33,18 @@ class BBMPlayerProxy extends \BBM\Player implements \Doctrine\ORM\Proxy\Proxy
         return parent::setName($firstName, $lastName);
     }
 
+    public function addBattingMatchup(\BBM\PitchingMatchup $matchup)
+    {
+        $this->_load();
+        return parent::addBattingMatchup($matchup);
+    }
+
+    public function addPitchingMatchup(\BBM\PitchingMatchup $matchup)
+    {
+        $this->_load();
+        return parent::addPitchingMatchup($matchup);
+    }
+
     public function __toString()
     {
         $this->_load();

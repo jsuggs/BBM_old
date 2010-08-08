@@ -27,10 +27,22 @@ class BBMPlayProxy extends \BBM\Play implements \Doctrine\ORM\Proxy\Proxy
     }
 
     
+    public function __toString()
+    {
+        $this->_load();
+        return parent::__toString();
+    }
+
     public function setTeam(\BBM\Team $team)
     {
         $this->_load();
         return parent::setTeam($team);
+    }
+
+    public function getTeam()
+    {
+        $this->_load();
+        return parent::getTeam();
     }
 
     public function setInning($value)
@@ -45,10 +57,28 @@ class BBMPlayProxy extends \BBM\Play implements \Doctrine\ORM\Proxy\Proxy
         return parent::setGame($game);
     }
 
+    public function getGame()
+    {
+        $this->_load();
+        return parent::getGame();
+    }
+
     public function setPlayer(\BBM\Player $player)
     {
         $this->_load();
         return parent::setPlayer($player);
+    }
+
+    public function getPlayer()
+    {
+        $this->_load();
+        return parent::getPlayer();
+    }
+
+    public function getCurrentPitcher()
+    {
+        $this->_load();
+        return parent::getCurrentPitcher();
     }
 
     public function setPitchCount($value)
@@ -57,15 +87,27 @@ class BBMPlayProxy extends \BBM\Play implements \Doctrine\ORM\Proxy\Proxy
         return parent::setPitchCount($value);
     }
 
+    public function setPitches($value)
+    {
+        $this->_load();
+        return parent::setPitches($value);
+    }
+
     public function setEvent($value)
     {
         $this->_load();
         return parent::setEvent($value);
     }
 
+    public function getEvent()
+    {
+        $this->_load();
+        return parent::getEvent();
+    }
+
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'play_id', 'game', 'inning', 'team', 'player', 'pitchCount', 'event');
+        return array('__isInitialized__', 'play_id', 'game', 'inning', 'team', 'player', 'pitchCount', 'pitches', 'event');
     }
 }

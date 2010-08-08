@@ -76,7 +76,7 @@ class Play
 
     public function __toString()
     {
-        return $this->team . $this->player;
+        return $this->play_id . ' ' . $this->team . ' ' . $this->player;
     }
 
     public function setTeam(Team $team)
@@ -97,6 +97,7 @@ class Play
     public function setGame(Game $game)
     {
         $this->game = $game;
+        $game->addPlay($this);
     }
 
     public function getGame()
@@ -114,6 +115,11 @@ class Play
         return $this->player;
     }
 
+    /**
+     * Get the pitcher for the current play
+     * @return BBM\Player
+     * @todo
+     */
     public function getCurrentPitcher()
     {
         return $this->player;
@@ -136,34 +142,6 @@ class Play
 
     public function getEvent()
     {
-        return $this->event;
-    }
-
-    public function getEventOutcome()
-    {
-        $parts = explode('/', $this->event);
-
-        $play = (sizeof($parts)) ? $parts[0]: $this->event;
-
-        if ($play === 'K')
-        {
-            return 'strikeout';
-        }
-
-        if (is_numeric($play)) {
-            return 'fly_out';
-        }
-
-        switch (substr($play,0,1))
-        {
-            case 'S':
-                return 'single';
-            case 'D':
-                return 'double';
-            case 'T':
-                return 'triple';
-        }
-
-        return 'out';
+        return new Event($this->event);
     }
 }

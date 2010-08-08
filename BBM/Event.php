@@ -5,15 +5,16 @@ namespace BBM;
 class Event
 {
     /**
-     * The string of the Retrosheet event code
-     */
-    private $event;
-
-    /**
      * Did this even result in an out
      * @var boolean
      */
     private $out;
+
+    /**
+     * Was this a walk
+     * @var boolean
+     */
+    private $walk;
 
     /**
      * The number of runs scored during this event
@@ -29,24 +30,67 @@ class Event
 
     public function __construct($event)
     {
-        $this->setEvent($event);
-    }
-
-    public function setEvent($event)
-    {
         // Initialize vars
-        $this->event = $event;
         $this->runsScored = 0;
         $this->out = true;
+        $this->walk = false;
         $this->outcome = 'unknown';
 
-        // Break up the event string into parts
-        // Note, it may just be a single part
-        $parts = explode('/', $this->event);
+        // Get the positions of the different segmeents
+        $modifierPos = strpos($event,'/');
+        $runnerPos = strpos($event,'.');
 
-        // Set the play 
-        $play = (sizeof($parts)) ? $parts[0]: $this->event;
+        if ($modifierPos === false) {
+            $modifierStr = '';
 
+            // If no modifier and runner info, then event is only the basic play information
+            if ($runnerPos === false) {
+                $play = $event;
+                $runnerStr = '';
+            }
+            else {
+                $play = substr($event,0,$runnerPos);
+                $runnerStr = substr($event,$runnerPos + 1);
+            }
+        }
+        else {
+            $play = substr($event,0,$modifierPos);
+            if ($runnerPos === false) {
+                $runnerStr = '';
+                $modifierStr = substr($event,$modifierPos + 1);
+            }
+            else {
+                $runnerStr = substr($event,$runnerPos + 1);
+                $modifierStr = substr($event,$modifierPos + 1,($runnerPos - $modifierPos) - 1);
+            }
+        }
+
+        // Break up the modifiers and runner string
+        $modifiers = explode('/', $modifierStr);
+        $runners = explode(';', $runnerStr);
+
+        $this->parsePlay($play);
+        $this->parseModifiers($modifiers);
+        $this->parseRunners($runners);
+
+
+        if ($this->outcome == 'unknown') {
+            echo 'Unknown event: ' . $event . "\n";
+        }
+    }
+
+    public function parseModifiers($modifiers) {
+        foreach ($modifiers as $modifier) {
+        }
+    }
+
+    public function parseRunners($runners)
+    {
+        //
+    }
+
+    public function parsePlay($play)
+    {
         $firstchar = substr($play,0,1);
 
         if (is_numeric($play)) {
@@ -72,12 +116,36 @@ class Event
                 $this->out = false;
                 $this->outcome = 'triple';
                 break;
+            case 'W':
+            case 'I':
+                $this->out = false;
+                $this->walk = true;
+                $this->outcome = 'walk';
+                break;
+            case 'H':
+                $this->out = false;
+                $this->outcome = 'home run';
+                $this->runsScored = 1; //TODO
+            case 'E':
+                $this->out = false;
+                $this->outcome = 'Error';
+                break;
+        }
+
+        if ($play === 'NP') {
+            $this->out = false;
+            $this->outcome = 'No Play';
         }
     }
 
     public function isOut()
     {
         return $this->out;
+    }
+
+    public function isWalk()
+    {
+        return $this->walk;
     }
 
     public function getRunsScored()

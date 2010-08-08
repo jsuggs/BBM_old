@@ -26,7 +26,7 @@ class ComputePitchingMatchups extends Console\Command\Command
 
         $gameRepository = new GameRepository($em);
 
-        $games = $gameRepository->getAllGames(2);
+        $games = $gameRepository->getAllGames(1);
 
         $count = 0;
 
@@ -39,7 +39,7 @@ class ComputePitchingMatchups extends Console\Command\Command
                 $matchup->setBatter($play->getPlayer());
                 $matchup->setEvent($play->getEvent());
                 $em->persist($matchup);
-                $output->writeln($matchup);
+                //$output->writeln($matchup);
 
                 if (($count % 10) == 0) 
                 {

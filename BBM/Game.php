@@ -5,6 +5,7 @@ namespace BBM;
 use BBM\Team,
     BBM\Ballpark,
     BBM\Play,
+    BBM\PitchingMatchup,
     BBM\Statitistics\PitcherStats,
     Doctrine\Common\Collections\ArrayCollection;
 
@@ -28,7 +29,7 @@ class Game
     /** 
      * The home team for the game
      *
-     * @OneToOne(targetEntity="BBM\Team")
+     * @ManyToOne(targetEntity="BBM\Team", inversedBy="homeGames")
      * @JoinColumn(name="homeTeam",referencedColumnName="abbr")
      * @var Team 
      */
@@ -37,7 +38,7 @@ class Game
     /** 
      * The away team for the game
      *
-     * @OneToOne(targetEntity="BBM\Team")
+     * @ManyToOne(targetEntity="BBM\Team", inversedBy="awayGames")
      * @JoinColumn(name="awayTeam",referencedColumnName="abbr")
      * @var Team 
      */
@@ -77,6 +78,13 @@ class Game
      * @var BBM\Play
      */
     private $plays;
+
+    /**
+     * All of the pitching matchups that occurred during this game
+     *
+     * @OneToMany(targetEntity="PitchingMatchup", mappedBy="game")
+     */
+    private $pitchingMatchups;
 
     /**
      * The home plate umpire
@@ -125,6 +133,7 @@ class Game
     public function __construct()
     {
         $this->plays = new ArrayCollection();
+        $this->pitchingMatchups = new ArrayCollection();
         $this->pitcherStats = new ArrayCollection();
     }
 
@@ -180,6 +189,11 @@ class Game
     {
         $this->plays[] = $play;
         $play->setGame($this);
+    }
+
+    public function getPlays()
+    {
+        return $this->plays;
     }
 
     public function isDivisionGame()

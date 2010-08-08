@@ -28,6 +28,7 @@ class LoadTeams extends Console\Command\Command
                 $team->setLeague($data[1]);
                 $team->setCity($data[2]);
                 $team->setNickname($data[3]);
+                $output->writeln($team);
                 $em->persist($team);
             }
         }

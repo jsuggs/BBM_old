@@ -37,6 +37,7 @@ $cli->addCommands(array(
     new \BBM\Tools\Console\Command\LoadPeople(),
     new \BBM\Tools\Console\Command\RunAll(),
     new \BBM\Tools\Console\Command\ReloadAll(),
+    new \BBM\Tools\Console\Command\ComputePitchingMatchups(),
 
 ));
 $cli->run();

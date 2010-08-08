@@ -6,6 +6,7 @@ require_once __DIR__ . '/../lib/doctrine2/lib/vendor/doctrine-common/lib/Doctrin
 
 define('DOCTRINE_PATH', realpath(dirname(__FILE__) . '/../lib/doctrine2/lib'));
 define('DATADIR', realpath(dirname(__FILE__). '/../data'));
+define('PROXYDIR', realpath(dirname(__FILE__). '/generatedProxies'));
 
 set_include_path(implode(PATH_SEPARATOR,array(
   realpath(DOCTRINE_PATH),
@@ -48,8 +49,8 @@ $config->setMetadataCacheImpl(new \Doctrine\Common\Cache\ArrayCache);
 $driverImpl = $config->newDefaultAnnotationDriver('/home/jsuggs/bbm/BBM');
 $config->setMetadataDriverImpl($driverImpl);
 
-$config->setProxyDir(__DIR__ . '/Proxies');
-$config->setProxyNamespace('Proxies');
+$config->setProxyDir(PROXYDIR);
+$config->setProxyNamespace('DoctrineProxies');
 
 $connectionOptions = array(
     'driver' => 'pdo_pgsql',

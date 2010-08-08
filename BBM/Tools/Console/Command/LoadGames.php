@@ -41,9 +41,9 @@ class LoadGames extends Console\Command\Command
                 if ($data[0] === 'id' && (sizeof($currec) !== 0)) {
                     $game = $gameFactory->createGameFromRetrosheetRecords($currec);
                     $em->persist($game);
-                    if ($count === 5) {
+                    if (($count % 10) == 0) {
                         $em->flush();
-                        $count = 0;
+                        $em->clear();
                     }
                     $output->writeln($game);
                     unset($currec);
@@ -52,6 +52,7 @@ class LoadGames extends Console\Command\Command
                 $currec[] = $data;
             }
         }
+        fclose($handle);
         $em->flush();
     }
 }

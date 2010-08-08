@@ -3,6 +3,7 @@
 namespace BBM;
 
 use BBM\Game,
+    BBM\Play,
     BBM\Umpire,
     BBM\FactoryAbstract,
     BBM\TeamRepository,
@@ -114,7 +115,8 @@ class GameFactory extends FactoryAbstract
                     $play->setTeam(($fields[2] == 0) ? $game->getAwayTeam() : $game->getHomeTeam());
                     $play->setPlayer($playerRepository->findPlayerById($fields[3]));
                     $play->setPitchCount($fields[4]);
-                    $play->setEvent($fields[5]);
+                    $play->setPitches($fields[5]);
+                    $play->setEvent($fields[6]);
                     $game->addPlay($play);
                     break;
                 case 'sub':

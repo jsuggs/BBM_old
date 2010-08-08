@@ -58,6 +58,12 @@ class Play
     private $pitchCount;
 
     /**
+     * The pitches during the play
+     * @column(type="string", length="")
+     */
+    private $pitches;
+
+    /**
      * The even during the play
      * @column(type="string")
      */
@@ -68,9 +74,19 @@ class Play
         //$this->setGame($game);
     }
 
+    public function __toString()
+    {
+        return $this->team . $this->player;
+    }
+
     public function setTeam(Team $team)
     {
         $this->team = $team;
+    }
+
+    public function getTeam()
+    {
+        return $this->team;
     }
 
     public function setInning($value)
@@ -83,9 +99,24 @@ class Play
         $this->game = $game;
     }
 
+    public function getGame()
+    {
+        return $this->game;
+    }
+
     public function setPlayer(Player $player)
     {
         $this->player = $player;
+    }
+
+    public function getPlayer()
+    {
+        return $this->player;
+    }
+
+    public function getCurrentPitcher()
+    {
+        return $this->player;
     }
 
     public function setPitchCount($value)
@@ -93,8 +124,46 @@ class Play
         $this->pitchCount = $value;
     }
 
+    public function setPitches($value)
+    {
+        $this->pitches = $value;
+    }
+
     public function setEvent($value)
     {
         $this->event = $value;
+    }
+
+    public function getEvent()
+    {
+        return $this->event;
+    }
+
+    public function getEventOutcome()
+    {
+        $parts = explode('/', $this->event);
+
+        $play = (sizeof($parts)) ? $parts[0]: $this->event;
+
+        if ($play === 'K')
+        {
+            return 'strikeout';
+        }
+
+        if (is_numeric($play)) {
+            return 'fly_out';
+        }
+
+        switch (substr($play,0,1))
+        {
+            case 'S':
+                return 'single';
+            case 'D':
+                return 'double';
+            case 'T':
+                return 'triple';
+        }
+
+        return 'out';
     }
 }

@@ -22,6 +22,7 @@ class LoadPeople extends Console\Command\Command
     protected function execute(Console\Input\InputInterface $input, Console\Output\OutputInterface $output)
     {
         $em = $this->getHelper('em')->getEntityManager();
+        $count = 0;
 
         if (($handle = fopen(DATADIR . "/people/people.txt","r")) !== FALSE) {
             while (($data = fgetcsv($handle)) !== FALSE) {
@@ -35,6 +36,7 @@ class LoadPeople extends Console\Command\Command
                         $player = new Player($data[2]);
                         $player->setName($data[1],$data[0]);
                         $em->persist($player);
+                        //$output->writeln($player);
                         break;
                     case 8:
                         // Managers and coaches
@@ -51,6 +53,15 @@ class LoadPeople extends Console\Command\Command
                     default:
                        throw new \Exception('Unknown type of person record');
                 }
+
+                if (($count % 500) == 0)
+                {
+                    $em->flush();
+                    $em->clear();
+                    $output->writeln("flusing $count");
+                }
+
+                $count++;
             }
         }
         fclose($handle);

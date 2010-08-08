@@ -46,10 +46,17 @@ class Play
 
     /**
      * The player who was at the plate when the play happened
-     * @ManyToOne(targetEntity="Player", inversedBy="plays")
-     * @JoinColumn(name="player_id", referencedColumnName="player_id")
+     * @ManyToOne(targetEntity="Player", inversedBy="battingPlays")
+     * @JoinColumn(name="batter_id", referencedColumnName="player_id")
      */
-    private $player;
+    private $batter;
+
+    /**
+     * The pitcher who was pitching when the play happened
+     * @ManyToOne(targetEntity="Player", inversedBy="pitchingPlays")
+     * @JoinColumn(name="pitcher_id", referencedColumnName="player_id")
+     */
+    private $pitcher;
 
     /**
      * The pitchcount when the play occurred
@@ -76,7 +83,7 @@ class Play
 
     public function __toString()
     {
-        return $this->play_id . ' ' . $this->team . ' ' . $this->player;
+        return $this->play_id . ' ' . $this->team . ' ' . $this->batter . ' vs ' . $this->pitcher;
     }
 
     public function setTeam(Team $team)
@@ -97,7 +104,7 @@ class Play
     public function setGame(Game $game)
     {
         $this->game = $game;
-        $game->addPlay($this);
+        //$game->addPlay($this);
     }
 
     public function getGame()
@@ -105,24 +112,32 @@ class Play
         return $this->game;
     }
 
-    public function setPlayer(Player $player)
+    public function setBatter(Player $batter)
     {
-        $this->player = $player;
+        $this->batter = $batter;
     }
 
-    public function getPlayer()
+    /**
+     * Get the batter for the current play
+     * @return BBM\Player
+     */
+    public function getBatter()
     {
-        return $this->player;
+        return $this->batter;
+    }
+
+    public function setPitcher(Player $pitcher)
+    {
+        $this->pitcher = $pitcher;
     }
 
     /**
      * Get the pitcher for the current play
      * @return BBM\Player
-     * @todo
      */
-    public function getCurrentPitcher()
+    public function getPitcher()
     {
-        return $this->player;
+        return $this->pitcher;
     }
 
     public function setPitchCount($value)

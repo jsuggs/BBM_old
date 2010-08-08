@@ -49,11 +49,18 @@ class Player
     private $pitchingMatchupsAsBatter;
 
     /**
-     * All of the plays this player has been involved with
+     * All of the plays this player has been involved with as a batter
      *
-     * @oneToMany(targetEntity="Play", mappedBy="player")
+     * @oneToMany(targetEntity="Play", mappedBy="batter")
      */
-    private $plays;
+    private $battingPlays;
+
+    /**
+     * All of the plays this player has been involved with as a pitcher
+     *
+     * @OneToMany(targetEntity="Play", mappedBy="pitcher")
+     */
+    private $pitchingPlays;
 
     /**
      * @column(type="string", length="1", nullable="true")
@@ -75,7 +82,8 @@ class Player
     public function __construct($player_id)
     {
         $this->player_id = $player_id;
-        $this->plays = new ArrayCollection();
+        $this->battingPlays = new ArrayCollection();
+        $this->pitchingPlays = new ArrayCollection();
         $this->pitchingMatchupsAsPitcher = new ArrayCollection();
         $this->pitchingMatchupsAsBatter = new ArrayCollection();
     }

@@ -5,6 +5,7 @@ namespace BBM;
 use BBM\Team,
     BBM\Ballpark,
     BBM\Play,
+    BBM\StartingLineup,
     BBM\PitchingMatchup,
     BBM\Statitistics\PitcherStats,
     Doctrine\Common\Collections\ArrayCollection;
@@ -35,6 +36,14 @@ class Game
      */
     private $homeTeam;
 
+    /**
+     * The home teams's starting lineup
+     *
+     * @oneToOne(targetEntity="BBM\StartingLineup", cascade={"persist", "remove"}, orphanRemoval=true)
+     * @JoinColumn(name="homeStartingLineup", referencedColumnName="startinglineup_id")
+     */
+    private $homeStartingLineup;
+
     /** 
      * The away team for the game
      *
@@ -43,6 +52,14 @@ class Game
      * @var Team 
      */
     private $awayTeam;
+
+    /**
+     * The away teams's starting lineup
+     *
+     * @oneToOne(targetEntity="BBM\StartingLineup", cascade={"persist", "remove"}, orphanRemoval=true)
+     * @JoinColumn(name="awayStartingLineup", referencedColumnName="startinglineup_id")
+     */
+    private $awayStartingLineup;
 
     /** 
      * The start of the gmame
@@ -164,6 +181,10 @@ class Game
         $this->homeTeam = $team;
     }
 
+    public function setHomeStartingLineup(StartingLineup $lineup)
+    {
+        $this->homeStartingLineup = $lineup;
+    }
 
     public function getHomeTeam()
     {
@@ -173,6 +194,11 @@ class Game
     public function setAwayTeam(Team $team)
     {
         $this->awayTeam = $team;
+    }
+
+    public function setAwayStartingLineup(StartingLineup $lineup)
+    {
+        $this->awayStartingLineup = $lineup;
     }
 
     public function getAwayTeam()

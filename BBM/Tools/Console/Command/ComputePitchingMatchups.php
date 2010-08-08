@@ -35,8 +35,8 @@ class ComputePitchingMatchups extends Console\Command\Command
             foreach ($plays as $play) {
                 $matchup = new PitchingMatchup();
                 $matchup->setGame($play->getGame());
-                $matchup->setPitcher($play->getCurrentPitcher());
-                $matchup->setBatter($play->getPlayer());
+                $matchup->setPitcher($play->getPitcher());
+                $matchup->setBatter($play->getBatter());
                 $matchup->setEvent($play->getEvent());
                 $em->persist($matchup);
                 //$output->writeln($matchup);

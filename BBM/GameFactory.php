@@ -7,6 +7,7 @@ use BBM\Game,
     BBM\Umpire,
     BBM\FactoryAbstract,
     BBM\TeamRepository,
+    BBM\StartingLineup,
     BBM\PlayerRepository,
     BBM\BallparkRepository;
 
@@ -31,6 +32,13 @@ class GameFactory extends FactoryAbstract
         $playerRepository = new PlayerRepository($this->em);
 
         $game = new Game();
+
+        $homeStartingLineup = new StartingLineup();
+        $awayStartingLineup = new StartingLineup();
+
+        // variables to hold the current pitcher
+        $currentHomePitcher;
+        $currentAwayPitcher;
 
         // Loop through each of the records and create a record
         foreach ($records as $record)
@@ -108,18 +116,39 @@ class GameFactory extends FactoryAbstract
                     }
                     break;
                 case 'start':
+                case 'sub':
+                    if ($fields[5] == 9) {
+                        $pitcher = $playerRepository->findPlayerById($fields[1]);
+
+                        if ($fields[3] == 0) {
+                            // If a start add to the starting lineup
+                            if ($fields[0] == 'start') 
+                            {
+                                $awayStartingLineup->setPitcher($pitcher);
+                            }
+                            $currentAwayPitcher = $pitcher;
+                        }
+                        else {
+                            // If a start add to the starting lineup
+                            if ($fields[0] == 'start') 
+                            {
+                                $homeStartingLineup->setPitcher($pitcher);
+                            }
+                            $currentHomePitcher = $pitcher;
+                        }
+                    }
                     break;
                 case 'play':
                     $play = new Play();
                     $play->setInning($fields[1]);
                     $play->setTeam(($fields[2] == 0) ? $game->getAwayTeam() : $game->getHomeTeam());
-                    $play->setPlayer($playerRepository->findPlayerById($fields[3]));
+                    $play->setBatter($playerRepository->findPlayerById($fields[3]));
+                    $play->setPitcher(($fields[2] == 0) ? $currentAwayPitcher : $currentHomePitcher);
                     $play->setPitchCount($fields[4]);
                     $play->setPitches($fields[5]);
                     $play->setEvent($fields[6]);
                     $game->addPlay($play);
                     break;
-                case 'sub':
                 case 'com':
                 case 'data':
                     //TODO
@@ -128,6 +157,9 @@ class GameFactory extends FactoryAbstract
                     throw new \Exception('Invalid Retrosheet Record Type: ' . $fields[0]);
             }
         }
+
+        $game->setHomeStartingLineup($homeStartingLineup);
+        $game->setAwayStartingLineup($awayStartingLineup);
 
         return $game;
     }

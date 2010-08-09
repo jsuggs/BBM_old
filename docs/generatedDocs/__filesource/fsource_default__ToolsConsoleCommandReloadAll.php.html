@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>File Source for ReloadAll.php</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<h1>Source for file ReloadAll.php</h1>
+<p>Documentation is available at <a href="../default/_Tools---Console---Command---ReloadAll.php.html">ReloadAll.php</a></p>
+<div class="src-code">
+<div class="src-code"><ol><li><div class="src-line"><a name="a1"></a><span class="src-php">&lt;?php</span></div></li>
+<li><div class="src-line"><a name="a2"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a3"></a>namespace&nbsp;<span class="src-id">BBM</span>\<span class="src-id">Tools</span>\<span class="src-id">Console</span>\<span class="src-id">Command</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a4"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a5"></a>use&nbsp;<span class="src-id">Symfony</span>\<span class="src-id">Components</span>\<span class="src-id">Console</span>\<span class="src-id">Input</span>\<span class="src-id">InputArgument</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line"><a name="a6"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-id">Symfony</span>\<span class="src-id">Components</span>\<span class="src-id">Console</span>\<span class="src-id">Input</span>\<span class="src-id">InputOption</span><span class="src-sym">,</span></div></li>
+<li><div class="src-line"><a name="a7"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-id">Symfony</span>\<span class="src-id">Components</span>\<span class="src-id">Console</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a8"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a9"></a><span class="src-key">class&nbsp;</span><a href="../default/ReloadAll.html">ReloadAll</a>&nbsp;<span class="src-key">extends&nbsp;</span><span class="src-id">Console</span>\<span class="src-id">Command</span>\<span class="src-id">Command</span></div></li>
+<li><div class="src-line"><a name="a10"></a><span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a11"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">protected&nbsp;</span><span class="src-key">function&nbsp;</span><a href="../default/ReloadAll.html#methodconfigure">configure</a><span class="src-sym">(</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a12"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a13"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$this</span></div></li>
+<li><div class="src-line"><a name="a14"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">-&gt;</span><span class="src-id">setName</span><span class="src-sym">(</span><span class="src-str">'bbm:reload-all'</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a15"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">-&gt;</span><span class="src-id">setDescription</span><span class="src-sym">(</span><span class="src-str">'Drop&nbsp;and&nbsp;recreate&nbsp;the&nbsp;schema,&nbsp;then&nbsp;load&nbsp;data'</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a16"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">-&gt;</span><span class="src-id">setHelp</span><span class="src-sym">(</span><span class="src-str">'Complete&nbsp;reset'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a17"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a18"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a19"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">protected&nbsp;</span><span class="src-key">function&nbsp;</span><a href="../default/ReloadAll.html#methodexecute">execute</a><span class="src-sym">(</span><span class="src-id">Console</span>\<span class="src-id">Input</span>\<span class="src-id">InputInterface&nbsp;</span><span class="src-var">$input</span><span class="src-sym">,&nbsp;</span><span class="src-id">Console</span>\<span class="src-id">Output</span>\<span class="src-id">OutputInterface&nbsp;</span><span class="src-var">$output</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a20"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a21"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$this</span><span class="src-sym">-&gt;</span><span class="src-var">application</span><span class="src-sym">-&gt;</span><span class="src-id">findCommand</span><span class="src-sym">(</span><span class="src-str">'orm:schema-tool:drop'</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">execute</span><span class="src-sym">(</span><span class="src-var">$input</span><span class="src-sym">,</span><span class="src-var">$output</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a22"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//$this-&gt;application-&gt;findCommand('orm:schema-tool:create')-&gt;execute($input,$output);</span></div></li>
+<li><div class="src-line"><a name="a23"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//$this-&gt;application-&gt;findCommand('bbm:load-all')-&gt;execute($input,$output);</span></div></li>
+<li><div class="src-line"><a name="a24"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a25"></a><span class="src-sym">}</span></div></li>
+</ol></div>
+</div>
+	<p class="notes" id="credit">
+		Documentation generated on Mon, 09 Aug 2010 10:07:57 -0500 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</body>
+</html>

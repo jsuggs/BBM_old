@@ -1,0 +1,1 @@
+phpdoc -d ../BBM -t ./generatedDocs -ct Entity,Table,column,Id,OneToOne,OneToMany,ManyToOne -ti "Baseball Betting Model" -s on -p -o HTML:frames:earthli

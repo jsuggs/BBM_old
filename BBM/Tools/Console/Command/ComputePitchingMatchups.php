@@ -26,27 +26,26 @@ class ComputePitchingMatchups extends Console\Command\Command
 
         $gameRepository = new GameRepository($em);
 
-        $games = $gameRepository->getAllGames();
+        $games = $gameRepository->getAllGames(2);
 
         $count = 0;
 
         foreach ($games as $game) {
             $plays = $game->getPlays();
             foreach ($plays as $play) {
-                $matchup = new PitchingMatchup();
-                $matchup->setGame($play->getGame());
-                $matchup->setPitcher($play->getPitcher());
-                $matchup->setBatter($play->getBatter());
-                $matchup->setEvent($play->getEvent());
-                $em->persist($matchup);
-                //$output->writeln($matchup);
+                $event = $play->getEvent();
 
-                if (($count % 10) == 0) 
-                {
-                  //  $em->flush();
+                if ($event->isPlay()) {
+                    $matchup = new PitchingMatchup();
+                    $matchup->setGame($play->getGame());
+                    $matchup->setPitcher($play->getPitcher());
+                    $matchup->setBatter($play->getBatter());
+                    $matchup->setEvent($event);
+                    $em->persist($matchup);
+                    //$output->writeln($matchup);
+
+                    $count++;
                 }
-
-                $count++;
             }
             $em->flush();
             //$em->clear();

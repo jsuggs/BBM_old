@@ -46,10 +46,17 @@ class PitchingMatchup
 
     /**
      * The outcome of the matchup
-     * @column(type="string", length="10")
+     * @column(type="string", length="50")
      * @var string
      */
     private $outcome;
+
+    /**
+     * The detailed description of the play
+     * @column(type="string", length="", nullable="true")
+     * @var string
+     */
+    private $description;
 
     /**
      * Did the matchup result in an out?
@@ -63,6 +70,13 @@ class PitchingMatchup
      * @var integer
      */
     private $runsScored;
+
+    /**
+     * Did the runner reach base
+     * @column(type="boolean")
+     * @var boolean
+     */
+    private $reachBase;
 
     public function __toString()
     {
@@ -97,5 +111,7 @@ class PitchingMatchup
         $this->outcome = $event->getOutcome();
         $this->out = $event->isOut();
         $this->runsScored = $event->getRunsScored();
+        $this->description = $event->getDescription();
+        $this->reachBase = $event->getReachedBase();
     }
 }

@@ -45,6 +45,12 @@ class BBMGameProxy extends \BBM\Game implements \Doctrine\ORM\Proxy\Proxy
         return parent::setHomeTeam($team);
     }
 
+    public function setHomeStartingLineup(\BBM\StartingLineup $lineup)
+    {
+        $this->_load();
+        return parent::setHomeStartingLineup($lineup);
+    }
+
     public function getHomeTeam()
     {
         $this->_load();
@@ -57,10 +63,28 @@ class BBMGameProxy extends \BBM\Game implements \Doctrine\ORM\Proxy\Proxy
         return parent::setAwayTeam($team);
     }
 
+    public function setAwayStartingLineup(\BBM\StartingLineup $lineup)
+    {
+        $this->_load();
+        return parent::setAwayStartingLineup($lineup);
+    }
+
     public function getAwayTeam()
     {
         $this->_load();
         return parent::getAwayTeam();
+    }
+
+    public function addPitchingMatchup(\BBM\PitchingMatchup $matchup)
+    {
+        $this->_load();
+        return parent::addPitchingMatchup($matchup);
+    }
+
+    public function getPitchingMatchups()
+    {
+        $this->_load();
+        return parent::getPitchingMatchups();
     }
 
     public function setGameStart(\DateTime $time)
@@ -141,6 +165,24 @@ class BBMGameProxy extends \BBM\Game implements \Doctrine\ORM\Proxy\Proxy
         return parent::setThirdBaseUmpire($umpire);
     }
 
+    public function setTemperature($value)
+    {
+        $this->_load();
+        return parent::setTemperature($value);
+    }
+
+    public function setWindDir($value)
+    {
+        $this->_load();
+        return parent::setWindDir($value);
+    }
+
+    public function setWindSpeed($value)
+    {
+        $this->_load();
+        return parent::setWindSpeed($value);
+    }
+
     public function getGameLength()
     {
         $this->_load();
@@ -156,6 +198,6 @@ class BBMGameProxy extends \BBM\Game implements \Doctrine\ORM\Proxy\Proxy
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'game_id', 'homeTeam', 'awayTeam', 'gameStart', 'gameEnd', 'ballpark', 'plays', 'pitchingMatchups', 'homePlateUmpire', 'firstBaseUmpire', 'secondBaseUmpire', 'thirdBaseUmpire');
+        return array('__isInitialized__', 'game_id', 'homeTeam', 'homeStartingLineup', 'awayTeam', 'awayStartingLineup', 'gameStart', 'gameEnd', 'ballpark', 'plays', 'pitchingMatchups', 'homePlateUmpire', 'firstBaseUmpire', 'secondBaseUmpire', 'thirdBaseUmpire', 'temperature', 'attendance', 'winddir', 'windspeed');
     }
 }

@@ -51,6 +51,12 @@ class BBMPitchingMatchupProxy extends \BBM\PitchingMatchup implements \Doctrine\
         return parent::setGame($game);
     }
 
+    public function getRunsScored()
+    {
+        $this->_load();
+        return parent::getRunsScored();
+    }
+
     public function setEvent(\BBM\Event $event)
     {
         $this->_load();

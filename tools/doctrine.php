@@ -38,6 +38,7 @@ $cli->addCommands(array(
     new \BBM\Tools\Console\Command\RunAll(),
     new \BBM\Tools\Console\Command\ReloadAll(),
     new \BBM\Tools\Console\Command\ComputePitchingMatchups(),
+    new \BBM\Tools\Console\Command\ComputePitchingStats(),
 
 ));
 $cli->run();

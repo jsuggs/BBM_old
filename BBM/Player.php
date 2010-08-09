@@ -88,6 +88,11 @@ class Player
         $this->pitchingMatchupsAsBatter = new ArrayCollection();
     }
 
+    public function getPlayerId()
+    {
+        return $this->player_id;
+    }
+
     public function setName($firstName,$lastName)
     {
         $this->firstName = $firstName;
@@ -102,6 +107,11 @@ class Player
     public function addPitchingMatchup(PitchingMatchup $matchup)
     {
         $this->pitchingMatchupsAsPitcher[] = $matchup;
+    }
+
+    public function getPitchingMatchupsAsPitcher()
+    {
+        return $this->pitchingMatchupsAsPitcher;
     }
 
     public function __toString()

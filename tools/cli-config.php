@@ -46,6 +46,7 @@ $classLoader->register();
 
 $config = new \Doctrine\ORM\Configuration();
 $config->setMetadataCacheImpl(new \Doctrine\Common\Cache\ArrayCache);
+$config->setResultCacheImpl(new \Doctrine\Common\Cache\ArrayCache); 
 $driverImpl = $config->newDefaultAnnotationDriver('/home/jsuggs/bbm/BBM');
 $config->setMetadataDriverImpl($driverImpl);
 

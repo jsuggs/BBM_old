@@ -138,14 +138,27 @@ class Game
 
     /**
      * Temperature
-     *
+     * @column(type="decimal", nullable="true")
      */
     private $temperature;
 
     /**
      * Attendance
+     * @column(type="integer", nullable="true")
      */
     private $attendance;
+
+    /**
+     * Wind direction
+     * @column(type="string", nullable="true")
+     */
+    private $winddir;
+
+    /**
+     * Wind speed
+     * @column(type="integer", nullable="true")
+     */
+    private $windspeed;
 
     public function __construct()
     {
@@ -173,6 +186,7 @@ class Game
         $this->setGameStart($gameStart);
 
         // Initialize Colections
+        $this->pitchingMatchups = new ArrayCollection();
         $this->pitcherStats = new ArrayCollection();
     }
 
@@ -204,6 +218,16 @@ class Game
     public function getAwayTeam()
     {
         return $this->awayTeam;
+    }
+
+    public function addPitchingMatchup(PitchingMatchup $matchup)
+    {
+        $this->pitchingMatchups[] = $matchup;
+    }
+
+    public function getPitchingMatchups()
+    {
+        return $this->pitchingMatchups;
     }
 
     public function setGameStart(\DateTime $time)
@@ -272,6 +296,21 @@ class Game
         $this->thirdBaseUmpire = $umpire;
     }
 
+    public function setTemperature($value)
+    {
+        $this->temperature = $value;
+    }
+
+    public function setWindDir($value)
+    {
+        $this->winddir = $value;
+    }
+
+    public function setWindSpeed($value)
+    {
+        $this->windspeed = $value;
+    }
+
     /**
      * Get the time the game took
      * @return DateInterval
@@ -288,6 +327,6 @@ class Game
 
     public function __toString()
     {
-        return $this->game_id . ' : ' . $this->homeTeam . ' vs ' . $this->awayTeam;
+        return $this->game_id;// . ' : ' . $this->homeTeam . ' vs ' . $this->awayTeam;
     }
 }

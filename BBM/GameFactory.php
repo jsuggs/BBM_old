@@ -94,8 +94,14 @@ class GameFactory extends FactoryAbstract
                         case 'howscored':
                         case 'pitches':
                         case 'temp':
+                            $game->setTemperature($fields[2]);
+                            break;
                         case 'winddir':
+                            $game->setWindDir($fields[2]);
+                            break;
                         case 'windspeed':
+                            $game->setWindSpeed($fields[2]);
+                            break;
                         case 'fieldcond':
                         case 'precip':
                         case 'sky':

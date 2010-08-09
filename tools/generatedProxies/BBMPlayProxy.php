@@ -63,22 +63,28 @@ class BBMPlayProxy extends \BBM\Play implements \Doctrine\ORM\Proxy\Proxy
         return parent::getGame();
     }
 
-    public function setPlayer(\BBM\Player $player)
+    public function setBatter(\BBM\Player $batter)
     {
         $this->_load();
-        return parent::setPlayer($player);
+        return parent::setBatter($batter);
     }
 
-    public function getPlayer()
+    public function getBatter()
     {
         $this->_load();
-        return parent::getPlayer();
+        return parent::getBatter();
     }
 
-    public function getCurrentPitcher()
+    public function setPitcher(\BBM\Player $pitcher)
     {
         $this->_load();
-        return parent::getCurrentPitcher();
+        return parent::setPitcher($pitcher);
+    }
+
+    public function getPitcher()
+    {
+        $this->_load();
+        return parent::getPitcher();
     }
 
     public function setPitchCount($value)
@@ -108,6 +114,6 @@ class BBMPlayProxy extends \BBM\Play implements \Doctrine\ORM\Proxy\Proxy
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'play_id', 'game', 'inning', 'team', 'player', 'pitchCount', 'pitches', 'event');
+        return array('__isInitialized__', 'play_id', 'game', 'inning', 'team', 'batter', 'pitcher', 'pitchCount', 'pitches', 'event');
     }
 }

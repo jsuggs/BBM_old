@@ -19,4 +19,20 @@ class PlayerRepository extends RepositoryAbstract
 
         return $query->getSingleResult();
     }
+
+    /**
+     * Get all of the players
+     * @return BBM\Player
+     */
+    public function getAllPlayers($limit = 0)
+    {
+        $query = $this->em->createQuery('SELECT p from BBM\Player p');
+        return $query->execute();
+    }
+
+    public function getAllPitchers()
+    {
+        $query = $this->em->createQuery('SELECT p from BBM\Player p WHERE EXISTS(SELECT m.pitching_matchup_id FROM BBM\PitchingMatchup m WHERE m.pitcher = p.player_id)');
+        return $query->execute();
+    }
 }

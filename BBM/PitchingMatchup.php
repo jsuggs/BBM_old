@@ -84,6 +84,12 @@ class PitchingMatchup
     public function setGame(Game $game)
     {
         $this->game = $game;
+        $game->addPitchingMatchup($this);
+    }
+
+    public function getRunsScored()
+    {
+        return $this->runsScored;
     }
 
     public function setEvent(Event $event)

@@ -24,7 +24,7 @@ class Play
 
     /**
      * The player at the plate during the play
-     * @ManyToOne(targetEntity="Game", inversedBy="plays")
+     * @ManyToOne(targetEntity="Game", inversedBy="plays", cascade={"persist", "remove"})
      * @JoinColumn(name="game_id", referencedColumnName="game_id")
      */
     private $game;

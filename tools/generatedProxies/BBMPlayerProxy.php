@@ -27,6 +27,12 @@ class BBMPlayerProxy extends \BBM\Player implements \Doctrine\ORM\Proxy\Proxy
     }
 
     
+    public function getPlayerId()
+    {
+        $this->_load();
+        return parent::getPlayerId();
+    }
+
     public function setName($firstName, $lastName)
     {
         $this->_load();
@@ -43,6 +49,12 @@ class BBMPlayerProxy extends \BBM\Player implements \Doctrine\ORM\Proxy\Proxy
     {
         $this->_load();
         return parent::addPitchingMatchup($matchup);
+    }
+
+    public function getPitchingMatchupsAsPitcher()
+    {
+        $this->_load();
+        return parent::getPitchingMatchupsAsPitcher();
     }
 
     public function __toString()

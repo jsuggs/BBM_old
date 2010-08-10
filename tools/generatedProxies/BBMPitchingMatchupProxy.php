@@ -66,6 +66,6 @@ class BBMPitchingMatchupProxy extends \BBM\PitchingMatchup implements \Doctrine\
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'pitching_matchup_id', 'pitcher', 'batter', 'game', 'outcome', 'out', 'runsScored');
+        return array('__isInitialized__', 'pitching_matchup_id', 'pitcher', 'batter', 'game', 'outcome', 'description', 'out', 'runsScored', 'reachBase');
     }
 }

@@ -8,6 +8,7 @@ use BBM\Team,
     BBM\StartingLineup,
     BBM\PitchingMatchup,
     BBM\Statitistics\PitcherStats,
+    Zend\View\Helper\Url,
     Doctrine\Common\Collections\ArrayCollection;
 
 /**
@@ -172,6 +173,11 @@ class Game
         $this->game_id = $id;
     }
 
+    public function getId()
+    {
+        return $this->game_id;
+    }
+
     /**
      * Create a Game object
      * @param Team $homeTeam
@@ -323,6 +329,17 @@ class Game
         }
 
         return $this->gameStart->diff($this->gameEnd);
+    }
+
+    public function getViewUrl()
+    {
+        return Url::direct(
+            array(
+                'game_id' => $this->game_id,
+                'game_name' => $this->homeTeam . 'vs' . $this->awayTeam
+            ),
+            'game-view'
+        );
     }
 
     public function __toString()

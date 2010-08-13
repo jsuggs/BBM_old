@@ -127,7 +127,7 @@
 "LAA","AL","Los Angeles","Angels","1961","1964"
 "MIN","AL","Minnesota","Twins","1961","2010"
 "WS2","AL","Washington","Senators","1961","1971"
-"HOU","NL","Houston","Colts","1962","2010"
+"HOU","NL","Houston","Astros","1962","2010"
 "NYN","NL","New York","Mets","1962","2010"
 "CAL","AL","California","Angels","1965","1996"
 "ATL","NL","Atlanta","Braves","1966","2010"

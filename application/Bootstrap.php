@@ -29,7 +29,7 @@ class Bootstrap extends ZendBootstrap
             'driver' => 'pdo_pgsql',
             'user' => 'bbm',
             'password' => 'bbm',
-            'host' => 'db.murmp.com',
+            'host' => 'localhost',
             'dbname' => 'bbm'
         );
 

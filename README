@@ -1,0 +1,10 @@
+Baseball Betting Model
+======================
+
+The goal is to have an accurate model of a baseball game, so that statistics can easily be collected and manipulated
+
+
+Technology
+----------
+
+This project is also an attempt to work with Zend Framework 2 and DDD
